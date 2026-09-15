@@ -4,6 +4,68 @@
 
 This file documents notable changes to the Simplified Chinese community-maintained edition of Captain of Industry.
 
+## [v1.1.0] - 2026-09-15
+
+本版本重点改进生产链编辑效率，为物料端口增加快捷来源/去向菜单，并加入按物料类型自动匹配储存设施的功能。
+
+This release focuses on faster production-chain editing, adds quick source/destination menus for material ports, and automatically offers matching storage by material type.
+
+### 中文
+
+#### 新增
+
+- 新增物料端口快捷来源/去向菜单：
+  - 单击输入物料图标可直接打开 `Add producing factory` 来源菜单；
+  - 单击输出物料图标可直接打开 `Add consuming factory` 去向菜单。
+- 保留并增强从物料端口拖到空白区域后选择来源/去向建筑的操作。
+- 来源与去向菜单会根据物料类型自动加入对应储存设施：
+  - 散装物（Loose）→ **散装物存储**；
+  - 流体（Fluid）→ **流体存储罐**；
+  - 单位物品（Countable）→ **单位存储**。
+- 增加对抽象物料类型的匹配支持，包括：
+  - `AnyLooseProduct`
+  - `AnyFluidProduct`
+  - `AnyCountableProduct`
+- 新建储存设施默认使用 `InOut` 配方，因此同时保留输入与输出端，可继续串联生产链。
+- 选择储存设施后会自动创建建筑并建立连接。
+- 储存中的抽象物料会根据当前连接自动实例化为实际物料，例如煤、矿渣、柴油等。
+
+#### 修复与调整
+
+- 修正来源/去向候选只按具体物品名称匹配、导致抽象储存配方无法显示的问题。
+- 修正储存作为来源时无法正确匹配实际输入物料的问题。
+- 修正储存作为去向时无法正确匹配实际输出物料的问题。
+- 修正新增 Vue 事件处理中的 TypeScript 隐式 `any` 类型错误，恢复正式构建通过。
+- README 中补充 Windows PowerShell 下使用 `pnpm.cmd` 构建的说明。
+
+### English
+
+#### Added
+
+- Added quick source/destination menus for material ports:
+  - click an input material icon to open the `Add producing factory` menu;
+  - click an output material icon to open the `Add consuming factory` menu.
+- Kept and improved the workflow of dragging a material port into empty space and selecting a source or destination building.
+- Source and destination menus now add matching storage automatically by material type:
+  - Loose → **Loose Storage**;
+  - Fluid → **Fluid Storage**;
+  - Countable → **Unit Storage**.
+- Added abstract material type matching for:
+  - `AnyLooseProduct`
+  - `AnyFluidProduct`
+  - `AnyCountableProduct`
+- Newly created storage uses the `InOut` recipe so both input and output remain available for further chaining.
+- Selecting storage automatically creates the building and links it to the current material port.
+- Abstract storage materials are automatically materialized into the actual connected product, such as coal, slag, diesel, and others.
+
+#### Fixed and changed
+
+- Fixed source/destination suggestions only matching exact product names, which prevented abstract storage recipes from appearing.
+- Fixed storage not matching correctly when used as a material source.
+- Fixed storage not matching correctly when used as a material destination.
+- Fixed TypeScript implicit `any` errors introduced by the new Vue event handlers so production builds pass again.
+- Added Windows PowerShell build guidance using `pnpm.cmd` to the README.
+
 ## [v1.0.0] - 2026-09-15
 
 首个正式发布版本。
