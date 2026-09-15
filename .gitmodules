@@ -2,7 +2,3 @@
 	path = data/coi/grabber/captain-of-data
 	url = https://github.com/doubleaxe/captain-of-data
 	branch = main
-
-[submodule "data/evospace/grabber/evospace-vanilla-gen"]
-	path = data/evospace/grabber/evospace-vanilla-gen
-	url = https://github.com/wavelet-noise/evospace-vanilla-gen
