@@ -7,6 +7,7 @@ import {computed, watch, unref} from 'vue';
 import type {RecipeIOModel} from '@/scripts/model/store';
 import {formatIo} from '@/scripts/format';
 import {injectFilter} from '@/scripts/filter';
+import type {ReadonlyPointType} from '@/scripts/geometry';
 import {SelectedClassType, useLinkDragAndDrop, LinkDragAndDropItem, usePointAndClick} from '@/composables/drag-helpers';
 
 const props = defineProps<{
@@ -14,6 +15,7 @@ const props = defineProps<{
 }>();
 const emit = defineEmits<{
     (e: 'text-update'): void;
+    (e: 'suggestion-menu-activate', io: RecipeIOModel, screenPosition: ReadonlyPointType): void;
 }>();
 
 const filter = injectFilter();
@@ -66,6 +68,14 @@ function newLinkDragAndDropItem() {
     return new LinkDragAndDropItem(props.io);
 }
 
+function handleIconClick(event: MouseEvent) {
+    selectItem(SelectedClassType.RecipeIOModel, props.io);
+    emit('suggestion-menu-activate', props.io, {
+        x: event.clientX,
+        y: event.clientY,
+    });
+}
+
 watch([() => props.io.cpsSolvedTotal, () => props.io.cpsMaxTotal], () => emit('text-update'));
 </script>
 
@@ -77,9 +87,8 @@ watch([() => props.io.cpsSolvedTotal, () => props.io.cpsMaxTotal], () => emit('t
             :image="props.io.image"
             :data-tooltip="props.io.label"
             :data-io-id="props.io.key"
-            @click="selectItem(SelectedClassType.RecipeIOModel, props.io)"
+            @click.stop="handleIconClick"
             @pointerdown.left.stop="dragStart($event, newLinkDragAndDropItem())"
-            @click.stop
         />
         <div
             class="io-description-row text-caption hover-border"
