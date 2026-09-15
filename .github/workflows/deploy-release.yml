@@ -1,47 +1,62 @@
 name: Build and Deploy Release
+
 on:
   push:
     tags:
-      - v1.*
+      - 'zh-cn-*'
   workflow_dispatch:
+
 permissions:
   contents: read
+
 concurrency:
   group: "deploy"
   cancel-in-progress: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
       - name: Install pnpm
-        uses: pnpm/action-setup@v2
-      - name: Install node
-        uses: actions/setup-node@v3
+        uses: pnpm/action-setup@v4
+        with:
+          version: 8.3.1
+          run_install: false
+
+      - name: Install Node.js
+        uses: actions/setup-node@v4
         with:
           node-version: 18
-          cache: 'pnpm'
+          cache: pnpm
+
       - name: Install dependencies
-        run: pnpm install
+        run: pnpm install --frozen-lockfile
+
       - name: Build
-        run: |
-          pnpm run build
-      - name: Upload pages artifact
+        run: pnpm run build
+
+      - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          name: daxfb-calculator-pages
+          name: captain-of-industry-calculator-zh-cn-pages
           path: dist
+
       - name: Zip release artifact
-        run: |
-          zip -r daxfb-calculator.zip *
+        run: zip -r captain-of-industry-calculator-zh-cn.zip .
         working-directory: dist
+
       - name: Upload release artifact
         uses: actions/upload-artifact@v4
         with:
-          name: daxfb-calculator-release
-          path: dist/daxfb-calculator.zip
+          name: captain-of-industry-calculator-zh-cn-release
+          path: dist/captain-of-industry-calculator-zh-cn.zip
           retention-days: 1
+
   deploy-pages:
     needs: build
     permissions:
@@ -52,11 +67,12 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - name: Deploy GitHub pages
+      - name: Deploy GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
         with:
-          artifact_name: daxfb-calculator-pages
+          artifact_name: captain-of-industry-calculator-zh-cn-pages
+
   deploy-release:
     if: github.event_name == 'push'
     needs: build
@@ -64,36 +80,26 @@ jobs:
       contents: write
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
       - name: Get tag name
-        run: echo "RELEASE_TAG=${GITHUB_REF#refs/tags/}" >> $GITHUB_ENV
+        run: echo "RELEASE_TAG=${GITHUB_REF#refs/tags/}" >> "$GITHUB_ENV"
+
       - name: Download release artifact
         id: download_artifact
         uses: actions/download-artifact@v4
         with:
-          name: daxfb-calculator-release
-      - name: Check artifact
+          name: captain-of-industry-calculator-zh-cn-release
+
+      - name: Prepare release file
         run: |
-          ls -lR ${{ steps.download_artifact.outputs.download-path }}
-          cp ${{ steps.download_artifact.outputs.download-path }}/daxfb-calculator.zip daxfb-calculator-${{ env.RELEASE_TAG }}.zip
-          ls -l .
-          unzip -t daxfb-calculator-${{ env.RELEASE_TAG }}.zip
-      - name: Build changelog
-        id: changelog
-        uses: metcalfc/changelog-generator@v4.0.1
-        with:
-          myToken: ${{ secrets.GITHUB_TOKEN }}
-      - name: Check changelog
-        run: |
-          printf %s "${{ steps.changelog.outputs.changelog }}" > CHANGELOG.txt
-          ls -l .
-      - name: Create release
-        uses: softprops/action-gh-release@v0.1.15
+          cp "${{ steps.download_artifact.outputs.download-path }}/captain-of-industry-calculator-zh-cn.zip" \
+             "captain-of-industry-calculator-zh-cn-${{ env.RELEASE_TAG }}.zip"
+          unzip -t "captain-of-industry-calculator-zh-cn-${{ env.RELEASE_TAG }}.zip"
+
+      - name: Create draft release
+        uses: softprops/action-gh-release@v2
         with:
           draft: true
           prerelease: false
-          generate_release_notes: false
-          body_path: CHANGELOG.txt
+          generate_release_notes: true
           files: |
-            daxfb-calculator-${{ env.RELEASE_TAG }}.zip
+            captain-of-industry-calculator-zh-cn-${{ env.RELEASE_TAG }}.zip
