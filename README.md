@@ -76,7 +76,7 @@ AIGC:
 打开仓库的 [Releases](https://github.com/htpgc/captain-of-industry-calculator-zh-cn/releases) 页面，下载最新版本的压缩包：
 
 ```
-daxfb-calculator-<版本标签>.zip
+daxfb-calculator-dist-zh-cn-20260915.zip
 ```
 
 ### 2. 解压
@@ -240,7 +240,7 @@ The release package is a pre-built static site; just unzip it and use it offline
 Open the [Releases](https://github.com/htpgc/captain-of-industry-calculator-zh-cn/releases) page and download:
 
 ```
-daxfb-calculator-<tag>.zip
+daxfb-calculator-dist-zh-cn-20260915.zip
 ```
 
 ### 2. Unzip
