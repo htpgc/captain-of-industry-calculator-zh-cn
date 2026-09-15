@@ -11,12 +11,13 @@ import {computed, onMounted, ref, unref, watch} from 'vue';
 
 const emit = defineEmits(['ready']);
 
+const DEFAULT_GAME_ID = 'coi';
 let blueprintName = '';
 let blueprintData = '';
-const loadGameId = ref('');
+const loadGameId = ref(DEFAULT_GAME_ID);
 const gameId = ref('');
 const {showError} = useErrorHandler();
-const {gameList, gameDataRef, isReady, isLoading: isGameDataLoading, isAutomatic} = useGameDataProvider(gameId, (err: unknown) => {
+const {gameDataRef, isReady, isLoading: isGameDataLoading, isAutomatic} = useGameDataProvider(gameId, (err: unknown) => {
     blueprintName = '';
     blueprintData = '';
     gameId.value = '';
@@ -45,11 +46,6 @@ function loadGameData(_gameId: string) {
     isAutomatic.value = true;
 }
 
-function loadGameDataManual() {
-    gameId.value = unref(loadGameId);
-    isAutomatic.value = false;
-}
-
 function fetchLink(_gameId: string | null | undefined, link: string, name: string | null | undefined) {
     type LoadLinkResponse = {
         gameId: string;
@@ -65,9 +61,12 @@ function fetchLink(_gameId: string | null | undefined, link: string, name: strin
             if(_gameId && (loadedLink.gameId !== _gameId)) {
                 throw new Error(`gameId mismatch: ${loadedLink.gameId} != ${_gameId}`);
             }
+            if(loadedLink.gameId !== DEFAULT_GAME_ID) {
+                throw new Error(`unsupported gameId: ${loadedLink.gameId}`);
+            }
             blueprintName = name || loadedLink.name || '';
             blueprintData = loadedLink.data;
-            loadGameData(loadedLink.gameId);
+            loadGameData(DEFAULT_GAME_ID);
         })
         .catch((err) => {
             showError(t('game.loadFailed.link'), err);
@@ -75,39 +74,32 @@ function fetchLink(_gameId: string | null | undefined, link: string, name: strin
 }
 
 onMounted(() => {
-    const seacrhParams = new URLSearchParams(window.location.search);
-    const _gameId = seacrhParams.get('gameId');
-    const link = seacrhParams.get('link');
-    let name = seacrhParams.get('name');
+    const searchParams = new URLSearchParams(window.location.search);
+    const requestedGameId = searchParams.get('gameId');
+    const link = searchParams.get('link');
+    let name = searchParams.get('name');
+
+    if(requestedGameId && requestedGameId !== DEFAULT_GAME_ID) {
+        showError(t('game.loadFailed'), new Error(`unsupported gameId: ${requestedGameId}`));
+        return;
+    }
+
     if(link) {
         if(name) {
             name = FileNameHandler.fileNameToBlueprintName(name + '.txt');
         }
-        fetchLink(_gameId, link, name);
+        fetchLink(requestedGameId || DEFAULT_GAME_ID, link, name);
+        return;
     }
-    if(_gameId) {
-        loadGameData(_gameId);
-    }
+
+    loadGameData(DEFAULT_GAME_ID);
 });
 </script>
 
 <template>
-    <v-card v-if="!isReady" :title="t('game.select')" variant="outlined">
-        <v-card-text>
-            <v-radio-group v-model="loadGameId">
-                <v-radio v-for="(value, key) in gameList" :key="key" :label="value" :value="key" />
-            </v-radio-group>
+    <v-card v-if="!isReady" title="正在加载 Captain of Industry 数据…" variant="outlined">
+        <v-card-text class="d-flex align-center justify-center pa-8">
+            <v-progress-circular v-if="isLoading" indeterminate color="primary" />
         </v-card-text>
-        <v-card-actions>
-            <v-btn color="primary" variant="outlined" :disabled="!loadGameId" @click="loadGameDataManual">{{ t('game.load') }}</v-btn>
-        </v-card-actions>
-        <v-overlay
-            v-model="isLoading"
-            contained
-            persistent
-            class="align-center justify-center"
-        >
-            <v-progress-circular indeterminate color="primary" />
-        </v-overlay>
     </v-card>
 </template>
