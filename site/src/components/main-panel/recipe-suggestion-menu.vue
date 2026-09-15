@@ -41,8 +41,7 @@ const currentPage = computed(() => {
 
 // Storage recipes use abstract products (AnyCountableProduct / AnyLooseProduct /
 // AnyFluidProduct), so they are not returned by the normal exact-name lookup.
-// Always use the InOut recipe here so a storage node added from either side keeps
-// both its input and output connector available.
+// Keep the explicit storage mapping so the correct InOut recipe is always offered.
 const storageByItemType: Partial<Record<GameItemType, {factoryName: string; recipeName: string}>> = {
     [GameItemType.Countable]: {
         factoryName: 'StorageUnit',
@@ -67,9 +66,6 @@ function findStorageRecipe(itemName: string): RecipeWithFactory | undefined {
     if(!storage)
         return undefined;
 
-    // Use gameFactoriesArray as the primary lookup. This is the same parsed list
-    // used by the normal recipe suggestion search and avoids depending on the
-    // recipeDictionary link being available directly from getGameItem().
     const factory = gameData.gameFactoriesArray.find(
         (item) => item.name === storage.factoryName,
     ) || gameData.getGameItem(storage.factoryName);
@@ -112,18 +108,58 @@ const emit = defineEmits<{
     ): void;
 }>();
 
+function recipeIoMatchesProduct(io: GameRecipeIO, product: GameItem): boolean {
+    if(io.name === product.name)
+        return true;
+
+    return !!(
+        io.product?.isAbstractClassItem
+        && io.product.type !== undefined
+        && product.type !== undefined
+        && io.product.type === product.type
+    );
+}
+
+function addUniqueResult(
+    results: RecipeWithFactory[],
+    factory: GameItem,
+    recipe: GameRecipe,
+) {
+    if(results.some((item) =>
+        item.factory.name === factory.name
+        && item.recipe.name === recipe.name,
+    )) {
+        return;
+    }
+    results.push({factory, recipe});
+}
+
 function findRecipesUsingInput(itemName: string): RecipeWithFactory[] {
     const results: RecipeWithFactory[] = [];
+    const product = gameData.getGameItem(itemName);
+    if(!product)
+        return results;
+
     for(const factory of gameData.gameFactoriesArray) {
         const dict = factory.recipeDictionary;
         if(!dict) continue;
+
+        // First add normal exact-name matches.
         const recipeNames = dict.recipesByInputMap.get(itemName);
         if(recipeNames) {
             for(const recipeName of recipeNames) {
                 const recipe = dict.recipesMap.get(recipeName);
-                if(recipe) {
-                    results.push({factory, recipe});
-                }
+                if(recipe)
+                    addUniqueResult(results, factory, recipe);
+            }
+        }
+
+        // Then add recipes whose input is an abstract item of the same material type.
+        // This is what allows StorageLoose/StorageFluid/StorageUnit to participate in
+        // consuming-factory suggestions for concrete products.
+        for(const recipe of dict.recipes) {
+            if(recipe.input.some((io) => recipeIoMatchesProduct(io, product))) {
+                addUniqueResult(results, factory, recipe);
             }
         }
     }
@@ -132,16 +168,29 @@ function findRecipesUsingInput(itemName: string): RecipeWithFactory[] {
 
 function findRecipesProducingOutput(itemName: string): RecipeWithFactory[] {
     const results: RecipeWithFactory[] = [];
+    const product = gameData.getGameItem(itemName);
+    if(!product)
+        return results;
+
     for(const factory of gameData.gameFactoriesArray) {
         const dict = factory.recipeDictionary;
         if(!dict) continue;
+
+        // First add normal exact-name matches.
         const recipeNames = dict.recipesByOutputMap.get(itemName);
         if(recipeNames) {
             for(const recipeName of recipeNames) {
                 const recipe = dict.recipesMap.get(recipeName);
-                if(recipe) {
-                    results.push({factory, recipe});
-                }
+                if(recipe)
+                    addUniqueResult(results, factory, recipe);
+            }
+        }
+
+        // Then add recipes whose output is an abstract item of the same material type.
+        // This is what allows storage to be used as a source for concrete products.
+        for(const recipe of dict.recipes) {
+            if(recipe.output.some((io) => recipeIoMatchesProduct(io, product))) {
+                addUniqueResult(results, factory, recipe);
             }
         }
     }
@@ -159,12 +208,16 @@ function activate(
             ? findRecipesUsingInput(productName)
             : findRecipesProducingOutput(productName);
 
+    // Prefer the storage InOut recipe at the top of the list. Generic abstract-type
+    // matching above may also discover Storage*In / Storage*Out; keep InOut first so
+    // the newly created storage node has both connectors available.
     const storageRecipe = findStorageRecipe(productName);
-    if(storageRecipe && !foundRecipes.some((item) =>
-        item.factory.name === storageRecipe.factory.name
-        && item.recipe.name === storageRecipe.recipe.name,
-    )) {
-        foundRecipes.unshift(storageRecipe);
+    if(storageRecipe) {
+        const filtered = foundRecipes.filter((item) => !(
+            item.factory.name === storageRecipe.factory.name
+            && item.recipe.name.startsWith(storageRecipe.factory.name)
+        ));
+        foundRecipes.splice(0, foundRecipes.length, storageRecipe, ...filtered);
     }
 
     if(foundRecipes.length === 0) {
