@@ -1,7 +1,7 @@
 {
-  "name": "daxfb-calculator",
-  "version": "1.0.28",
-  "description": "Calculator/Factory Planner for factory management games",
+  "name": "captain-of-industry-calculator-zh-cn",
+  "version": "1.0.28-zh.1",
+  "description": "Simplified Chinese localization and local-build distribution of daxfb-calculator for Captain of Industry",
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "dev": "run-s build-data-debug build-docs site",
@@ -10,8 +10,11 @@
     "preview": "vite preview site",
     "build-only": "vite build site",
     "lint": "run-p eslint stylelint type-check",
+    "lint:check": "run-p eslint:check stylelint:check type-check",
     "eslint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix",
+    "eslint:check": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts",
     "stylelint": "stylelint \"site/**/*.vue\" --fix",
+    "stylelint:check": "stylelint \"site/**/*.vue\"",
     "type-check": "tsc --noEmit && vue-tsc --noEmit -p site",
     "build-docs": "ts-node render-docs.ts",
     "build-data": "ts-node build-data.ts",
@@ -20,23 +23,28 @@
   "packageManager": "pnpm@8.3.1",
   "repository": {
     "type": "git",
-    "url": "https://github.com/doubleaxe/daxfb-calculator"
+    "url": "https://github.com/htpgc/captain-of-industry-calculator-zh-cn"
   },
   "keywords": [
     "game",
     "calculator",
-    "factory planner"
+    "factory planner",
+    "captain-of-industry",
+    "simplified-chinese"
   ],
   "engines": {
     "node": ">=18"
   },
   "type": "commonjs",
   "author": "Alexey Usov (dax@xdax.ru, https://github.com/doubleaxe)",
+  "contributors": [
+    "htpgc (Simplified Chinese localization and Captain of Industry data maintenance)"
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/doubleaxe/daxfb-calculator/issues"
+    "url": "https://github.com/htpgc/captain-of-industry-calculator-zh-cn/issues"
   },
-  "homepage": "https://doubleaxe.github.io/daxfb-calculator/",
+  "homepage": "https://github.com/htpgc/captain-of-industry-calculator-zh-cn",
   "dependencies": {
     "@ellbur/javascript-lp-solver": "^0.4.26",
     "@mdi/js": "^7.1.96",
