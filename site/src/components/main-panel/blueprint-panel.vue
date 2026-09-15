@@ -36,9 +36,7 @@ const blueprintModel = injectBlueprintModel();
 const blueprintSurface = ref<MaybeElement>(null);
 const blueprintCollection = ref<MaybeElement>(null);
 const recipesMenuElement = ref<InstanceType<typeof RecipesMenu> | null>(null);
-const recipeSuggestionMenuElement = ref<InstanceType<
-  typeof RecipeSuggestionMenu
-> | null>(null);
+const recipeSuggestionMenuElement = ref<InstanceType<typeof RecipeSuggestionMenu> | null>(null);
 //detects if screen was scrolled between pointer down and click, don't perform anything if was scrolled
 let wasScrolled = false;
 
@@ -63,8 +61,7 @@ const {
     parentElem: dropZoneOriginElem4,
     notifySelected,
 } = usePointAndClick();
-const {surfaceElem, originElem, updateSurface, boundingRect} =
-  useSharedBlueprintSurface();
+const {surfaceElem, originElem, updateSurface, boundingRect} = useSharedBlueprintSurface();
 
 syncRefs(blueprintSurface, [
     surfaceElem,
@@ -124,16 +121,13 @@ useEventHook([itemHooks.notifyMove, itemHooks.notifyDrop], (param) => {
     }
 });
 
-const scaleStyle = computed(() => {
-    return {
-        transform: buildTransformStyle({scale: String(settings.scale)}),
-    };
-});
+const scaleStyle = computed(() => ({
+    transform: buildTransformStyle({scale: String(settings.scale)}),
+}));
 
 watch(
     [() => blueprintModel.itemsGenerationNumber, () => settings.scale],
     () => {
-    //on blueprint load reset scroll position
         const resetScroll = !blueprintModel.itemsGenerationNumber;
         updateSurface(blueprintModel.items, resetScroll);
     },
@@ -162,18 +156,27 @@ onMounted(() => {
     updateSurface(blueprintModel.items);
 });
 
+function openSuggestionMenu(
+    productName: string,
+    sourceItemId: string,
+    screenPosition: ReadonlyPointType,
+    mode: 'consuming' | 'producing',
+) {
+    recipeSuggestionMenuElement.value?.activate(
+        productName,
+        sourceItemId,
+        screenPosition,
+        mode,
+    );
+}
+
 // Handle output dropped in empty space - show recipe suggestions for consumers
 function handleOutputDroppedEmpty(
     productName: string,
     sourceItemId: string,
     screenPosition: ReadonlyPointType,
 ) {
-    recipeSuggestionMenuElement.value?.activate(
-        productName,
-        sourceItemId,
-        screenPosition,
-        'consuming',
-    );
+    openSuggestionMenu(productName, sourceItemId, screenPosition, 'consuming');
 }
 
 // Handle input dropped in empty space - show recipe suggestions for producers
@@ -182,11 +185,24 @@ function handleInputDroppedEmpty(
     sourceItemId: string,
     screenPosition: ReadonlyPointType,
 ) {
-    recipeSuggestionMenuElement.value?.activate(
+    openSuggestionMenu(productName, sourceItemId, screenPosition, 'producing');
+}
+
+// Single-click on an IO icon opens the same source/target menu as dragging to empty space.
+function handleIoSuggestionMenuActivate(
+    io: RecipeIOModel,
+    screenPosition: ReadonlyPointType,
+) {
+    const productName = io.name;
+    const sourceItemId = io.ownerItem?.key;
+    if(!productName || !sourceItemId)
+        return;
+
+    openSuggestionMenu(
         productName,
         sourceItemId,
         screenPosition,
-        'producing',
+        io.isInput ? 'producing' : 'consuming',
     );
 }
 
@@ -199,52 +215,37 @@ function handleRecipeSelected(
     screenPosition: ReadonlyPointType,
     mode: 'consuming' | 'producing',
 ) {
-    // Get the collection element for position calculation
     const collectionEl = unref(blueprintCollection) as HTMLElement | null;
     if(!collectionEl) return;
 
-    // Convert screen position to client position (accounting for scale)
     const clientPosition = screenToClient(
         collectionEl,
         Rect.assign(screenPosition),
         settings.scale,
     );
 
-    // Create new factory item
     const newItem = reactive(blueprintModel.addItem(factory.name));
-
-    // Position the factory at the drop location
     newItem.setRect(
         newItem.rect.assignPoint(clientPosition).limit(unref(boundingRect)),
     );
-
-    // Select the specific recipe
     newItem.selectRecipe(recipe.name);
 
-    // Find the exact source/target item by ID
     const linkedItem = blueprintModel.itemByKey(sourceItemId);
     if(!linkedItem) return;
 
     if(mode === 'consuming') {
-    // We created a consumer (newItem), linkedItem is the producer (source)
         const outputs = linkedItem.selectedRecipe?.visibleOutput() || [];
         for(const output of outputs) {
             if(output.name === productName) {
-                // Found the source output - create link to new factory.
-                // createLink also supports an abstract-class target such as storage.
                 newItem.createLink(output);
                 updateSurface(blueprintModel.items);
                 return;
             }
         }
     } else {
-    // Mode is 'producing', we created a producer (newItem), linkedItem is the consumer (target)
         const inputs = linkedItem.selectedRecipe?.visibleInput() || [];
         for(const input of inputs) {
             if(input.name === productName) {
-                // Prefer an exact product output, but also accept a matching abstract
-                // product. Storage InOut recipes use abstract outputs and are
-                // materialized to the linked product when the link is created.
                 const sourceOutput = newItem.selectedRecipe
                     ?.visibleOutput()
                     ?.find((output) =>
@@ -299,6 +300,7 @@ function handleRecipeSelected(
                         :item="item"
                         :parent="blueprintCollection"
                         @recipes-menu-activate="recipesMenuElement?.activate"
+                        @suggestion-menu-activate="handleIoSuggestionMenuActivate"
                     />
                 </template>
             </optimized-tooltip>
@@ -311,12 +313,10 @@ function handleRecipeSelected(
     transform-origin: 0 0;
     min-width: 100%;
     min-height: 100%;
-    /* border: 1px solid red; */
 }
 .blueprint-collection {
     transform-origin: 0 0;
     position: relative;
     overflow: visible;
-    /* border: 1px solid green; */
 }
 </style>
