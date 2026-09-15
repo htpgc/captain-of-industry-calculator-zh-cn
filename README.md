@@ -1,5 +1,7 @@
 # Captain of Industry 计算器 / 工厂规划器（简体中文版）
 
+[中文](README.md) | [English](README_EN.md)
+
 本仓库是 [doubleaxe/daxfb-calculator](https://github.com/doubleaxe/daxfb-calculator) 的 **Captain of Industry 简体中文社区维护版**，基于 MIT License 二次开发。
 
 当前版本专注于 Captain of Industry，不再发布 Evospace 与 Sample Game 数据包。
@@ -184,11 +186,3 @@ Captain of Industry 游戏数据通过 [doubleaxe/captain-of-data](https://githu
 ## 更新记录
 
 详细变更见 [CHANGELOG.md](CHANGELOG.md)。
-
----
-
-## English
-
-This repository is a **Simplified Chinese community-maintained edition for Captain of Industry**, based on [doubleaxe/daxfb-calculator](https://github.com/doubleaxe/daxfb-calculator) under the MIT License.
-
-It currently focuses on Captain of Industry only. Release packages no longer include Evospace or Sample Game data, the UI defaults directly to COI, and all required runtime assets are bundled for offline use through a local HTTP server.
