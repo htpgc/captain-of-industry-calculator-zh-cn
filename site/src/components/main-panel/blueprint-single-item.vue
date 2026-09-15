@@ -85,6 +85,10 @@ function updateIoRects() {
     });
 }
 
+function activateSuggestionMenu(suggestionIo: RecipeIOModel, screenPosition: ReadonlyPointType) {
+    emit('suggestion-menu-activate', suggestionIo, screenPosition);
+}
+
 const leftSide = computed(() => {
     const _recipe = props.item?.selectedRecipe;
     const io = (props.item.isFlipped ? _recipe?.visibleOutput() : _recipe?.visibleInput()) || [];
@@ -174,7 +178,7 @@ watch(() => props.item.rect, (value, oldValue) => {
                     <blueprint-single-io
                         :io="io"
                         @text-update="updateIoRects"
-                        @suggestion-menu-activate="(suggestionIo, screenPosition) => emit('suggestion-menu-activate', suggestionIo, screenPosition)"
+                        @suggestion-menu-activate="activateSuggestionMenu"
                     />
                 </template>
             </div>
@@ -187,7 +191,7 @@ watch(() => props.item.rect, (value, oldValue) => {
                     <blueprint-single-io
                         :io="io"
                         @text-update="updateIoRects"
-                        @suggestion-menu-activate="(suggestionIo, screenPosition) => emit('suggestion-menu-activate', suggestionIo, screenPosition)"
+                        @suggestion-menu-activate="activateSuggestionMenu"
                     />
                 </template>
             </div>
