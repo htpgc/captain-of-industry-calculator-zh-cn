@@ -8,7 +8,7 @@ import {injectBlueprintModel, type BlueprintItemModel, type RecipeIOModel} from 
 import {mdiCursorMove, mdiTransferDown, mdiTransferUp} from '@mdi/js';
 import {useElementHover, type MaybeElement} from '@vueuse/core';
 import {injectSettings} from '@/scripts/settings';
-import {Rect, type ReadonlyRectType} from '@/scripts/geometry';
+import {Rect, type ReadonlyRectType, type ReadonlyPointType} from '@/scripts/geometry';
 import {SelectedClassType, screenToClient, useItemDragAndDrop, usePointAndClick} from '@/composables/drag-helpers';
 import {useEventHook} from '@/composables';
 
@@ -18,6 +18,7 @@ const props = defineProps<{
 }>();
 const emit = defineEmits<{
     (e: 'recipes-menu-activate', item: BlueprintItemModel, activator: Element): void;
+    (e: 'suggestion-menu-activate', io: RecipeIOModel, screenPosition: ReadonlyPointType): void;
 }>();
 
 const settings = injectSettings();
@@ -173,6 +174,7 @@ watch(() => props.item.rect, (value, oldValue) => {
                     <blueprint-single-io
                         :io="io"
                         @text-update="updateIoRects"
+                        @suggestion-menu-activate="(suggestionIo, screenPosition) => emit('suggestion-menu-activate', suggestionIo, screenPosition)"
                     />
                 </template>
             </div>
@@ -185,6 +187,7 @@ watch(() => props.item.rect, (value, oldValue) => {
                     <blueprint-single-io
                         :io="io"
                         @text-update="updateIoRects"
+                        @suggestion-menu-activate="(suggestionIo, screenPosition) => emit('suggestion-menu-activate', suggestionIo, screenPosition)"
                     />
                 </template>
             </div>
