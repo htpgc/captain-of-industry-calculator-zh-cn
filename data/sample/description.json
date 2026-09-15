@@ -1,8 +1,0 @@
-{
-    "name": "sample",
-    "shortName": "AA",
-    "description": "Sample Game",
-    "version": "1",
-    "saveVersion": 1,
-    "compatibleSaveVersions": [1]
-}
