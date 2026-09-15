@@ -5,7 +5,7 @@ Feature: Show recipe suggestions when output is dropped in empty space
 -->
 <script setup lang="ts">
 import {t} from '@/scripts/i18n';
-import {GameRecipeIOFlags} from '#types/constants';
+import {GameItemType, GameRecipeIOFlags} from '#types/constants';
 import type {GameItem, GameRecipe, GameRecipeIO} from '#types/game-data';
 import {injectGameData} from '@/scripts/data';
 import {mdiArrowRight, mdiClose} from '@mdi/js';
@@ -38,6 +38,42 @@ const currentPage = computed(() => {
     const start = (unref(page) - 1) * pageSize;
     return unref(recipes).slice(start, start + pageSize);
 });
+
+// Storage recipes use abstract products (AnyCountableProduct / AnyLooseProduct /
+// AnyFluidProduct), so they are not returned by the normal exact-name lookup.
+// Always use the InOut recipe here so a storage node added from either side keeps
+// both its input and output connector available.
+const storageByItemType: Partial<Record<GameItemType, {factoryName: string; recipeName: string}>> = {
+    [GameItemType.Countable]: {
+        factoryName: 'StorageUnit',
+        recipeName: 'StorageUnitInOut',
+    },
+    [GameItemType.Loose]: {
+        factoryName: 'StorageLoose',
+        recipeName: 'StorageLooseInOut',
+    },
+    [GameItemType.Fluid]: {
+        factoryName: 'StorageFluid',
+        recipeName: 'StorageFluidInOut',
+    },
+};
+
+function findStorageRecipe(itemName: string): RecipeWithFactory | undefined {
+    const product = gameData.getGameItem(itemName);
+    if(!product?.type)
+        return undefined;
+
+    const storage = storageByItemType[product.type];
+    if(!storage)
+        return undefined;
+
+    const factory = gameData.getGameItem(storage.factoryName);
+    const recipe = factory?.recipeDictionary?.recipesMap.get(storage.recipeName);
+    if(!factory || !recipe)
+        return undefined;
+
+    return {factory, recipe};
+}
 
 // Compute menu title based on mode
 const menuTitle = computed(() => {
@@ -113,6 +149,14 @@ function activate(
     mode === 'consuming'
         ? findRecipesUsingInput(productName)
         : findRecipesProducingOutput(productName);
+
+    const storageRecipe = findStorageRecipe(productName);
+    if(storageRecipe && !foundRecipes.some((item) =>
+        item.factory.name === storageRecipe.factory.name
+        && item.recipe.name === storageRecipe.recipe.name,
+    )) {
+        foundRecipes.unshift(storageRecipe);
+    }
 
     if(foundRecipes.length === 0) {
         return; // No recipes found, don't show menu
