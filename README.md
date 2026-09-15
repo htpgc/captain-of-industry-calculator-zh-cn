@@ -1,13 +1,3 @@
----
-AIGC:
-    Label: "1"
-    ContentProducer: 001191440300708461136T1XGW3
-    ProduceID: f66daa9899653c70ab3428a56f59b1cb_d4d1439fb0cd11f18039525400461939
-    ReservedCode1: wGxywQ0oak54LPoU8iIScUqUmkVinOcoPkvKODyXR3+rev0BrZC8E+7H2t7R8KQnqp0Az4/wExyoOHoUAUvTQBsQfR8AEmI/wbaWKurt8YBs13pk5OjWbie+d1eavpJf2NjjEtve3LN3VPCcX7HU/AV06hz2QJBVuNxXnZGpPkg5TtSy3aYTBKj4VII=
-    ContentPropagator: 001191440300708461136T1XGW3
-    PropagateID: f66daa9899653c70ab3428a56f59b1cb_d4d1439fb0cd11f18039525400461939
-    ReservedCode2: wGxywQ0oak54LPoU8iIScUqUmkVinOcoPkvKODyXR3+rev0BrZC8E+7H2t7R8KQnqp0Az4/wExyoOHoUAUvTQBsQfR8AEmI/wbaWKurt8YBs13pk5OjWbie+d1eavpJf2NjjEtve3LN3VPCcX7HU/AV06hz2QJBVuNxXnZGpPkg5TtSy3aYTBKj4VII=
----
 
 # Captain of Industry 计算器 / 工厂规划器（简体中文版）
 
