@@ -230,7 +230,8 @@ function handleRecipeSelected(
         const outputs = linkedItem.selectedRecipe?.visibleOutput() || [];
         for(const output of outputs) {
             if(output.name === productName) {
-                // Found the source output - create link to new factory
+                // Found the source output - create link to new factory.
+                // createLink also supports an abstract-class target such as storage.
                 newItem.createLink(output);
                 updateSurface(blueprintModel.items);
                 return;
@@ -241,12 +242,23 @@ function handleRecipeSelected(
         const inputs = linkedItem.selectedRecipe?.visibleInput() || [];
         for(const input of inputs) {
             if(input.name === productName) {
-                // Found the target input - link new factory's output to it
-                linkedItem.createLink(
-                    newItem.selectedRecipe
+                // Prefer an exact product output, but also accept a matching abstract
+                // product. Storage InOut recipes use abstract outputs and are
+                // materialized to the linked product when the link is created.
+                const sourceOutput = newItem.selectedRecipe
                     ?.visibleOutput()
-                    ?.find((o) => o.name === productName) as RecipeIOModel,
-                );
+                    ?.find((output) =>
+                        output.name === productName
+                        || (
+                            output.isAbstractClassItem
+                            && !output.isMatherialized
+                            && output.type === input.type
+                        ),
+                    );
+                if(!sourceOutput)
+                    return;
+
+                linkedItem.createLink(sourceOutput as RecipeIOModel);
                 updateSurface(blueprintModel.items);
                 return;
             }
