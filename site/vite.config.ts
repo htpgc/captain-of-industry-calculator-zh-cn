@@ -4,7 +4,6 @@ import * as path from 'node:path';
 import {defineConfig} from 'vite';
 import type {IndexHtmlTransformHook} from 'vite';
 import vue from '@vitejs/plugin-vue';
-//import analyze from 'rollup-plugin-analyzer';
 import {visualizer} from 'rollup-plugin-visualizer';
 import systemJSLoader from 'rollup-plugin-systemjs-loader';
 import Components from 'unplugin-vue-components/vite';
@@ -15,9 +14,7 @@ import {
 } from 'unplugin-vue-components/resolvers';
 import pkg from '../package.json';
 
-//const __VERSION__ = import.meta.env.VITE_VERSION;
 process.env['VITE_VERSION'] = pkg.version;
-//const __BUILD_TIME__ = import.meta.env.VITE_BUILD_TIME;
 process.env['VITE_BUILD_TIME'] = new Date().toISOString();
 
 const _dirname = path.join(path.dirname(fileURLToPath(import.meta.url)));
@@ -50,7 +47,6 @@ export default defineConfig({
         alias: {
             '@': path.join(_dirname, 'src'),
             '#types': path.join(_dirname, 'data/types'),
-            //faster build, less mdules. works nice, if we don't use 'lodash', produces +10Kb bundle
             dagre: path.join(_dirname, '../node_modules/dagre/dist/dagre.js'),
         },
     },
@@ -83,7 +79,7 @@ export default defineConfig({
         },
         target: 'es2018',
         minify: true,
-        sourcemap: true,
+        sourcemap: false,
         cssCodeSplit: false,
         assetsInlineLimit: 0,
     },
