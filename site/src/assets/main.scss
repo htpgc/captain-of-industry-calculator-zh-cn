@@ -1,0 +1,61 @@
+@import './color.scss';
+
+html,
+body,
+#app {
+    height: 100%;
+    width: 100%;
+}
+
+html {
+    overflow-y: hidden;
+}
+
+.title-text {
+    position: absolute;
+    white-space: nowrap;
+    padding-left: 4px;
+    user-select: none;
+}
+
+input[type='number'] {
+    appearance: textfield;
+    -moz-appearance: textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+.text-monospaced {
+    font-family: Consolas, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+.icon-draggable-hidden {
+    z-index: -1!important;
+    opacity: 0;
+}
+
+.link-draggable-hidden {
+    z-index: -1!important;
+    opacity: 0;
+}
+
+.textarea-overflow-auto textarea {
+    overflow-x: auto;
+    white-space: pre!important;
+    overflow-wrap: normal!important;
+}
+
+.my-flex-xs-wrap {
+    display: flex;
+}
+
+@media screen and (max-width: 600px) {
+    .my-flex-xs-wrap {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

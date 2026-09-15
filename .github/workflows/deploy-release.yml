@@ -1,0 +1,115 @@
+name: Build and Deploy Release
+
+on:
+  push:
+    tags:
+      - v1.*
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: "deploy"
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 8.3.1
+
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Build
+        run: pnpm run build
+
+      - name: Verify COI-only release
+        run: |
+          test -f dist/games/coi/game.js
+          test ! -e dist/games/evospace
+          test ! -e dist/games/sample
+          find dist -name '*.map' -delete
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          name: captain-of-industry-calculator-zh-cn-pages
+          path: dist
+
+      - name: Zip release artifact
+        run: |
+          zip -r captain-of-industry-calculator-zh-cn.zip .
+        working-directory: dist
+
+      - name: Upload release artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: captain-of-industry-calculator-zh-cn-release
+          path: dist/captain-of-industry-calculator-zh-cn.zip
+          retention-days: 1
+
+  deploy-pages:
+    needs: build
+    permissions:
+      id-token: write
+      pages: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+        with:
+          artifact_name: captain-of-industry-calculator-zh-cn-pages
+
+  deploy-release:
+    if: github.event_name == 'push'
+    needs: build
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Get tag name
+        run: echo "RELEASE_TAG=${GITHUB_REF#refs/tags/}" >> "$GITHUB_ENV"
+
+      - name: Download release artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: captain-of-industry-calculator-zh-cn-release
+          path: release-artifact
+
+      - name: Prepare release package
+        run: |
+          cp release-artifact/captain-of-industry-calculator-zh-cn.zip \
+            captain-of-industry-calculator-zh-cn-${{ env.RELEASE_TAG }}.zip
+          unzip -t captain-of-industry-calculator-zh-cn-${{ env.RELEASE_TAG }}.zip
+
+      - name: Create GitHub Release draft
+        uses: softprops/action-gh-release@v2
+        with:
+          draft: true
+          prerelease: false
+          generate_release_notes: true
+          files: |
+            captain-of-industry-calculator-zh-cn-${{ env.RELEASE_TAG }}.zip

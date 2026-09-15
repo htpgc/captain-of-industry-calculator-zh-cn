@@ -1,0 +1,8443 @@
+{"game_version":"0.8.7.0","storages":[{
+"id":"StorageUnitT4","name":"单位存储 IV","category":"存储设施","subcategory":"","next_tier":"","workers":0,"maintenance_cost_units":"","maintenance_cost_quantity":0,"electricity_consumed":0,"electricity_generated":0,"computing_consumed":0,"computing_generated":0,"product_type":"CountableProductProto","storage_capacity":6000,"unity_cost":0,"research_speed":0,"icon_path":"Assets/Unity/Generated/Icons/LayoutEntity/StorageUnitT4.png","build_costs":[{
+"product":"建筑零件III","quantity":120
+}
+],"recipes":[{
+"id":"木材 Storage","name":"木材 Storage","duration":0,"inputs":[{
+"name":"木材","quantity":6000
+}
+],"outputs":[{
+"name":"木材","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"树苗 Storage","name":"树苗 Storage","duration":0,"inputs":[{
+"name":"树苗","quantity":6000
+}
+],"outputs":[{
+"name":"树苗","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"纸 Storage","name":"纸 Storage","duration":0,"inputs":[{
+"name":"纸","quantity":6000
+}
+],"outputs":[{
+"name":"纸","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"石墨 Storage","name":"石墨 Storage","duration":0,"inputs":[{
+"name":"石墨","quantity":6000
+}
+],"outputs":[{
+"name":"石墨","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"压缩铁废料 Storage","name":"压缩铁废料 Storage","duration":0,"inputs":[{
+"name":"压缩铁废料","quantity":6000
+}
+],"outputs":[{
+"name":"压缩铁废料","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"铁 Storage","name":"铁 Storage","duration":0,"inputs":[{
+"name":"铁","quantity":6000
+}
+],"outputs":[{
+"name":"铁","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"钢 Storage","name":"钢 Storage","duration":0,"inputs":[{
+"name":"钢","quantity":6000
+}
+],"outputs":[{
+"name":"钢","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"压缩铜废料 Storage","name":"压缩铜废料 Storage","duration":0,"inputs":[{
+"name":"压缩铜废料","quantity":6000
+}
+],"outputs":[{
+"name":"压缩铜废料","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"不纯铜 Storage","name":"不纯铜 Storage","duration":0,"inputs":[{
+"name":"不纯铜","quantity":6000
+}
+],"outputs":[{
+"name":"不纯铜","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"铜 Storage","name":"铜 Storage","duration":0,"inputs":[{
+"name":"铜","quantity":6000
+}
+],"outputs":[{
+"name":"铜","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"压缩铝废料 Storage","name":"压缩铝废料 Storage","duration":0,"inputs":[{
+"name":"压缩铝废料","quantity":6000
+}
+],"outputs":[{
+"name":"压缩铝废料","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"铝 Storage","name":"铝 Storage","duration":0,"inputs":[{
+"name":"铝","quantity":6000
+}
+],"outputs":[{
+"name":"铝","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"钛合金 Storage","name":"钛合金 Storage","duration":0,"inputs":[{
+"name":"钛合金","quantity":6000
+}
+],"outputs":[{
+"name":"钛合金","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"金 Storage","name":"金 Storage","duration":0,"inputs":[{
+"name":"金","quantity":6000
+}
+],"outputs":[{
+"name":"金","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"压缩金废料 Storage","name":"压缩金废料 Storage","duration":0,"inputs":[{
+"name":"压缩金废料","quantity":6000
+}
+],"outputs":[{
+"name":"压缩金废料","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"玻璃 Storage","name":"玻璃 Storage","duration":0,"inputs":[{
+"name":"玻璃","quantity":6000
+}
+],"outputs":[{
+"name":"玻璃","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"浓缩铀 (4%) Storage","name":"浓缩铀 (4%) Storage","duration":0,"inputs":[{
+"name":"浓缩铀 (4%)","quantity":6000
+}
+],"outputs":[{
+"name":"浓缩铀 (4%)","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"浓缩铀 (20%) Storage","name":"浓缩铀 (20%) Storage","duration":0,"inputs":[{
+"name":"浓缩铀 (20%)","quantity":6000
+}
+],"outputs":[{
+"name":"浓缩铀 (20%)","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"再加工铀 (1%) Storage","name":"再加工铀 (1%) Storage","duration":0,"inputs":[{
+"name":"再加工铀 (1%)","quantity":6000
+}
+],"outputs":[{
+"name":"再加工铀 (1%)","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"钚 Storage","name":"钚 Storage","duration":0,"inputs":[{
+"name":"钚","quantity":6000
+}
+],"outputs":[{
+"name":"钚","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"铀棒 Storage","name":"铀棒 Storage","duration":0,"inputs":[{
+"name":"铀棒","quantity":6000
+}
+],"outputs":[{
+"name":"铀棒","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"MOX棒 Storage","name":"MOX棒 Storage","duration":0,"inputs":[{
+"name":"MOX棒","quantity":6000
+}
+],"outputs":[{
+"name":"MOX棒","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"乏燃料 Storage","name":"乏燃料 Storage","duration":0,"inputs":[{
+"name":"乏燃料","quantity":6000
+}
+],"outputs":[{
+"name":"乏燃料","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"用过的MOX Storage","name":"用过的MOX Storage","duration":0,"inputs":[{
+"name":"用过的MOX","quantity":6000
+}
+],"outputs":[{
+"name":"用过的MOX","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"裂变产物 Storage","name":"裂变产物 Storage","duration":0,"inputs":[{
+"name":"裂变产物","quantity":6000
+}
+],"outputs":[{
+"name":"裂变产物","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"可回收的核废料 Storage","name":"可回收的核废料 Storage","duration":0,"inputs":[{
+"name":"可回收的核废料","quantity":6000
+}
+],"outputs":[{
+"name":"可回收的核废料","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"硅 (多晶) Storage","name":"硅 (多晶) Storage","duration":0,"inputs":[{
+"name":"硅 (多晶)","quantity":6000
+}
+],"outputs":[{
+"name":"硅 (多晶)","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"硅晶圆 Storage","name":"硅晶圆 Storage","duration":0,"inputs":[{
+"name":"硅晶圆","quantity":6000
+}
+],"outputs":[{
+"name":"硅晶圆","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"压缩可回收物 Storage","name":"压缩可回收物 Storage","duration":0,"inputs":[{
+"name":"压缩可回收物","quantity":6000
+}
+],"outputs":[{
+"name":"压缩可回收物","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"塑料 Storage","name":"塑料 Storage","duration":0,"inputs":[{
+"name":"塑料","quantity":6000
+}
+],"outputs":[{
+"name":"塑料","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"橡胶 Storage","name":"橡胶 Storage","duration":0,"inputs":[{
+"name":"橡胶","quantity":6000
+}
+],"outputs":[{
+"name":"橡胶","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"蔬菜 Storage","name":"蔬菜 Storage","duration":0,"inputs":[{
+"name":"蔬菜","quantity":6000
+}
+],"outputs":[{
+"name":"蔬菜","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"水果 Storage","name":"水果 Storage","duration":0,"inputs":[{
+"name":"水果","quantity":6000
+}
+],"outputs":[{
+"name":"水果","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"面包 Storage","name":"面包 Storage","duration":0,"inputs":[{
+"name":"面包","quantity":6000
+}
+],"outputs":[{
+"name":"面包","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"面粉 Storage","name":"面粉 Storage","duration":0,"inputs":[{
+"name":"面粉","quantity":6000
+}
+],"outputs":[{
+"name":"面粉","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"鸡蛋 Storage","name":"鸡蛋 Storage","duration":0,"inputs":[{
+"name":"鸡蛋","quantity":6000
+}
+],"outputs":[{
+"name":"鸡蛋","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"豆腐 Storage","name":"豆腐 Storage","duration":0,"inputs":[{
+"name":"豆腐","quantity":6000
+}
+],"outputs":[{
+"name":"豆腐","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"肉 Storage","name":"肉 Storage","duration":0,"inputs":[{
+"name":"肉","quantity":6000
+}
+],"outputs":[{
+"name":"肉","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"香肠 Storage","name":"香肠 Storage","duration":0,"inputs":[{
+"name":"香肠","quantity":6000
+}
+],"outputs":[{
+"name":"香肠","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"零食 Storage","name":"零食 Storage","duration":0,"inputs":[{
+"name":"零食","quantity":6000
+}
+],"outputs":[{
+"name":"零食","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"蛋糕 Storage","name":"蛋糕 Storage","duration":0,"inputs":[{
+"name":"蛋糕","quantity":6000
+}
+],"outputs":[{
+"name":"蛋糕","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"包装食品 Storage","name":"包装食品 Storage","duration":0,"inputs":[{
+"name":"包装食品","quantity":6000
+}
+],"outputs":[{
+"name":"包装食品","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"整鸡 Storage","name":"整鸡 Storage","duration":0,"inputs":[{
+"name":"整鸡","quantity":6000
+}
+],"outputs":[{
+"name":"整鸡","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"家庭用品 Storage","name":"家庭用品 Storage","duration":0,"inputs":[{
+"name":"家庭用品","quantity":6000
+}
+],"outputs":[{
+"name":"家庭用品","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"家用设备 Storage","name":"家用设备 Storage","duration":0,"inputs":[{
+"name":"家用设备","quantity":6000
+}
+],"outputs":[{
+"name":"家用设备","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"消费类电子产品 Storage","name":"消费类电子产品 Storage","duration":0,"inputs":[{
+"name":"消费类电子产品","quantity":6000
+}
+],"outputs":[{
+"name":"消费类电子产品","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"奢侈品 Storage","name":"奢侈品 Storage","duration":0,"inputs":[{
+"name":"奢侈品","quantity":6000
+}
+],"outputs":[{
+"name":"奢侈品","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"进口商品 Storage","name":"进口商品 Storage","duration":0,"inputs":[{
+"name":"进口商品","quantity":6000
+}
+],"outputs":[{
+"name":"进口商品","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"抗生素 Storage","name":"抗生素 Storage","duration":0,"inputs":[{
+"name":"抗生素","quantity":6000
+}
+],"outputs":[{
+"name":"抗生素","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"消毒剂 Storage","name":"消毒剂 Storage","duration":0,"inputs":[{
+"name":"消毒剂","quantity":6000
+}
+],"outputs":[{
+"name":"消毒剂","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"麻醉剂 Storage","name":"麻醉剂 Storage","duration":0,"inputs":[{
+"name":"麻醉剂","quantity":6000
+}
+],"outputs":[{
+"name":"麻醉剂","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"吗啡 Storage","name":"吗啡 Storage","duration":0,"inputs":[{
+"name":"吗啡","quantity":6000
+}
+],"outputs":[{
+"name":"吗啡","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"医用器材 Storage","name":"医用器材 Storage","duration":0,"inputs":[{
+"name":"医用器材","quantity":6000
+}
+],"outputs":[{
+"name":"医用器材","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"医疗用品 Storage","name":"医疗用品 Storage","duration":0,"inputs":[{
+"name":"医疗用品","quantity":6000
+}
+],"outputs":[{
+"name":"医疗用品","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"医疗用品 II Storage","name":"医疗用品 II Storage","duration":0,"inputs":[{
+"name":"医疗用品 II","quantity":6000
+}
+],"outputs":[{
+"name":"医疗用品 II","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"医疗用品 III Storage","name":"医疗用品 III Storage","duration":0,"inputs":[{
+"name":"医疗用品 III","quantity":6000
+}
+],"outputs":[{
+"name":"医疗用品 III","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"水泥 Storage","name":"水泥 Storage","duration":0,"inputs":[{
+"name":"水泥","quantity":6000
+}
+],"outputs":[{
+"name":"水泥","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"混凝土板 Storage","name":"混凝土板 Storage","duration":0,"inputs":[{
+"name":"混凝土板","quantity":6000
+}
+],"outputs":[{
+"name":"混凝土板","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"砖块 Storage","name":"砖块 Storage","duration":0,"inputs":[{
+"name":"砖块","quantity":6000
+}
+],"outputs":[{
+"name":"砖块","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"建筑零件 Storage","name":"建筑零件 Storage","duration":0,"inputs":[{
+"name":"建筑零件","quantity":6000
+}
+],"outputs":[{
+"name":"建筑零件","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"建筑零件II Storage","name":"建筑零件II Storage","duration":0,"inputs":[{
+"name":"建筑零件II","quantity":6000
+}
+],"outputs":[{
+"name":"建筑零件II","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"建筑零件III Storage","name":"建筑零件III Storage","duration":0,"inputs":[{
+"name":"建筑零件III","quantity":6000
+}
+],"outputs":[{
+"name":"建筑零件III","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"建筑零件IV Storage","name":"建筑零件IV Storage","duration":0,"inputs":[{
+"name":"建筑零件IV","quantity":6000
+}
+],"outputs":[{
+"name":"建筑零件IV","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"机械零件 Storage","name":"机械零件 Storage","duration":0,"inputs":[{
+"name":"机械零件","quantity":6000
+}
+],"outputs":[{
+"name":"机械零件","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"车辆零件 Storage","name":"车辆零件 Storage","duration":0,"inputs":[{
+"name":"车辆零件","quantity":6000
+}
+],"outputs":[{
+"name":"车辆零件","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"车辆零件 II Storage","name":"车辆零件 II Storage","duration":0,"inputs":[{
+"name":"车辆零件 II","quantity":6000
+}
+],"outputs":[{
+"name":"车辆零件 II","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"车辆零件 III Storage","name":"车辆零件 III Storage","duration":0,"inputs":[{
+"name":"车辆零件 III","quantity":6000
+}
+],"outputs":[{
+"name":"车辆零件 III","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"实验室设备 Storage","name":"实验室设备 Storage","duration":0,"inputs":[{
+"name":"实验室设备","quantity":6000
+}
+],"outputs":[{
+"name":"实验室设备","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"实验室设备 II Storage","name":"实验室设备 II Storage","duration":0,"inputs":[{
+"name":"实验室设备 II","quantity":6000
+}
+],"outputs":[{
+"name":"实验室设备 II","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"实验室设备 III Storage","name":"实验室设备 III Storage","duration":0,"inputs":[{
+"name":"实验室设备 III","quantity":6000
+}
+],"outputs":[{
+"name":"实验室设备 III","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"实验室设备 IV Storage","name":"实验室设备 IV Storage","duration":0,"inputs":[{
+"name":"实验室设备 IV","quantity":6000
+}
+],"outputs":[{
+"name":"实验室设备 IV","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"铁轨零件 Storage","name":"铁轨零件 Storage","duration":0,"inputs":[{
+"name":"铁轨零件","quantity":6000
+}
+],"outputs":[{
+"name":"铁轨零件","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"办公用品 Storage","name":"办公用品 Storage","duration":0,"inputs":[{
+"name":"办公用品","quantity":6000
+}
+],"outputs":[{
+"name":"办公用品","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"电子产品 Storage","name":"电子产品 Storage","duration":0,"inputs":[{
+"name":"电子产品","quantity":6000
+}
+],"outputs":[{
+"name":"电子产品","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"印刷电路板 Storage","name":"印刷电路板 Storage","duration":0,"inputs":[{
+"name":"印刷电路板","quantity":6000
+}
+],"outputs":[{
+"name":"印刷电路板","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"电子产品 II Storage","name":"电子产品 II Storage","duration":0,"inputs":[{
+"name":"电子产品 II","quantity":6000
+}
+],"outputs":[{
+"name":"电子产品 II","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"电子产品 III Storage","name":"电子产品 III Storage","duration":0,"inputs":[{
+"name":"电子产品 III","quantity":6000
+}
+],"outputs":[{
+"name":"电子产品 III","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"电子产品 IV Storage","name":"电子产品 IV Storage","duration":0,"inputs":[{
+"name":"电子产品 IV","quantity":6000
+}
+],"outputs":[{
+"name":"电子产品 IV","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"服务器 Storage","name":"服务器 Storage","duration":0,"inputs":[{
+"name":"服务器","quantity":6000
+}
+],"outputs":[{
+"name":"服务器","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"金刚石 Storage","name":"金刚石 Storage","duration":0,"inputs":[{
+"name":"金刚石","quantity":6000
+}
+],"outputs":[{
+"name":"金刚石","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"金刚石研磨膏 Storage","name":"金刚石研磨膏 Storage","duration":0,"inputs":[{
+"name":"金刚石研磨膏","quantity":6000
+}
+],"outputs":[{
+"name":"金刚石研磨膏","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"蓝宝石晶片 Storage","name":"蓝宝石晶片 Storage","duration":0,"inputs":[{
+"name":"蓝宝石晶片","quantity":6000
+}
+],"outputs":[{
+"name":"蓝宝石晶片","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"透镜 Storage","name":"透镜 Storage","duration":0,"inputs":[{
+"name":"透镜","quantity":6000
+}
+],"outputs":[{
+"name":"透镜","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"微芯片 Storage","name":"微芯片 Storage","duration":0,"inputs":[{
+"name":"微芯片","quantity":6000
+}
+],"outputs":[{
+"name":"微芯片","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"微芯片 阶段 1 a Storage","name":"微芯片 阶段 1 a Storage","duration":0,"inputs":[{
+"name":"微芯片 阶段 1 a","quantity":6000
+}
+],"outputs":[{
+"name":"微芯片 阶段 1 a","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"微芯片 阶段 1 b Storage","name":"微芯片 阶段 1 b Storage","duration":0,"inputs":[{
+"name":"微芯片 阶段 1 b","quantity":6000
+}
+],"outputs":[{
+"name":"微芯片 阶段 1 b","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"微芯片 阶段 1 c Storage","name":"微芯片 阶段 1 c Storage","duration":0,"inputs":[{
+"name":"微芯片 阶段 1 c","quantity":6000
+}
+],"outputs":[{
+"name":"微芯片 阶段 1 c","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"微芯片 阶段 2 a Storage","name":"微芯片 阶段 2 a Storage","duration":0,"inputs":[{
+"name":"微芯片 阶段 2 a","quantity":6000
+}
+],"outputs":[{
+"name":"微芯片 阶段 2 a","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"微芯片 阶段 2 b Storage","name":"微芯片 阶段 2 b Storage","duration":0,"inputs":[{
+"name":"微芯片 阶段 2 b","quantity":6000
+}
+],"outputs":[{
+"name":"微芯片 阶段 2 b","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"微芯片 阶段 2 c Storage","name":"微芯片 阶段 2 c Storage","duration":0,"inputs":[{
+"name":"微芯片 阶段 2 c","quantity":6000
+}
+],"outputs":[{
+"name":"微芯片 阶段 2 c","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"微芯片 阶段 3 a Storage","name":"微芯片 阶段 3 a Storage","duration":0,"inputs":[{
+"name":"微芯片 阶段 3 a","quantity":6000
+}
+],"outputs":[{
+"name":"微芯片 阶段 3 a","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"微芯片 阶段 3 b Storage","name":"微芯片 阶段 3 b Storage","duration":0,"inputs":[{
+"name":"微芯片 阶段 3 b","quantity":6000
+}
+],"outputs":[{
+"name":"微芯片 阶段 3 b","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"微芯片 阶段 3 c Storage","name":"微芯片 阶段 3 c Storage","duration":0,"inputs":[{
+"name":"微芯片 阶段 3 c","quantity":6000
+}
+],"outputs":[{
+"name":"微芯片 阶段 3 c","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"微芯片 阶段 4 a Storage","name":"微芯片 阶段 4 a Storage","duration":0,"inputs":[{
+"name":"微芯片 阶段 4 a","quantity":6000
+}
+],"outputs":[{
+"name":"微芯片 阶段 4 a","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"微芯片 阶段 4 b Storage","name":"微芯片 阶段 4 b Storage","duration":0,"inputs":[{
+"name":"微芯片 阶段 4 b","quantity":6000
+}
+],"outputs":[{
+"name":"微芯片 阶段 4 b","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"太阳能电池 Storage","name":"太阳能电池 Storage","duration":0,"inputs":[{
+"name":"太阳能电池","quantity":6000
+}
+],"outputs":[{
+"name":"太阳能电池","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"单晶硅太阳能电池 Storage","name":"单晶硅太阳能电池 Storage","duration":0,"inputs":[{
+"name":"单晶硅太阳能电池","quantity":6000
+}
+],"outputs":[{
+"name":"单晶硅太阳能电池","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"复合面板 Storage","name":"复合面板 Storage","duration":0,"inputs":[{
+"name":"复合面板","quantity":6000
+}
+],"outputs":[{
+"name":"复合面板","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"复合芯材 Storage","name":"复合芯材 Storage","duration":0,"inputs":[{
+"name":"复合芯材","quantity":6000
+}
+],"outputs":[{
+"name":"复合芯材","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"基础复合芯材 Storage","name":"基础复合芯材 Storage","duration":0,"inputs":[{
+"name":"基础复合芯材","quantity":6000
+}
+],"outputs":[{
+"name":"基础复合芯材","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"化学燃料 Storage","name":"化学燃料 Storage","duration":0,"inputs":[{
+"name":"化学燃料","quantity":6000
+}
+],"outputs":[{
+"name":"化学燃料","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"空间站部件（基础） Storage","name":"空间站部件（基础） Storage","duration":0,"inputs":[{
+"name":"空间站部件（基础）","quantity":6000
+}
+],"outputs":[{
+"name":"空间站部件（基础）","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"空间站部件 Storage","name":"空间站部件 Storage","duration":0,"inputs":[{
+"name":"空间站部件","quantity":6000
+}
+],"outputs":[{
+"name":"空间站部件","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"船员补给品 Storage","name":"船员补给品 Storage","duration":0,"inputs":[{
+"name":"船员补给品","quantity":6000
+}
+],"outputs":[{
+"name":"船员补给品","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"太空探测器零件 Storage","name":"太空探测器零件 Storage","duration":0,"inputs":[{
+"name":"太空探测器零件","quantity":6000
+}
+],"outputs":[{
+"name":"太空探测器零件","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"小行星助推器零件 Storage","name":"小行星助推器零件 Storage","duration":0,"inputs":[{
+"name":"小行星助推器零件","quantity":6000
+}
+],"outputs":[{
+"name":"小行星助推器零件","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"紧凑型反应堆 Storage","name":"紧凑型反应堆 Storage","duration":0,"inputs":[{
+"name":"紧凑型反应堆","quantity":6000
+}
+],"outputs":[{
+"name":"紧凑型反应堆","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"压缩垃圾 Storage","name":"压缩垃圾 Storage","duration":0,"inputs":[{
+"name":"压缩垃圾","quantity":6000
+}
+],"outputs":[{
+"name":"压缩垃圾","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"花 Storage","name":"花 Storage","duration":0,"inputs":[{
+"name":"花","quantity":6000
+}
+],"outputs":[{
+"name":"花","quantity":6000
+}
+],"power_multiplier":1
+}
+]
+}
+,{
+"id":"StorageUnitT3","name":"单位存储 III","category":"存储设施","subcategory":"","next_tier":"StorageUnitT4","workers":0,"maintenance_cost_units":"","maintenance_cost_quantity":0,"electricity_consumed":0,"electricity_generated":0,"computing_consumed":0,"computing_generated":0,"product_type":"CountableProductProto","storage_capacity":3000,"unity_cost":0,"research_speed":0,"icon_path":"Assets/Unity/Generated/Icons/LayoutEntity/StorageUnitT3.png","build_costs":[{
+"product":"建筑零件III","quantity":60
+}
+],"recipes":[{
+"id":"木材 Storage","name":"木材 Storage","duration":0,"inputs":[{
+"name":"木材","quantity":3000
+}
+],"outputs":[{
+"name":"木材","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"树苗 Storage","name":"树苗 Storage","duration":0,"inputs":[{
+"name":"树苗","quantity":3000
+}
+],"outputs":[{
+"name":"树苗","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"纸 Storage","name":"纸 Storage","duration":0,"inputs":[{
+"name":"纸","quantity":3000
+}
+],"outputs":[{
+"name":"纸","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"石墨 Storage","name":"石墨 Storage","duration":0,"inputs":[{
+"name":"石墨","quantity":3000
+}
+],"outputs":[{
+"name":"石墨","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"压缩铁废料 Storage","name":"压缩铁废料 Storage","duration":0,"inputs":[{
+"name":"压缩铁废料","quantity":3000
+}
+],"outputs":[{
+"name":"压缩铁废料","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"铁 Storage","name":"铁 Storage","duration":0,"inputs":[{
+"name":"铁","quantity":3000
+}
+],"outputs":[{
+"name":"铁","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"钢 Storage","name":"钢 Storage","duration":0,"inputs":[{
+"name":"钢","quantity":3000
+}
+],"outputs":[{
+"name":"钢","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"压缩铜废料 Storage","name":"压缩铜废料 Storage","duration":0,"inputs":[{
+"name":"压缩铜废料","quantity":3000
+}
+],"outputs":[{
+"name":"压缩铜废料","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"不纯铜 Storage","name":"不纯铜 Storage","duration":0,"inputs":[{
+"name":"不纯铜","quantity":3000
+}
+],"outputs":[{
+"name":"不纯铜","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"铜 Storage","name":"铜 Storage","duration":0,"inputs":[{
+"name":"铜","quantity":3000
+}
+],"outputs":[{
+"name":"铜","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"压缩铝废料 Storage","name":"压缩铝废料 Storage","duration":0,"inputs":[{
+"name":"压缩铝废料","quantity":3000
+}
+],"outputs":[{
+"name":"压缩铝废料","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"铝 Storage","name":"铝 Storage","duration":0,"inputs":[{
+"name":"铝","quantity":3000
+}
+],"outputs":[{
+"name":"铝","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"钛合金 Storage","name":"钛合金 Storage","duration":0,"inputs":[{
+"name":"钛合金","quantity":3000
+}
+],"outputs":[{
+"name":"钛合金","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"金 Storage","name":"金 Storage","duration":0,"inputs":[{
+"name":"金","quantity":3000
+}
+],"outputs":[{
+"name":"金","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"压缩金废料 Storage","name":"压缩金废料 Storage","duration":0,"inputs":[{
+"name":"压缩金废料","quantity":3000
+}
+],"outputs":[{
+"name":"压缩金废料","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"玻璃 Storage","name":"玻璃 Storage","duration":0,"inputs":[{
+"name":"玻璃","quantity":3000
+}
+],"outputs":[{
+"name":"玻璃","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"浓缩铀 (4%) Storage","name":"浓缩铀 (4%) Storage","duration":0,"inputs":[{
+"name":"浓缩铀 (4%)","quantity":3000
+}
+],"outputs":[{
+"name":"浓缩铀 (4%)","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"浓缩铀 (20%) Storage","name":"浓缩铀 (20%) Storage","duration":0,"inputs":[{
+"name":"浓缩铀 (20%)","quantity":3000
+}
+],"outputs":[{
+"name":"浓缩铀 (20%)","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"再加工铀 (1%) Storage","name":"再加工铀 (1%) Storage","duration":0,"inputs":[{
+"name":"再加工铀 (1%)","quantity":3000
+}
+],"outputs":[{
+"name":"再加工铀 (1%)","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"钚 Storage","name":"钚 Storage","duration":0,"inputs":[{
+"name":"钚","quantity":3000
+}
+],"outputs":[{
+"name":"钚","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"铀棒 Storage","name":"铀棒 Storage","duration":0,"inputs":[{
+"name":"铀棒","quantity":3000
+}
+],"outputs":[{
+"name":"铀棒","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"MOX棒 Storage","name":"MOX棒 Storage","duration":0,"inputs":[{
+"name":"MOX棒","quantity":3000
+}
+],"outputs":[{
+"name":"MOX棒","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"乏燃料 Storage","name":"乏燃料 Storage","duration":0,"inputs":[{
+"name":"乏燃料","quantity":3000
+}
+],"outputs":[{
+"name":"乏燃料","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"用过的MOX Storage","name":"用过的MOX Storage","duration":0,"inputs":[{
+"name":"用过的MOX","quantity":3000
+}
+],"outputs":[{
+"name":"用过的MOX","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"裂变产物 Storage","name":"裂变产物 Storage","duration":0,"inputs":[{
+"name":"裂变产物","quantity":3000
+}
+],"outputs":[{
+"name":"裂变产物","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"可回收的核废料 Storage","name":"可回收的核废料 Storage","duration":0,"inputs":[{
+"name":"可回收的核废料","quantity":3000
+}
+],"outputs":[{
+"name":"可回收的核废料","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"硅 (多晶) Storage","name":"硅 (多晶) Storage","duration":0,"inputs":[{
+"name":"硅 (多晶)","quantity":3000
+}
+],"outputs":[{
+"name":"硅 (多晶)","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"硅晶圆 Storage","name":"硅晶圆 Storage","duration":0,"inputs":[{
+"name":"硅晶圆","quantity":3000
+}
+],"outputs":[{
+"name":"硅晶圆","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"压缩可回收物 Storage","name":"压缩可回收物 Storage","duration":0,"inputs":[{
+"name":"压缩可回收物","quantity":3000
+}
+],"outputs":[{
+"name":"压缩可回收物","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"塑料 Storage","name":"塑料 Storage","duration":0,"inputs":[{
+"name":"塑料","quantity":3000
+}
+],"outputs":[{
+"name":"塑料","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"橡胶 Storage","name":"橡胶 Storage","duration":0,"inputs":[{
+"name":"橡胶","quantity":3000
+}
+],"outputs":[{
+"name":"橡胶","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"蔬菜 Storage","name":"蔬菜 Storage","duration":0,"inputs":[{
+"name":"蔬菜","quantity":3000
+}
+],"outputs":[{
+"name":"蔬菜","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"水果 Storage","name":"水果 Storage","duration":0,"inputs":[{
+"name":"水果","quantity":3000
+}
+],"outputs":[{
+"name":"水果","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"面包 Storage","name":"面包 Storage","duration":0,"inputs":[{
+"name":"面包","quantity":3000
+}
+],"outputs":[{
+"name":"面包","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"面粉 Storage","name":"面粉 Storage","duration":0,"inputs":[{
+"name":"面粉","quantity":3000
+}
+],"outputs":[{
+"name":"面粉","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"鸡蛋 Storage","name":"鸡蛋 Storage","duration":0,"inputs":[{
+"name":"鸡蛋","quantity":3000
+}
+],"outputs":[{
+"name":"鸡蛋","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"豆腐 Storage","name":"豆腐 Storage","duration":0,"inputs":[{
+"name":"豆腐","quantity":3000
+}
+],"outputs":[{
+"name":"豆腐","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"肉 Storage","name":"肉 Storage","duration":0,"inputs":[{
+"name":"肉","quantity":3000
+}
+],"outputs":[{
+"name":"肉","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"香肠 Storage","name":"香肠 Storage","duration":0,"inputs":[{
+"name":"香肠","quantity":3000
+}
+],"outputs":[{
+"name":"香肠","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"零食 Storage","name":"零食 Storage","duration":0,"inputs":[{
+"name":"零食","quantity":3000
+}
+],"outputs":[{
+"name":"零食","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"蛋糕 Storage","name":"蛋糕 Storage","duration":0,"inputs":[{
+"name":"蛋糕","quantity":3000
+}
+],"outputs":[{
+"name":"蛋糕","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"包装食品 Storage","name":"包装食品 Storage","duration":0,"inputs":[{
+"name":"包装食品","quantity":3000
+}
+],"outputs":[{
+"name":"包装食品","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"整鸡 Storage","name":"整鸡 Storage","duration":0,"inputs":[{
+"name":"整鸡","quantity":3000
+}
+],"outputs":[{
+"name":"整鸡","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"家庭用品 Storage","name":"家庭用品 Storage","duration":0,"inputs":[{
+"name":"家庭用品","quantity":3000
+}
+],"outputs":[{
+"name":"家庭用品","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"家用设备 Storage","name":"家用设备 Storage","duration":0,"inputs":[{
+"name":"家用设备","quantity":3000
+}
+],"outputs":[{
+"name":"家用设备","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"消费类电子产品 Storage","name":"消费类电子产品 Storage","duration":0,"inputs":[{
+"name":"消费类电子产品","quantity":3000
+}
+],"outputs":[{
+"name":"消费类电子产品","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"奢侈品 Storage","name":"奢侈品 Storage","duration":0,"inputs":[{
+"name":"奢侈品","quantity":3000
+}
+],"outputs":[{
+"name":"奢侈品","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"进口商品 Storage","name":"进口商品 Storage","duration":0,"inputs":[{
+"name":"进口商品","quantity":3000
+}
+],"outputs":[{
+"name":"进口商品","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"抗生素 Storage","name":"抗生素 Storage","duration":0,"inputs":[{
+"name":"抗生素","quantity":3000
+}
+],"outputs":[{
+"name":"抗生素","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"消毒剂 Storage","name":"消毒剂 Storage","duration":0,"inputs":[{
+"name":"消毒剂","quantity":3000
+}
+],"outputs":[{
+"name":"消毒剂","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"麻醉剂 Storage","name":"麻醉剂 Storage","duration":0,"inputs":[{
+"name":"麻醉剂","quantity":3000
+}
+],"outputs":[{
+"name":"麻醉剂","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"吗啡 Storage","name":"吗啡 Storage","duration":0,"inputs":[{
+"name":"吗啡","quantity":3000
+}
+],"outputs":[{
+"name":"吗啡","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"医用器材 Storage","name":"医用器材 Storage","duration":0,"inputs":[{
+"name":"医用器材","quantity":3000
+}
+],"outputs":[{
+"name":"医用器材","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"医疗用品 Storage","name":"医疗用品 Storage","duration":0,"inputs":[{
+"name":"医疗用品","quantity":3000
+}
+],"outputs":[{
+"name":"医疗用品","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"医疗用品 II Storage","name":"医疗用品 II Storage","duration":0,"inputs":[{
+"name":"医疗用品 II","quantity":3000
+}
+],"outputs":[{
+"name":"医疗用品 II","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"医疗用品 III Storage","name":"医疗用品 III Storage","duration":0,"inputs":[{
+"name":"医疗用品 III","quantity":3000
+}
+],"outputs":[{
+"name":"医疗用品 III","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"水泥 Storage","name":"水泥 Storage","duration":0,"inputs":[{
+"name":"水泥","quantity":3000
+}
+],"outputs":[{
+"name":"水泥","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"混凝土板 Storage","name":"混凝土板 Storage","duration":0,"inputs":[{
+"name":"混凝土板","quantity":3000
+}
+],"outputs":[{
+"name":"混凝土板","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"砖块 Storage","name":"砖块 Storage","duration":0,"inputs":[{
+"name":"砖块","quantity":3000
+}
+],"outputs":[{
+"name":"砖块","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"建筑零件 Storage","name":"建筑零件 Storage","duration":0,"inputs":[{
+"name":"建筑零件","quantity":3000
+}
+],"outputs":[{
+"name":"建筑零件","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"建筑零件II Storage","name":"建筑零件II Storage","duration":0,"inputs":[{
+"name":"建筑零件II","quantity":3000
+}
+],"outputs":[{
+"name":"建筑零件II","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"建筑零件III Storage","name":"建筑零件III Storage","duration":0,"inputs":[{
+"name":"建筑零件III","quantity":3000
+}
+],"outputs":[{
+"name":"建筑零件III","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"建筑零件IV Storage","name":"建筑零件IV Storage","duration":0,"inputs":[{
+"name":"建筑零件IV","quantity":3000
+}
+],"outputs":[{
+"name":"建筑零件IV","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"机械零件 Storage","name":"机械零件 Storage","duration":0,"inputs":[{
+"name":"机械零件","quantity":3000
+}
+],"outputs":[{
+"name":"机械零件","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"车辆零件 Storage","name":"车辆零件 Storage","duration":0,"inputs":[{
+"name":"车辆零件","quantity":3000
+}
+],"outputs":[{
+"name":"车辆零件","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"车辆零件 II Storage","name":"车辆零件 II Storage","duration":0,"inputs":[{
+"name":"车辆零件 II","quantity":3000
+}
+],"outputs":[{
+"name":"车辆零件 II","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"车辆零件 III Storage","name":"车辆零件 III Storage","duration":0,"inputs":[{
+"name":"车辆零件 III","quantity":3000
+}
+],"outputs":[{
+"name":"车辆零件 III","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"实验室设备 Storage","name":"实验室设备 Storage","duration":0,"inputs":[{
+"name":"实验室设备","quantity":3000
+}
+],"outputs":[{
+"name":"实验室设备","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"实验室设备 II Storage","name":"实验室设备 II Storage","duration":0,"inputs":[{
+"name":"实验室设备 II","quantity":3000
+}
+],"outputs":[{
+"name":"实验室设备 II","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"实验室设备 III Storage","name":"实验室设备 III Storage","duration":0,"inputs":[{
+"name":"实验室设备 III","quantity":3000
+}
+],"outputs":[{
+"name":"实验室设备 III","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"实验室设备 IV Storage","name":"实验室设备 IV Storage","duration":0,"inputs":[{
+"name":"实验室设备 IV","quantity":3000
+}
+],"outputs":[{
+"name":"实验室设备 IV","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"铁轨零件 Storage","name":"铁轨零件 Storage","duration":0,"inputs":[{
+"name":"铁轨零件","quantity":3000
+}
+],"outputs":[{
+"name":"铁轨零件","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"办公用品 Storage","name":"办公用品 Storage","duration":0,"inputs":[{
+"name":"办公用品","quantity":3000
+}
+],"outputs":[{
+"name":"办公用品","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"电子产品 Storage","name":"电子产品 Storage","duration":0,"inputs":[{
+"name":"电子产品","quantity":3000
+}
+],"outputs":[{
+"name":"电子产品","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"印刷电路板 Storage","name":"印刷电路板 Storage","duration":0,"inputs":[{
+"name":"印刷电路板","quantity":3000
+}
+],"outputs":[{
+"name":"印刷电路板","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"电子产品 II Storage","name":"电子产品 II Storage","duration":0,"inputs":[{
+"name":"电子产品 II","quantity":3000
+}
+],"outputs":[{
+"name":"电子产品 II","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"电子产品 III Storage","name":"电子产品 III Storage","duration":0,"inputs":[{
+"name":"电子产品 III","quantity":3000
+}
+],"outputs":[{
+"name":"电子产品 III","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"电子产品 IV Storage","name":"电子产品 IV Storage","duration":0,"inputs":[{
+"name":"电子产品 IV","quantity":3000
+}
+],"outputs":[{
+"name":"电子产品 IV","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"服务器 Storage","name":"服务器 Storage","duration":0,"inputs":[{
+"name":"服务器","quantity":3000
+}
+],"outputs":[{
+"name":"服务器","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"金刚石 Storage","name":"金刚石 Storage","duration":0,"inputs":[{
+"name":"金刚石","quantity":3000
+}
+],"outputs":[{
+"name":"金刚石","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"金刚石研磨膏 Storage","name":"金刚石研磨膏 Storage","duration":0,"inputs":[{
+"name":"金刚石研磨膏","quantity":3000
+}
+],"outputs":[{
+"name":"金刚石研磨膏","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"蓝宝石晶片 Storage","name":"蓝宝石晶片 Storage","duration":0,"inputs":[{
+"name":"蓝宝石晶片","quantity":3000
+}
+],"outputs":[{
+"name":"蓝宝石晶片","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"透镜 Storage","name":"透镜 Storage","duration":0,"inputs":[{
+"name":"透镜","quantity":3000
+}
+],"outputs":[{
+"name":"透镜","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"微芯片 Storage","name":"微芯片 Storage","duration":0,"inputs":[{
+"name":"微芯片","quantity":3000
+}
+],"outputs":[{
+"name":"微芯片","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"微芯片 阶段 1 a Storage","name":"微芯片 阶段 1 a Storage","duration":0,"inputs":[{
+"name":"微芯片 阶段 1 a","quantity":3000
+}
+],"outputs":[{
+"name":"微芯片 阶段 1 a","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"微芯片 阶段 1 b Storage","name":"微芯片 阶段 1 b Storage","duration":0,"inputs":[{
+"name":"微芯片 阶段 1 b","quantity":3000
+}
+],"outputs":[{
+"name":"微芯片 阶段 1 b","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"微芯片 阶段 1 c Storage","name":"微芯片 阶段 1 c Storage","duration":0,"inputs":[{
+"name":"微芯片 阶段 1 c","quantity":3000
+}
+],"outputs":[{
+"name":"微芯片 阶段 1 c","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"微芯片 阶段 2 a Storage","name":"微芯片 阶段 2 a Storage","duration":0,"inputs":[{
+"name":"微芯片 阶段 2 a","quantity":3000
+}
+],"outputs":[{
+"name":"微芯片 阶段 2 a","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"微芯片 阶段 2 b Storage","name":"微芯片 阶段 2 b Storage","duration":0,"inputs":[{
+"name":"微芯片 阶段 2 b","quantity":3000
+}
+],"outputs":[{
+"name":"微芯片 阶段 2 b","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"微芯片 阶段 2 c Storage","name":"微芯片 阶段 2 c Storage","duration":0,"inputs":[{
+"name":"微芯片 阶段 2 c","quantity":3000
+}
+],"outputs":[{
+"name":"微芯片 阶段 2 c","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"微芯片 阶段 3 a Storage","name":"微芯片 阶段 3 a Storage","duration":0,"inputs":[{
+"name":"微芯片 阶段 3 a","quantity":3000
+}
+],"outputs":[{
+"name":"微芯片 阶段 3 a","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"微芯片 阶段 3 b Storage","name":"微芯片 阶段 3 b Storage","duration":0,"inputs":[{
+"name":"微芯片 阶段 3 b","quantity":3000
+}
+],"outputs":[{
+"name":"微芯片 阶段 3 b","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"微芯片 阶段 3 c Storage","name":"微芯片 阶段 3 c Storage","duration":0,"inputs":[{
+"name":"微芯片 阶段 3 c","quantity":3000
+}
+],"outputs":[{
+"name":"微芯片 阶段 3 c","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"微芯片 阶段 4 a Storage","name":"微芯片 阶段 4 a Storage","duration":0,"inputs":[{
+"name":"微芯片 阶段 4 a","quantity":3000
+}
+],"outputs":[{
+"name":"微芯片 阶段 4 a","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"微芯片 阶段 4 b Storage","name":"微芯片 阶段 4 b Storage","duration":0,"inputs":[{
+"name":"微芯片 阶段 4 b","quantity":3000
+}
+],"outputs":[{
+"name":"微芯片 阶段 4 b","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"太阳能电池 Storage","name":"太阳能电池 Storage","duration":0,"inputs":[{
+"name":"太阳能电池","quantity":3000
+}
+],"outputs":[{
+"name":"太阳能电池","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"单晶硅太阳能电池 Storage","name":"单晶硅太阳能电池 Storage","duration":0,"inputs":[{
+"name":"单晶硅太阳能电池","quantity":3000
+}
+],"outputs":[{
+"name":"单晶硅太阳能电池","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"复合面板 Storage","name":"复合面板 Storage","duration":0,"inputs":[{
+"name":"复合面板","quantity":3000
+}
+],"outputs":[{
+"name":"复合面板","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"复合芯材 Storage","name":"复合芯材 Storage","duration":0,"inputs":[{
+"name":"复合芯材","quantity":3000
+}
+],"outputs":[{
+"name":"复合芯材","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"基础复合芯材 Storage","name":"基础复合芯材 Storage","duration":0,"inputs":[{
+"name":"基础复合芯材","quantity":3000
+}
+],"outputs":[{
+"name":"基础复合芯材","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"化学燃料 Storage","name":"化学燃料 Storage","duration":0,"inputs":[{
+"name":"化学燃料","quantity":3000
+}
+],"outputs":[{
+"name":"化学燃料","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"空间站部件（基础） Storage","name":"空间站部件（基础） Storage","duration":0,"inputs":[{
+"name":"空间站部件（基础）","quantity":3000
+}
+],"outputs":[{
+"name":"空间站部件（基础）","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"空间站部件 Storage","name":"空间站部件 Storage","duration":0,"inputs":[{
+"name":"空间站部件","quantity":3000
+}
+],"outputs":[{
+"name":"空间站部件","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"船员补给品 Storage","name":"船员补给品 Storage","duration":0,"inputs":[{
+"name":"船员补给品","quantity":3000
+}
+],"outputs":[{
+"name":"船员补给品","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"太空探测器零件 Storage","name":"太空探测器零件 Storage","duration":0,"inputs":[{
+"name":"太空探测器零件","quantity":3000
+}
+],"outputs":[{
+"name":"太空探测器零件","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"小行星助推器零件 Storage","name":"小行星助推器零件 Storage","duration":0,"inputs":[{
+"name":"小行星助推器零件","quantity":3000
+}
+],"outputs":[{
+"name":"小行星助推器零件","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"紧凑型反应堆 Storage","name":"紧凑型反应堆 Storage","duration":0,"inputs":[{
+"name":"紧凑型反应堆","quantity":3000
+}
+],"outputs":[{
+"name":"紧凑型反应堆","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"压缩垃圾 Storage","name":"压缩垃圾 Storage","duration":0,"inputs":[{
+"name":"压缩垃圾","quantity":3000
+}
+],"outputs":[{
+"name":"压缩垃圾","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"花 Storage","name":"花 Storage","duration":0,"inputs":[{
+"name":"花","quantity":3000
+}
+],"outputs":[{
+"name":"花","quantity":3000
+}
+],"power_multiplier":1
+}
+]
+}
+,{
+"id":"StorageUnitT2","name":"单位存储 II","category":"存储设施","subcategory":"","next_tier":"","workers":0,"maintenance_cost_units":"","maintenance_cost_quantity":0,"electricity_consumed":0,"electricity_generated":0,"computing_consumed":0,"computing_generated":0,"product_type":"CountableProductProto","storage_capacity":500,"unity_cost":0,"research_speed":0,"icon_path":"Assets/Unity/Generated/Icons/LayoutEntity/StorageUnitT2.png","build_costs":[{
+"product":"建筑零件II","quantity":30
+}
+],"recipes":[{
+"id":"木材 Storage","name":"木材 Storage","duration":0,"inputs":[{
+"name":"木材","quantity":500
+}
+],"outputs":[{
+"name":"木材","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"树苗 Storage","name":"树苗 Storage","duration":0,"inputs":[{
+"name":"树苗","quantity":500
+}
+],"outputs":[{
+"name":"树苗","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"纸 Storage","name":"纸 Storage","duration":0,"inputs":[{
+"name":"纸","quantity":500
+}
+],"outputs":[{
+"name":"纸","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"石墨 Storage","name":"石墨 Storage","duration":0,"inputs":[{
+"name":"石墨","quantity":500
+}
+],"outputs":[{
+"name":"石墨","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"压缩铁废料 Storage","name":"压缩铁废料 Storage","duration":0,"inputs":[{
+"name":"压缩铁废料","quantity":500
+}
+],"outputs":[{
+"name":"压缩铁废料","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"铁 Storage","name":"铁 Storage","duration":0,"inputs":[{
+"name":"铁","quantity":500
+}
+],"outputs":[{
+"name":"铁","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"钢 Storage","name":"钢 Storage","duration":0,"inputs":[{
+"name":"钢","quantity":500
+}
+],"outputs":[{
+"name":"钢","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"压缩铜废料 Storage","name":"压缩铜废料 Storage","duration":0,"inputs":[{
+"name":"压缩铜废料","quantity":500
+}
+],"outputs":[{
+"name":"压缩铜废料","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"不纯铜 Storage","name":"不纯铜 Storage","duration":0,"inputs":[{
+"name":"不纯铜","quantity":500
+}
+],"outputs":[{
+"name":"不纯铜","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"铜 Storage","name":"铜 Storage","duration":0,"inputs":[{
+"name":"铜","quantity":500
+}
+],"outputs":[{
+"name":"铜","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"压缩铝废料 Storage","name":"压缩铝废料 Storage","duration":0,"inputs":[{
+"name":"压缩铝废料","quantity":500
+}
+],"outputs":[{
+"name":"压缩铝废料","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"铝 Storage","name":"铝 Storage","duration":0,"inputs":[{
+"name":"铝","quantity":500
+}
+],"outputs":[{
+"name":"铝","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"钛合金 Storage","name":"钛合金 Storage","duration":0,"inputs":[{
+"name":"钛合金","quantity":500
+}
+],"outputs":[{
+"name":"钛合金","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"金 Storage","name":"金 Storage","duration":0,"inputs":[{
+"name":"金","quantity":500
+}
+],"outputs":[{
+"name":"金","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"压缩金废料 Storage","name":"压缩金废料 Storage","duration":0,"inputs":[{
+"name":"压缩金废料","quantity":500
+}
+],"outputs":[{
+"name":"压缩金废料","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"玻璃 Storage","name":"玻璃 Storage","duration":0,"inputs":[{
+"name":"玻璃","quantity":500
+}
+],"outputs":[{
+"name":"玻璃","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"浓缩铀 (4%) Storage","name":"浓缩铀 (4%) Storage","duration":0,"inputs":[{
+"name":"浓缩铀 (4%)","quantity":500
+}
+],"outputs":[{
+"name":"浓缩铀 (4%)","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"浓缩铀 (20%) Storage","name":"浓缩铀 (20%) Storage","duration":0,"inputs":[{
+"name":"浓缩铀 (20%)","quantity":500
+}
+],"outputs":[{
+"name":"浓缩铀 (20%)","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"再加工铀 (1%) Storage","name":"再加工铀 (1%) Storage","duration":0,"inputs":[{
+"name":"再加工铀 (1%)","quantity":500
+}
+],"outputs":[{
+"name":"再加工铀 (1%)","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"钚 Storage","name":"钚 Storage","duration":0,"inputs":[{
+"name":"钚","quantity":500
+}
+],"outputs":[{
+"name":"钚","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"铀棒 Storage","name":"铀棒 Storage","duration":0,"inputs":[{
+"name":"铀棒","quantity":500
+}
+],"outputs":[{
+"name":"铀棒","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"MOX棒 Storage","name":"MOX棒 Storage","duration":0,"inputs":[{
+"name":"MOX棒","quantity":500
+}
+],"outputs":[{
+"name":"MOX棒","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"乏燃料 Storage","name":"乏燃料 Storage","duration":0,"inputs":[{
+"name":"乏燃料","quantity":500
+}
+],"outputs":[{
+"name":"乏燃料","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"用过的MOX Storage","name":"用过的MOX Storage","duration":0,"inputs":[{
+"name":"用过的MOX","quantity":500
+}
+],"outputs":[{
+"name":"用过的MOX","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"裂变产物 Storage","name":"裂变产物 Storage","duration":0,"inputs":[{
+"name":"裂变产物","quantity":500
+}
+],"outputs":[{
+"name":"裂变产物","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"可回收的核废料 Storage","name":"可回收的核废料 Storage","duration":0,"inputs":[{
+"name":"可回收的核废料","quantity":500
+}
+],"outputs":[{
+"name":"可回收的核废料","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"硅 (多晶) Storage","name":"硅 (多晶) Storage","duration":0,"inputs":[{
+"name":"硅 (多晶)","quantity":500
+}
+],"outputs":[{
+"name":"硅 (多晶)","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"硅晶圆 Storage","name":"硅晶圆 Storage","duration":0,"inputs":[{
+"name":"硅晶圆","quantity":500
+}
+],"outputs":[{
+"name":"硅晶圆","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"压缩可回收物 Storage","name":"压缩可回收物 Storage","duration":0,"inputs":[{
+"name":"压缩可回收物","quantity":500
+}
+],"outputs":[{
+"name":"压缩可回收物","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"塑料 Storage","name":"塑料 Storage","duration":0,"inputs":[{
+"name":"塑料","quantity":500
+}
+],"outputs":[{
+"name":"塑料","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"橡胶 Storage","name":"橡胶 Storage","duration":0,"inputs":[{
+"name":"橡胶","quantity":500
+}
+],"outputs":[{
+"name":"橡胶","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"蔬菜 Storage","name":"蔬菜 Storage","duration":0,"inputs":[{
+"name":"蔬菜","quantity":500
+}
+],"outputs":[{
+"name":"蔬菜","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"水果 Storage","name":"水果 Storage","duration":0,"inputs":[{
+"name":"水果","quantity":500
+}
+],"outputs":[{
+"name":"水果","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"面包 Storage","name":"面包 Storage","duration":0,"inputs":[{
+"name":"面包","quantity":500
+}
+],"outputs":[{
+"name":"面包","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"面粉 Storage","name":"面粉 Storage","duration":0,"inputs":[{
+"name":"面粉","quantity":500
+}
+],"outputs":[{
+"name":"面粉","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"鸡蛋 Storage","name":"鸡蛋 Storage","duration":0,"inputs":[{
+"name":"鸡蛋","quantity":500
+}
+],"outputs":[{
+"name":"鸡蛋","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"豆腐 Storage","name":"豆腐 Storage","duration":0,"inputs":[{
+"name":"豆腐","quantity":500
+}
+],"outputs":[{
+"name":"豆腐","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"肉 Storage","name":"肉 Storage","duration":0,"inputs":[{
+"name":"肉","quantity":500
+}
+],"outputs":[{
+"name":"肉","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"香肠 Storage","name":"香肠 Storage","duration":0,"inputs":[{
+"name":"香肠","quantity":500
+}
+],"outputs":[{
+"name":"香肠","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"零食 Storage","name":"零食 Storage","duration":0,"inputs":[{
+"name":"零食","quantity":500
+}
+],"outputs":[{
+"name":"零食","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"蛋糕 Storage","name":"蛋糕 Storage","duration":0,"inputs":[{
+"name":"蛋糕","quantity":500
+}
+],"outputs":[{
+"name":"蛋糕","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"包装食品 Storage","name":"包装食品 Storage","duration":0,"inputs":[{
+"name":"包装食品","quantity":500
+}
+],"outputs":[{
+"name":"包装食品","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"整鸡 Storage","name":"整鸡 Storage","duration":0,"inputs":[{
+"name":"整鸡","quantity":500
+}
+],"outputs":[{
+"name":"整鸡","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"家庭用品 Storage","name":"家庭用品 Storage","duration":0,"inputs":[{
+"name":"家庭用品","quantity":500
+}
+],"outputs":[{
+"name":"家庭用品","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"家用设备 Storage","name":"家用设备 Storage","duration":0,"inputs":[{
+"name":"家用设备","quantity":500
+}
+],"outputs":[{
+"name":"家用设备","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"消费类电子产品 Storage","name":"消费类电子产品 Storage","duration":0,"inputs":[{
+"name":"消费类电子产品","quantity":500
+}
+],"outputs":[{
+"name":"消费类电子产品","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"奢侈品 Storage","name":"奢侈品 Storage","duration":0,"inputs":[{
+"name":"奢侈品","quantity":500
+}
+],"outputs":[{
+"name":"奢侈品","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"进口商品 Storage","name":"进口商品 Storage","duration":0,"inputs":[{
+"name":"进口商品","quantity":500
+}
+],"outputs":[{
+"name":"进口商品","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"抗生素 Storage","name":"抗生素 Storage","duration":0,"inputs":[{
+"name":"抗生素","quantity":500
+}
+],"outputs":[{
+"name":"抗生素","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"消毒剂 Storage","name":"消毒剂 Storage","duration":0,"inputs":[{
+"name":"消毒剂","quantity":500
+}
+],"outputs":[{
+"name":"消毒剂","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"麻醉剂 Storage","name":"麻醉剂 Storage","duration":0,"inputs":[{
+"name":"麻醉剂","quantity":500
+}
+],"outputs":[{
+"name":"麻醉剂","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"吗啡 Storage","name":"吗啡 Storage","duration":0,"inputs":[{
+"name":"吗啡","quantity":500
+}
+],"outputs":[{
+"name":"吗啡","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"医用器材 Storage","name":"医用器材 Storage","duration":0,"inputs":[{
+"name":"医用器材","quantity":500
+}
+],"outputs":[{
+"name":"医用器材","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"医疗用品 Storage","name":"医疗用品 Storage","duration":0,"inputs":[{
+"name":"医疗用品","quantity":500
+}
+],"outputs":[{
+"name":"医疗用品","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"医疗用品 II Storage","name":"医疗用品 II Storage","duration":0,"inputs":[{
+"name":"医疗用品 II","quantity":500
+}
+],"outputs":[{
+"name":"医疗用品 II","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"医疗用品 III Storage","name":"医疗用品 III Storage","duration":0,"inputs":[{
+"name":"医疗用品 III","quantity":500
+}
+],"outputs":[{
+"name":"医疗用品 III","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"水泥 Storage","name":"水泥 Storage","duration":0,"inputs":[{
+"name":"水泥","quantity":500
+}
+],"outputs":[{
+"name":"水泥","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"混凝土板 Storage","name":"混凝土板 Storage","duration":0,"inputs":[{
+"name":"混凝土板","quantity":500
+}
+],"outputs":[{
+"name":"混凝土板","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"砖块 Storage","name":"砖块 Storage","duration":0,"inputs":[{
+"name":"砖块","quantity":500
+}
+],"outputs":[{
+"name":"砖块","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"建筑零件 Storage","name":"建筑零件 Storage","duration":0,"inputs":[{
+"name":"建筑零件","quantity":500
+}
+],"outputs":[{
+"name":"建筑零件","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"建筑零件II Storage","name":"建筑零件II Storage","duration":0,"inputs":[{
+"name":"建筑零件II","quantity":500
+}
+],"outputs":[{
+"name":"建筑零件II","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"建筑零件III Storage","name":"建筑零件III Storage","duration":0,"inputs":[{
+"name":"建筑零件III","quantity":500
+}
+],"outputs":[{
+"name":"建筑零件III","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"建筑零件IV Storage","name":"建筑零件IV Storage","duration":0,"inputs":[{
+"name":"建筑零件IV","quantity":500
+}
+],"outputs":[{
+"name":"建筑零件IV","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"机械零件 Storage","name":"机械零件 Storage","duration":0,"inputs":[{
+"name":"机械零件","quantity":500
+}
+],"outputs":[{
+"name":"机械零件","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"车辆零件 Storage","name":"车辆零件 Storage","duration":0,"inputs":[{
+"name":"车辆零件","quantity":500
+}
+],"outputs":[{
+"name":"车辆零件","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"车辆零件 II Storage","name":"车辆零件 II Storage","duration":0,"inputs":[{
+"name":"车辆零件 II","quantity":500
+}
+],"outputs":[{
+"name":"车辆零件 II","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"车辆零件 III Storage","name":"车辆零件 III Storage","duration":0,"inputs":[{
+"name":"车辆零件 III","quantity":500
+}
+],"outputs":[{
+"name":"车辆零件 III","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"实验室设备 Storage","name":"实验室设备 Storage","duration":0,"inputs":[{
+"name":"实验室设备","quantity":500
+}
+],"outputs":[{
+"name":"实验室设备","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"实验室设备 II Storage","name":"实验室设备 II Storage","duration":0,"inputs":[{
+"name":"实验室设备 II","quantity":500
+}
+],"outputs":[{
+"name":"实验室设备 II","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"实验室设备 III Storage","name":"实验室设备 III Storage","duration":0,"inputs":[{
+"name":"实验室设备 III","quantity":500
+}
+],"outputs":[{
+"name":"实验室设备 III","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"实验室设备 IV Storage","name":"实验室设备 IV Storage","duration":0,"inputs":[{
+"name":"实验室设备 IV","quantity":500
+}
+],"outputs":[{
+"name":"实验室设备 IV","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"铁轨零件 Storage","name":"铁轨零件 Storage","duration":0,"inputs":[{
+"name":"铁轨零件","quantity":500
+}
+],"outputs":[{
+"name":"铁轨零件","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"办公用品 Storage","name":"办公用品 Storage","duration":0,"inputs":[{
+"name":"办公用品","quantity":500
+}
+],"outputs":[{
+"name":"办公用品","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"电子产品 Storage","name":"电子产品 Storage","duration":0,"inputs":[{
+"name":"电子产品","quantity":500
+}
+],"outputs":[{
+"name":"电子产品","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"印刷电路板 Storage","name":"印刷电路板 Storage","duration":0,"inputs":[{
+"name":"印刷电路板","quantity":500
+}
+],"outputs":[{
+"name":"印刷电路板","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"电子产品 II Storage","name":"电子产品 II Storage","duration":0,"inputs":[{
+"name":"电子产品 II","quantity":500
+}
+],"outputs":[{
+"name":"电子产品 II","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"电子产品 III Storage","name":"电子产品 III Storage","duration":0,"inputs":[{
+"name":"电子产品 III","quantity":500
+}
+],"outputs":[{
+"name":"电子产品 III","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"电子产品 IV Storage","name":"电子产品 IV Storage","duration":0,"inputs":[{
+"name":"电子产品 IV","quantity":500
+}
+],"outputs":[{
+"name":"电子产品 IV","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"服务器 Storage","name":"服务器 Storage","duration":0,"inputs":[{
+"name":"服务器","quantity":500
+}
+],"outputs":[{
+"name":"服务器","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"金刚石 Storage","name":"金刚石 Storage","duration":0,"inputs":[{
+"name":"金刚石","quantity":500
+}
+],"outputs":[{
+"name":"金刚石","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"金刚石研磨膏 Storage","name":"金刚石研磨膏 Storage","duration":0,"inputs":[{
+"name":"金刚石研磨膏","quantity":500
+}
+],"outputs":[{
+"name":"金刚石研磨膏","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"蓝宝石晶片 Storage","name":"蓝宝石晶片 Storage","duration":0,"inputs":[{
+"name":"蓝宝石晶片","quantity":500
+}
+],"outputs":[{
+"name":"蓝宝石晶片","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"透镜 Storage","name":"透镜 Storage","duration":0,"inputs":[{
+"name":"透镜","quantity":500
+}
+],"outputs":[{
+"name":"透镜","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"微芯片 Storage","name":"微芯片 Storage","duration":0,"inputs":[{
+"name":"微芯片","quantity":500
+}
+],"outputs":[{
+"name":"微芯片","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"微芯片 阶段 1 a Storage","name":"微芯片 阶段 1 a Storage","duration":0,"inputs":[{
+"name":"微芯片 阶段 1 a","quantity":500
+}
+],"outputs":[{
+"name":"微芯片 阶段 1 a","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"微芯片 阶段 1 b Storage","name":"微芯片 阶段 1 b Storage","duration":0,"inputs":[{
+"name":"微芯片 阶段 1 b","quantity":500
+}
+],"outputs":[{
+"name":"微芯片 阶段 1 b","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"微芯片 阶段 1 c Storage","name":"微芯片 阶段 1 c Storage","duration":0,"inputs":[{
+"name":"微芯片 阶段 1 c","quantity":500
+}
+],"outputs":[{
+"name":"微芯片 阶段 1 c","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"微芯片 阶段 2 a Storage","name":"微芯片 阶段 2 a Storage","duration":0,"inputs":[{
+"name":"微芯片 阶段 2 a","quantity":500
+}
+],"outputs":[{
+"name":"微芯片 阶段 2 a","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"微芯片 阶段 2 b Storage","name":"微芯片 阶段 2 b Storage","duration":0,"inputs":[{
+"name":"微芯片 阶段 2 b","quantity":500
+}
+],"outputs":[{
+"name":"微芯片 阶段 2 b","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"微芯片 阶段 2 c Storage","name":"微芯片 阶段 2 c Storage","duration":0,"inputs":[{
+"name":"微芯片 阶段 2 c","quantity":500
+}
+],"outputs":[{
+"name":"微芯片 阶段 2 c","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"微芯片 阶段 3 a Storage","name":"微芯片 阶段 3 a Storage","duration":0,"inputs":[{
+"name":"微芯片 阶段 3 a","quantity":500
+}
+],"outputs":[{
+"name":"微芯片 阶段 3 a","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"微芯片 阶段 3 b Storage","name":"微芯片 阶段 3 b Storage","duration":0,"inputs":[{
+"name":"微芯片 阶段 3 b","quantity":500
+}
+],"outputs":[{
+"name":"微芯片 阶段 3 b","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"微芯片 阶段 3 c Storage","name":"微芯片 阶段 3 c Storage","duration":0,"inputs":[{
+"name":"微芯片 阶段 3 c","quantity":500
+}
+],"outputs":[{
+"name":"微芯片 阶段 3 c","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"微芯片 阶段 4 a Storage","name":"微芯片 阶段 4 a Storage","duration":0,"inputs":[{
+"name":"微芯片 阶段 4 a","quantity":500
+}
+],"outputs":[{
+"name":"微芯片 阶段 4 a","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"微芯片 阶段 4 b Storage","name":"微芯片 阶段 4 b Storage","duration":0,"inputs":[{
+"name":"微芯片 阶段 4 b","quantity":500
+}
+],"outputs":[{
+"name":"微芯片 阶段 4 b","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"太阳能电池 Storage","name":"太阳能电池 Storage","duration":0,"inputs":[{
+"name":"太阳能电池","quantity":500
+}
+],"outputs":[{
+"name":"太阳能电池","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"单晶硅太阳能电池 Storage","name":"单晶硅太阳能电池 Storage","duration":0,"inputs":[{
+"name":"单晶硅太阳能电池","quantity":500
+}
+],"outputs":[{
+"name":"单晶硅太阳能电池","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"复合面板 Storage","name":"复合面板 Storage","duration":0,"inputs":[{
+"name":"复合面板","quantity":500
+}
+],"outputs":[{
+"name":"复合面板","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"复合芯材 Storage","name":"复合芯材 Storage","duration":0,"inputs":[{
+"name":"复合芯材","quantity":500
+}
+],"outputs":[{
+"name":"复合芯材","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"基础复合芯材 Storage","name":"基础复合芯材 Storage","duration":0,"inputs":[{
+"name":"基础复合芯材","quantity":500
+}
+],"outputs":[{
+"name":"基础复合芯材","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"化学燃料 Storage","name":"化学燃料 Storage","duration":0,"inputs":[{
+"name":"化学燃料","quantity":500
+}
+],"outputs":[{
+"name":"化学燃料","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"空间站部件（基础） Storage","name":"空间站部件（基础） Storage","duration":0,"inputs":[{
+"name":"空间站部件（基础）","quantity":500
+}
+],"outputs":[{
+"name":"空间站部件（基础）","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"空间站部件 Storage","name":"空间站部件 Storage","duration":0,"inputs":[{
+"name":"空间站部件","quantity":500
+}
+],"outputs":[{
+"name":"空间站部件","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"船员补给品 Storage","name":"船员补给品 Storage","duration":0,"inputs":[{
+"name":"船员补给品","quantity":500
+}
+],"outputs":[{
+"name":"船员补给品","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"太空探测器零件 Storage","name":"太空探测器零件 Storage","duration":0,"inputs":[{
+"name":"太空探测器零件","quantity":500
+}
+],"outputs":[{
+"name":"太空探测器零件","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"小行星助推器零件 Storage","name":"小行星助推器零件 Storage","duration":0,"inputs":[{
+"name":"小行星助推器零件","quantity":500
+}
+],"outputs":[{
+"name":"小行星助推器零件","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"紧凑型反应堆 Storage","name":"紧凑型反应堆 Storage","duration":0,"inputs":[{
+"name":"紧凑型反应堆","quantity":500
+}
+],"outputs":[{
+"name":"紧凑型反应堆","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"压缩垃圾 Storage","name":"压缩垃圾 Storage","duration":0,"inputs":[{
+"name":"压缩垃圾","quantity":500
+}
+],"outputs":[{
+"name":"压缩垃圾","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"花 Storage","name":"花 Storage","duration":0,"inputs":[{
+"name":"花","quantity":500
+}
+],"outputs":[{
+"name":"花","quantity":500
+}
+],"power_multiplier":1
+}
+]
+}
+,{
+"id":"StorageUnit","name":"单位存储","category":"存储设施","subcategory":"","next_tier":"StorageUnitT2","workers":0,"maintenance_cost_units":"","maintenance_cost_quantity":0,"electricity_consumed":0,"electricity_generated":0,"computing_consumed":0,"computing_generated":0,"product_type":"CountableProductProto","storage_capacity":200,"unity_cost":0,"research_speed":0,"icon_path":"Assets/Unity/Generated/Icons/LayoutEntity/StorageUnit.png","build_costs":[{
+"product":"建筑零件","quantity":30
+}
+],"recipes":[{
+"id":"木材 Storage","name":"木材 Storage","duration":0,"inputs":[{
+"name":"木材","quantity":200
+}
+],"outputs":[{
+"name":"木材","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"树苗 Storage","name":"树苗 Storage","duration":0,"inputs":[{
+"name":"树苗","quantity":200
+}
+],"outputs":[{
+"name":"树苗","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"纸 Storage","name":"纸 Storage","duration":0,"inputs":[{
+"name":"纸","quantity":200
+}
+],"outputs":[{
+"name":"纸","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"石墨 Storage","name":"石墨 Storage","duration":0,"inputs":[{
+"name":"石墨","quantity":200
+}
+],"outputs":[{
+"name":"石墨","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"压缩铁废料 Storage","name":"压缩铁废料 Storage","duration":0,"inputs":[{
+"name":"压缩铁废料","quantity":200
+}
+],"outputs":[{
+"name":"压缩铁废料","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"铁 Storage","name":"铁 Storage","duration":0,"inputs":[{
+"name":"铁","quantity":200
+}
+],"outputs":[{
+"name":"铁","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"钢 Storage","name":"钢 Storage","duration":0,"inputs":[{
+"name":"钢","quantity":200
+}
+],"outputs":[{
+"name":"钢","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"压缩铜废料 Storage","name":"压缩铜废料 Storage","duration":0,"inputs":[{
+"name":"压缩铜废料","quantity":200
+}
+],"outputs":[{
+"name":"压缩铜废料","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"不纯铜 Storage","name":"不纯铜 Storage","duration":0,"inputs":[{
+"name":"不纯铜","quantity":200
+}
+],"outputs":[{
+"name":"不纯铜","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"铜 Storage","name":"铜 Storage","duration":0,"inputs":[{
+"name":"铜","quantity":200
+}
+],"outputs":[{
+"name":"铜","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"压缩铝废料 Storage","name":"压缩铝废料 Storage","duration":0,"inputs":[{
+"name":"压缩铝废料","quantity":200
+}
+],"outputs":[{
+"name":"压缩铝废料","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"铝 Storage","name":"铝 Storage","duration":0,"inputs":[{
+"name":"铝","quantity":200
+}
+],"outputs":[{
+"name":"铝","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"钛合金 Storage","name":"钛合金 Storage","duration":0,"inputs":[{
+"name":"钛合金","quantity":200
+}
+],"outputs":[{
+"name":"钛合金","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"金 Storage","name":"金 Storage","duration":0,"inputs":[{
+"name":"金","quantity":200
+}
+],"outputs":[{
+"name":"金","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"压缩金废料 Storage","name":"压缩金废料 Storage","duration":0,"inputs":[{
+"name":"压缩金废料","quantity":200
+}
+],"outputs":[{
+"name":"压缩金废料","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"玻璃 Storage","name":"玻璃 Storage","duration":0,"inputs":[{
+"name":"玻璃","quantity":200
+}
+],"outputs":[{
+"name":"玻璃","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"浓缩铀 (4%) Storage","name":"浓缩铀 (4%) Storage","duration":0,"inputs":[{
+"name":"浓缩铀 (4%)","quantity":200
+}
+],"outputs":[{
+"name":"浓缩铀 (4%)","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"浓缩铀 (20%) Storage","name":"浓缩铀 (20%) Storage","duration":0,"inputs":[{
+"name":"浓缩铀 (20%)","quantity":200
+}
+],"outputs":[{
+"name":"浓缩铀 (20%)","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"再加工铀 (1%) Storage","name":"再加工铀 (1%) Storage","duration":0,"inputs":[{
+"name":"再加工铀 (1%)","quantity":200
+}
+],"outputs":[{
+"name":"再加工铀 (1%)","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"钚 Storage","name":"钚 Storage","duration":0,"inputs":[{
+"name":"钚","quantity":200
+}
+],"outputs":[{
+"name":"钚","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"铀棒 Storage","name":"铀棒 Storage","duration":0,"inputs":[{
+"name":"铀棒","quantity":200
+}
+],"outputs":[{
+"name":"铀棒","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"MOX棒 Storage","name":"MOX棒 Storage","duration":0,"inputs":[{
+"name":"MOX棒","quantity":200
+}
+],"outputs":[{
+"name":"MOX棒","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"乏燃料 Storage","name":"乏燃料 Storage","duration":0,"inputs":[{
+"name":"乏燃料","quantity":200
+}
+],"outputs":[{
+"name":"乏燃料","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"用过的MOX Storage","name":"用过的MOX Storage","duration":0,"inputs":[{
+"name":"用过的MOX","quantity":200
+}
+],"outputs":[{
+"name":"用过的MOX","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"裂变产物 Storage","name":"裂变产物 Storage","duration":0,"inputs":[{
+"name":"裂变产物","quantity":200
+}
+],"outputs":[{
+"name":"裂变产物","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"可回收的核废料 Storage","name":"可回收的核废料 Storage","duration":0,"inputs":[{
+"name":"可回收的核废料","quantity":200
+}
+],"outputs":[{
+"name":"可回收的核废料","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"硅 (多晶) Storage","name":"硅 (多晶) Storage","duration":0,"inputs":[{
+"name":"硅 (多晶)","quantity":200
+}
+],"outputs":[{
+"name":"硅 (多晶)","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"硅晶圆 Storage","name":"硅晶圆 Storage","duration":0,"inputs":[{
+"name":"硅晶圆","quantity":200
+}
+],"outputs":[{
+"name":"硅晶圆","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"压缩可回收物 Storage","name":"压缩可回收物 Storage","duration":0,"inputs":[{
+"name":"压缩可回收物","quantity":200
+}
+],"outputs":[{
+"name":"压缩可回收物","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"塑料 Storage","name":"塑料 Storage","duration":0,"inputs":[{
+"name":"塑料","quantity":200
+}
+],"outputs":[{
+"name":"塑料","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"橡胶 Storage","name":"橡胶 Storage","duration":0,"inputs":[{
+"name":"橡胶","quantity":200
+}
+],"outputs":[{
+"name":"橡胶","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"蔬菜 Storage","name":"蔬菜 Storage","duration":0,"inputs":[{
+"name":"蔬菜","quantity":200
+}
+],"outputs":[{
+"name":"蔬菜","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"水果 Storage","name":"水果 Storage","duration":0,"inputs":[{
+"name":"水果","quantity":200
+}
+],"outputs":[{
+"name":"水果","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"面包 Storage","name":"面包 Storage","duration":0,"inputs":[{
+"name":"面包","quantity":200
+}
+],"outputs":[{
+"name":"面包","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"面粉 Storage","name":"面粉 Storage","duration":0,"inputs":[{
+"name":"面粉","quantity":200
+}
+],"outputs":[{
+"name":"面粉","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"鸡蛋 Storage","name":"鸡蛋 Storage","duration":0,"inputs":[{
+"name":"鸡蛋","quantity":200
+}
+],"outputs":[{
+"name":"鸡蛋","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"豆腐 Storage","name":"豆腐 Storage","duration":0,"inputs":[{
+"name":"豆腐","quantity":200
+}
+],"outputs":[{
+"name":"豆腐","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"肉 Storage","name":"肉 Storage","duration":0,"inputs":[{
+"name":"肉","quantity":200
+}
+],"outputs":[{
+"name":"肉","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"香肠 Storage","name":"香肠 Storage","duration":0,"inputs":[{
+"name":"香肠","quantity":200
+}
+],"outputs":[{
+"name":"香肠","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"零食 Storage","name":"零食 Storage","duration":0,"inputs":[{
+"name":"零食","quantity":200
+}
+],"outputs":[{
+"name":"零食","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"蛋糕 Storage","name":"蛋糕 Storage","duration":0,"inputs":[{
+"name":"蛋糕","quantity":200
+}
+],"outputs":[{
+"name":"蛋糕","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"包装食品 Storage","name":"包装食品 Storage","duration":0,"inputs":[{
+"name":"包装食品","quantity":200
+}
+],"outputs":[{
+"name":"包装食品","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"整鸡 Storage","name":"整鸡 Storage","duration":0,"inputs":[{
+"name":"整鸡","quantity":200
+}
+],"outputs":[{
+"name":"整鸡","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"家庭用品 Storage","name":"家庭用品 Storage","duration":0,"inputs":[{
+"name":"家庭用品","quantity":200
+}
+],"outputs":[{
+"name":"家庭用品","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"家用设备 Storage","name":"家用设备 Storage","duration":0,"inputs":[{
+"name":"家用设备","quantity":200
+}
+],"outputs":[{
+"name":"家用设备","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"消费类电子产品 Storage","name":"消费类电子产品 Storage","duration":0,"inputs":[{
+"name":"消费类电子产品","quantity":200
+}
+],"outputs":[{
+"name":"消费类电子产品","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"奢侈品 Storage","name":"奢侈品 Storage","duration":0,"inputs":[{
+"name":"奢侈品","quantity":200
+}
+],"outputs":[{
+"name":"奢侈品","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"进口商品 Storage","name":"进口商品 Storage","duration":0,"inputs":[{
+"name":"进口商品","quantity":200
+}
+],"outputs":[{
+"name":"进口商品","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"抗生素 Storage","name":"抗生素 Storage","duration":0,"inputs":[{
+"name":"抗生素","quantity":200
+}
+],"outputs":[{
+"name":"抗生素","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"消毒剂 Storage","name":"消毒剂 Storage","duration":0,"inputs":[{
+"name":"消毒剂","quantity":200
+}
+],"outputs":[{
+"name":"消毒剂","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"麻醉剂 Storage","name":"麻醉剂 Storage","duration":0,"inputs":[{
+"name":"麻醉剂","quantity":200
+}
+],"outputs":[{
+"name":"麻醉剂","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"吗啡 Storage","name":"吗啡 Storage","duration":0,"inputs":[{
+"name":"吗啡","quantity":200
+}
+],"outputs":[{
+"name":"吗啡","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"医用器材 Storage","name":"医用器材 Storage","duration":0,"inputs":[{
+"name":"医用器材","quantity":200
+}
+],"outputs":[{
+"name":"医用器材","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"医疗用品 Storage","name":"医疗用品 Storage","duration":0,"inputs":[{
+"name":"医疗用品","quantity":200
+}
+],"outputs":[{
+"name":"医疗用品","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"医疗用品 II Storage","name":"医疗用品 II Storage","duration":0,"inputs":[{
+"name":"医疗用品 II","quantity":200
+}
+],"outputs":[{
+"name":"医疗用品 II","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"医疗用品 III Storage","name":"医疗用品 III Storage","duration":0,"inputs":[{
+"name":"医疗用品 III","quantity":200
+}
+],"outputs":[{
+"name":"医疗用品 III","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"水泥 Storage","name":"水泥 Storage","duration":0,"inputs":[{
+"name":"水泥","quantity":200
+}
+],"outputs":[{
+"name":"水泥","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"混凝土板 Storage","name":"混凝土板 Storage","duration":0,"inputs":[{
+"name":"混凝土板","quantity":200
+}
+],"outputs":[{
+"name":"混凝土板","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"砖块 Storage","name":"砖块 Storage","duration":0,"inputs":[{
+"name":"砖块","quantity":200
+}
+],"outputs":[{
+"name":"砖块","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"建筑零件 Storage","name":"建筑零件 Storage","duration":0,"inputs":[{
+"name":"建筑零件","quantity":200
+}
+],"outputs":[{
+"name":"建筑零件","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"建筑零件II Storage","name":"建筑零件II Storage","duration":0,"inputs":[{
+"name":"建筑零件II","quantity":200
+}
+],"outputs":[{
+"name":"建筑零件II","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"建筑零件III Storage","name":"建筑零件III Storage","duration":0,"inputs":[{
+"name":"建筑零件III","quantity":200
+}
+],"outputs":[{
+"name":"建筑零件III","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"建筑零件IV Storage","name":"建筑零件IV Storage","duration":0,"inputs":[{
+"name":"建筑零件IV","quantity":200
+}
+],"outputs":[{
+"name":"建筑零件IV","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"机械零件 Storage","name":"机械零件 Storage","duration":0,"inputs":[{
+"name":"机械零件","quantity":200
+}
+],"outputs":[{
+"name":"机械零件","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"车辆零件 Storage","name":"车辆零件 Storage","duration":0,"inputs":[{
+"name":"车辆零件","quantity":200
+}
+],"outputs":[{
+"name":"车辆零件","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"车辆零件 II Storage","name":"车辆零件 II Storage","duration":0,"inputs":[{
+"name":"车辆零件 II","quantity":200
+}
+],"outputs":[{
+"name":"车辆零件 II","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"车辆零件 III Storage","name":"车辆零件 III Storage","duration":0,"inputs":[{
+"name":"车辆零件 III","quantity":200
+}
+],"outputs":[{
+"name":"车辆零件 III","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"实验室设备 Storage","name":"实验室设备 Storage","duration":0,"inputs":[{
+"name":"实验室设备","quantity":200
+}
+],"outputs":[{
+"name":"实验室设备","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"实验室设备 II Storage","name":"实验室设备 II Storage","duration":0,"inputs":[{
+"name":"实验室设备 II","quantity":200
+}
+],"outputs":[{
+"name":"实验室设备 II","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"实验室设备 III Storage","name":"实验室设备 III Storage","duration":0,"inputs":[{
+"name":"实验室设备 III","quantity":200
+}
+],"outputs":[{
+"name":"实验室设备 III","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"实验室设备 IV Storage","name":"实验室设备 IV Storage","duration":0,"inputs":[{
+"name":"实验室设备 IV","quantity":200
+}
+],"outputs":[{
+"name":"实验室设备 IV","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"铁轨零件 Storage","name":"铁轨零件 Storage","duration":0,"inputs":[{
+"name":"铁轨零件","quantity":200
+}
+],"outputs":[{
+"name":"铁轨零件","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"办公用品 Storage","name":"办公用品 Storage","duration":0,"inputs":[{
+"name":"办公用品","quantity":200
+}
+],"outputs":[{
+"name":"办公用品","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"电子产品 Storage","name":"电子产品 Storage","duration":0,"inputs":[{
+"name":"电子产品","quantity":200
+}
+],"outputs":[{
+"name":"电子产品","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"印刷电路板 Storage","name":"印刷电路板 Storage","duration":0,"inputs":[{
+"name":"印刷电路板","quantity":200
+}
+],"outputs":[{
+"name":"印刷电路板","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"电子产品 II Storage","name":"电子产品 II Storage","duration":0,"inputs":[{
+"name":"电子产品 II","quantity":200
+}
+],"outputs":[{
+"name":"电子产品 II","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"电子产品 III Storage","name":"电子产品 III Storage","duration":0,"inputs":[{
+"name":"电子产品 III","quantity":200
+}
+],"outputs":[{
+"name":"电子产品 III","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"电子产品 IV Storage","name":"电子产品 IV Storage","duration":0,"inputs":[{
+"name":"电子产品 IV","quantity":200
+}
+],"outputs":[{
+"name":"电子产品 IV","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"服务器 Storage","name":"服务器 Storage","duration":0,"inputs":[{
+"name":"服务器","quantity":200
+}
+],"outputs":[{
+"name":"服务器","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"金刚石 Storage","name":"金刚石 Storage","duration":0,"inputs":[{
+"name":"金刚石","quantity":200
+}
+],"outputs":[{
+"name":"金刚石","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"金刚石研磨膏 Storage","name":"金刚石研磨膏 Storage","duration":0,"inputs":[{
+"name":"金刚石研磨膏","quantity":200
+}
+],"outputs":[{
+"name":"金刚石研磨膏","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"蓝宝石晶片 Storage","name":"蓝宝石晶片 Storage","duration":0,"inputs":[{
+"name":"蓝宝石晶片","quantity":200
+}
+],"outputs":[{
+"name":"蓝宝石晶片","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"透镜 Storage","name":"透镜 Storage","duration":0,"inputs":[{
+"name":"透镜","quantity":200
+}
+],"outputs":[{
+"name":"透镜","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"微芯片 Storage","name":"微芯片 Storage","duration":0,"inputs":[{
+"name":"微芯片","quantity":200
+}
+],"outputs":[{
+"name":"微芯片","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"微芯片 阶段 1 a Storage","name":"微芯片 阶段 1 a Storage","duration":0,"inputs":[{
+"name":"微芯片 阶段 1 a","quantity":200
+}
+],"outputs":[{
+"name":"微芯片 阶段 1 a","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"微芯片 阶段 1 b Storage","name":"微芯片 阶段 1 b Storage","duration":0,"inputs":[{
+"name":"微芯片 阶段 1 b","quantity":200
+}
+],"outputs":[{
+"name":"微芯片 阶段 1 b","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"微芯片 阶段 1 c Storage","name":"微芯片 阶段 1 c Storage","duration":0,"inputs":[{
+"name":"微芯片 阶段 1 c","quantity":200
+}
+],"outputs":[{
+"name":"微芯片 阶段 1 c","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"微芯片 阶段 2 a Storage","name":"微芯片 阶段 2 a Storage","duration":0,"inputs":[{
+"name":"微芯片 阶段 2 a","quantity":200
+}
+],"outputs":[{
+"name":"微芯片 阶段 2 a","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"微芯片 阶段 2 b Storage","name":"微芯片 阶段 2 b Storage","duration":0,"inputs":[{
+"name":"微芯片 阶段 2 b","quantity":200
+}
+],"outputs":[{
+"name":"微芯片 阶段 2 b","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"微芯片 阶段 2 c Storage","name":"微芯片 阶段 2 c Storage","duration":0,"inputs":[{
+"name":"微芯片 阶段 2 c","quantity":200
+}
+],"outputs":[{
+"name":"微芯片 阶段 2 c","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"微芯片 阶段 3 a Storage","name":"微芯片 阶段 3 a Storage","duration":0,"inputs":[{
+"name":"微芯片 阶段 3 a","quantity":200
+}
+],"outputs":[{
+"name":"微芯片 阶段 3 a","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"微芯片 阶段 3 b Storage","name":"微芯片 阶段 3 b Storage","duration":0,"inputs":[{
+"name":"微芯片 阶段 3 b","quantity":200
+}
+],"outputs":[{
+"name":"微芯片 阶段 3 b","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"微芯片 阶段 3 c Storage","name":"微芯片 阶段 3 c Storage","duration":0,"inputs":[{
+"name":"微芯片 阶段 3 c","quantity":200
+}
+],"outputs":[{
+"name":"微芯片 阶段 3 c","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"微芯片 阶段 4 a Storage","name":"微芯片 阶段 4 a Storage","duration":0,"inputs":[{
+"name":"微芯片 阶段 4 a","quantity":200
+}
+],"outputs":[{
+"name":"微芯片 阶段 4 a","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"微芯片 阶段 4 b Storage","name":"微芯片 阶段 4 b Storage","duration":0,"inputs":[{
+"name":"微芯片 阶段 4 b","quantity":200
+}
+],"outputs":[{
+"name":"微芯片 阶段 4 b","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"太阳能电池 Storage","name":"太阳能电池 Storage","duration":0,"inputs":[{
+"name":"太阳能电池","quantity":200
+}
+],"outputs":[{
+"name":"太阳能电池","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"单晶硅太阳能电池 Storage","name":"单晶硅太阳能电池 Storage","duration":0,"inputs":[{
+"name":"单晶硅太阳能电池","quantity":200
+}
+],"outputs":[{
+"name":"单晶硅太阳能电池","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"复合面板 Storage","name":"复合面板 Storage","duration":0,"inputs":[{
+"name":"复合面板","quantity":200
+}
+],"outputs":[{
+"name":"复合面板","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"复合芯材 Storage","name":"复合芯材 Storage","duration":0,"inputs":[{
+"name":"复合芯材","quantity":200
+}
+],"outputs":[{
+"name":"复合芯材","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"基础复合芯材 Storage","name":"基础复合芯材 Storage","duration":0,"inputs":[{
+"name":"基础复合芯材","quantity":200
+}
+],"outputs":[{
+"name":"基础复合芯材","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"化学燃料 Storage","name":"化学燃料 Storage","duration":0,"inputs":[{
+"name":"化学燃料","quantity":200
+}
+],"outputs":[{
+"name":"化学燃料","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"空间站部件（基础） Storage","name":"空间站部件（基础） Storage","duration":0,"inputs":[{
+"name":"空间站部件（基础）","quantity":200
+}
+],"outputs":[{
+"name":"空间站部件（基础）","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"空间站部件 Storage","name":"空间站部件 Storage","duration":0,"inputs":[{
+"name":"空间站部件","quantity":200
+}
+],"outputs":[{
+"name":"空间站部件","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"船员补给品 Storage","name":"船员补给品 Storage","duration":0,"inputs":[{
+"name":"船员补给品","quantity":200
+}
+],"outputs":[{
+"name":"船员补给品","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"太空探测器零件 Storage","name":"太空探测器零件 Storage","duration":0,"inputs":[{
+"name":"太空探测器零件","quantity":200
+}
+],"outputs":[{
+"name":"太空探测器零件","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"小行星助推器零件 Storage","name":"小行星助推器零件 Storage","duration":0,"inputs":[{
+"name":"小行星助推器零件","quantity":200
+}
+],"outputs":[{
+"name":"小行星助推器零件","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"紧凑型反应堆 Storage","name":"紧凑型反应堆 Storage","duration":0,"inputs":[{
+"name":"紧凑型反应堆","quantity":200
+}
+],"outputs":[{
+"name":"紧凑型反应堆","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"压缩垃圾 Storage","name":"压缩垃圾 Storage","duration":0,"inputs":[{
+"name":"压缩垃圾","quantity":200
+}
+],"outputs":[{
+"name":"压缩垃圾","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"花 Storage","name":"花 Storage","duration":0,"inputs":[{
+"name":"花","quantity":200
+}
+],"outputs":[{
+"name":"花","quantity":200
+}
+],"power_multiplier":1
+}
+]
+}
+,{
+"id":"StorageLooseT4","name":"散装物存储 IV","category":"存储设施","subcategory":"","next_tier":"","workers":0,"maintenance_cost_units":"","maintenance_cost_quantity":0,"electricity_consumed":0,"electricity_generated":0,"computing_consumed":0,"computing_generated":0,"product_type":"LooseProductProto","storage_capacity":6000,"unity_cost":0,"research_speed":0,"icon_path":"Assets/Unity/Generated/Icons/LayoutEntity/StorageLooseT4.png","build_costs":[{
+"product":"建筑零件III","quantity":120
+}
+],"recipes":[{
+"id":"木屑 Storage","name":"木屑 Storage","duration":0,"inputs":[{
+"name":"木屑","quantity":6000
+}
+],"outputs":[{
+"name":"木屑","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"土 Storage","name":"土 Storage","duration":0,"inputs":[{
+"name":"土","quantity":6000
+}
+],"outputs":[{
+"name":"土","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"堆肥 Storage","name":"堆肥 Storage","duration":0,"inputs":[{
+"name":"堆肥","quantity":6000
+}
+],"outputs":[{
+"name":"堆肥","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"污泥 Storage","name":"污泥 Storage","duration":0,"inputs":[{
+"name":"污泥","quantity":6000
+}
+],"outputs":[{
+"name":"污泥","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"石灰石 Storage","name":"石灰石 Storage","duration":0,"inputs":[{
+"name":"石灰石","quantity":6000
+}
+],"outputs":[{
+"name":"石灰石","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"岩石 Storage","name":"岩石 Storage","duration":0,"inputs":[{
+"name":"岩石","quantity":6000
+}
+],"outputs":[{
+"name":"岩石","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"碎石 Storage","name":"碎石 Storage","duration":0,"inputs":[{
+"name":"碎石","quantity":6000
+}
+],"outputs":[{
+"name":"碎石","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"机制砂 Storage","name":"机制砂 Storage","duration":0,"inputs":[{
+"name":"机制砂","quantity":6000
+}
+],"outputs":[{
+"name":"机制砂","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"过滤介质 Storage","name":"过滤介质 Storage","duration":0,"inputs":[{
+"name":"过滤介质","quantity":6000
+}
+],"outputs":[{
+"name":"过滤介质","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"煤 Storage","name":"煤 Storage","duration":0,"inputs":[{
+"name":"煤","quantity":6000
+}
+],"outputs":[{
+"name":"煤","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"矿渣 Storage","name":"矿渣 Storage","duration":0,"inputs":[{
+"name":"矿渣","quantity":6000
+}
+],"outputs":[{
+"name":"矿渣","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"碎矿渣 Storage","name":"碎矿渣 Storage","duration":0,"inputs":[{
+"name":"碎矿渣","quantity":6000
+}
+],"outputs":[{
+"name":"碎矿渣","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"铁矿石 Storage","name":"铁矿石 Storage","duration":0,"inputs":[{
+"name":"铁矿石","quantity":6000
+}
+],"outputs":[{
+"name":"铁矿石","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"碎铁矿石 Storage","name":"碎铁矿石 Storage","duration":0,"inputs":[{
+"name":"碎铁矿石","quantity":6000
+}
+],"outputs":[{
+"name":"碎铁矿石","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"铁废料 Storage","name":"铁废料 Storage","duration":0,"inputs":[{
+"name":"铁废料","quantity":6000
+}
+],"outputs":[{
+"name":"铁废料","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"铜矿石 Storage","name":"铜矿石 Storage","duration":0,"inputs":[{
+"name":"铜矿石","quantity":6000
+}
+],"outputs":[{
+"name":"铜矿石","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"碎铜矿石 Storage","name":"碎铜矿石 Storage","duration":0,"inputs":[{
+"name":"碎铜矿石","quantity":6000
+}
+],"outputs":[{
+"name":"碎铜矿石","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"铜废料 Storage","name":"铜废料 Storage","duration":0,"inputs":[{
+"name":"铜废料","quantity":6000
+}
+],"outputs":[{
+"name":"铜废料","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"铝土矿 Storage","name":"铝土矿 Storage","duration":0,"inputs":[{
+"name":"铝土矿","quantity":6000
+}
+],"outputs":[{
+"name":"铝土矿","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"铝土矿粉末 Storage","name":"铝土矿粉末 Storage","duration":0,"inputs":[{
+"name":"铝土矿粉末","quantity":6000
+}
+],"outputs":[{
+"name":"铝土矿粉末","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"水合氧化铝 Storage","name":"水合氧化铝 Storage","duration":0,"inputs":[{
+"name":"水合氧化铝","quantity":6000
+}
+],"outputs":[{
+"name":"水合氧化铝","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"氧化铝 Storage","name":"氧化铝 Storage","duration":0,"inputs":[{
+"name":"氧化铝","quantity":6000
+}
+],"outputs":[{
+"name":"氧化铝","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"铝废料 Storage","name":"铝废料 Storage","duration":0,"inputs":[{
+"name":"铝废料","quantity":6000
+}
+],"outputs":[{
+"name":"铝废料","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"钛矿石 Storage","name":"钛矿石 Storage","duration":0,"inputs":[{
+"name":"钛矿石","quantity":6000
+}
+],"outputs":[{
+"name":"钛矿石","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"碎钛矿石 Storage","name":"碎钛矿石 Storage","duration":0,"inputs":[{
+"name":"碎钛矿石","quantity":6000
+}
+],"outputs":[{
+"name":"碎钛矿石","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"钛渣 Storage","name":"钛渣 Storage","duration":0,"inputs":[{
+"name":"钛渣","quantity":6000
+}
+],"outputs":[{
+"name":"钛渣","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"海绵钛 Storage","name":"海绵钛 Storage","duration":0,"inputs":[{
+"name":"海绵钛","quantity":6000
+}
+],"outputs":[{
+"name":"海绵钛","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"金矿石 Storage","name":"金矿石 Storage","duration":0,"inputs":[{
+"name":"金矿石","quantity":6000
+}
+],"outputs":[{
+"name":"金矿石","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"碎金矿石 Storage","name":"碎金矿石 Storage","duration":0,"inputs":[{
+"name":"碎金矿石","quantity":6000
+}
+],"outputs":[{
+"name":"碎金矿石","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"金矿粉 Storage","name":"金矿粉 Storage","duration":0,"inputs":[{
+"name":"金矿粉","quantity":6000
+}
+],"outputs":[{
+"name":"金矿粉","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"金精矿 Storage","name":"金精矿 Storage","duration":0,"inputs":[{
+"name":"金精矿","quantity":6000
+}
+],"outputs":[{
+"name":"金精矿","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"金废料 Storage","name":"金废料 Storage","duration":0,"inputs":[{
+"name":"金废料","quantity":6000
+}
+],"outputs":[{
+"name":"金废料","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"沙 Storage","name":"沙 Storage","duration":0,"inputs":[{
+"name":"沙","quantity":6000
+}
+],"outputs":[{
+"name":"沙","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"碎玻璃 Storage","name":"碎玻璃 Storage","duration":0,"inputs":[{
+"name":"碎玻璃","quantity":6000
+}
+],"outputs":[{
+"name":"碎玻璃","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"玻璃混合物 Storage","name":"玻璃混合物 Storage","duration":0,"inputs":[{
+"name":"玻璃混合物","quantity":6000
+}
+],"outputs":[{
+"name":"玻璃混合物","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"铀矿石 Storage","name":"铀矿石 Storage","duration":0,"inputs":[{
+"name":"铀矿石","quantity":6000
+}
+],"outputs":[{
+"name":"铀矿石","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"铀矿粉 Storage","name":"铀矿粉 Storage","duration":0,"inputs":[{
+"name":"铀矿粉","quantity":6000
+}
+],"outputs":[{
+"name":"铀矿粉","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"黄饼 Storage","name":"黄饼 Storage","duration":0,"inputs":[{
+"name":"黄饼","quantity":6000
+}
+],"outputs":[{
+"name":"黄饼","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"贫铀 Storage","name":"贫铀 Storage","duration":0,"inputs":[{
+"name":"贫铀","quantity":6000
+}
+],"outputs":[{
+"name":"贫铀","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"石英 Storage","name":"石英 Storage","duration":0,"inputs":[{
+"name":"石英","quantity":6000
+}
+],"outputs":[{
+"name":"石英","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"碎石英 Storage","name":"碎石英 Storage","duration":0,"inputs":[{
+"name":"碎石英","quantity":6000
+}
+],"outputs":[{
+"name":"碎石英","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"盐 Storage","name":"盐 Storage","duration":0,"inputs":[{
+"name":"盐","quantity":6000
+}
+],"outputs":[{
+"name":"盐","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"可回收物 Storage","name":"可回收物 Storage","duration":0,"inputs":[{
+"name":"可回收物","quantity":6000
+}
+],"outputs":[{
+"name":"可回收物","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"硫 Storage","name":"硫 Storage","duration":0,"inputs":[{
+"name":"硫","quantity":6000
+}
+],"outputs":[{
+"name":"硫","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"土豆 Storage","name":"土豆 Storage","duration":0,"inputs":[{
+"name":"土豆","quantity":6000
+}
+],"outputs":[{
+"name":"土豆","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"玉米 Storage","name":"玉米 Storage","duration":0,"inputs":[{
+"name":"玉米","quantity":6000
+}
+],"outputs":[{
+"name":"玉米","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"小麦 Storage","name":"小麦 Storage","duration":0,"inputs":[{
+"name":"小麦","quantity":6000
+}
+],"outputs":[{
+"name":"小麦","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"大豆 Storage","name":"大豆 Storage","duration":0,"inputs":[{
+"name":"大豆","quantity":6000
+}
+],"outputs":[{
+"name":"大豆","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"甘蔗 Storage","name":"甘蔗 Storage","duration":0,"inputs":[{
+"name":"甘蔗","quantity":6000
+}
+],"outputs":[{
+"name":"甘蔗","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"油菜 Storage","name":"油菜 Storage","duration":0,"inputs":[{
+"name":"油菜","quantity":6000
+}
+],"outputs":[{
+"name":"油菜","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"罂粟 Storage","name":"罂粟 Storage","duration":0,"inputs":[{
+"name":"罂粟","quantity":6000
+}
+],"outputs":[{
+"name":"罂粟","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"动物饲料 Storage","name":"动物饲料 Storage","duration":0,"inputs":[{
+"name":"动物饲料","quantity":6000
+}
+],"outputs":[{
+"name":"动物饲料","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"生物质 Storage","name":"生物质 Storage","duration":0,"inputs":[{
+"name":"生物质","quantity":6000
+}
+],"outputs":[{
+"name":"生物质","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"碎肉 Storage","name":"碎肉 Storage","duration":0,"inputs":[{
+"name":"碎肉","quantity":6000
+}
+],"outputs":[{
+"name":"碎肉","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"糖 Storage","name":"糖 Storage","duration":0,"inputs":[{
+"name":"糖","quantity":6000
+}
+],"outputs":[{
+"name":"糖","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"垃圾 Storage","name":"垃圾 Storage","duration":0,"inputs":[{
+"name":"垃圾","quantity":6000
+}
+],"outputs":[{
+"name":"垃圾","quantity":6000
+}
+],"power_multiplier":1
+}
+]
+}
+,{
+"id":"StorageLooseT3","name":"散装物存储 III","category":"存储设施","subcategory":"","next_tier":"StorageLooseT4","workers":0,"maintenance_cost_units":"","maintenance_cost_quantity":0,"electricity_consumed":0,"electricity_generated":0,"computing_consumed":0,"computing_generated":0,"product_type":"LooseProductProto","storage_capacity":3000,"unity_cost":0,"research_speed":0,"icon_path":"Assets/Unity/Generated/Icons/LayoutEntity/StorageLooseT3.png","build_costs":[{
+"product":"建筑零件III","quantity":60
+}
+],"recipes":[{
+"id":"木屑 Storage","name":"木屑 Storage","duration":0,"inputs":[{
+"name":"木屑","quantity":3000
+}
+],"outputs":[{
+"name":"木屑","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"土 Storage","name":"土 Storage","duration":0,"inputs":[{
+"name":"土","quantity":3000
+}
+],"outputs":[{
+"name":"土","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"堆肥 Storage","name":"堆肥 Storage","duration":0,"inputs":[{
+"name":"堆肥","quantity":3000
+}
+],"outputs":[{
+"name":"堆肥","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"污泥 Storage","name":"污泥 Storage","duration":0,"inputs":[{
+"name":"污泥","quantity":3000
+}
+],"outputs":[{
+"name":"污泥","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"石灰石 Storage","name":"石灰石 Storage","duration":0,"inputs":[{
+"name":"石灰石","quantity":3000
+}
+],"outputs":[{
+"name":"石灰石","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"岩石 Storage","name":"岩石 Storage","duration":0,"inputs":[{
+"name":"岩石","quantity":3000
+}
+],"outputs":[{
+"name":"岩石","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"碎石 Storage","name":"碎石 Storage","duration":0,"inputs":[{
+"name":"碎石","quantity":3000
+}
+],"outputs":[{
+"name":"碎石","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"机制砂 Storage","name":"机制砂 Storage","duration":0,"inputs":[{
+"name":"机制砂","quantity":3000
+}
+],"outputs":[{
+"name":"机制砂","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"过滤介质 Storage","name":"过滤介质 Storage","duration":0,"inputs":[{
+"name":"过滤介质","quantity":3000
+}
+],"outputs":[{
+"name":"过滤介质","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"煤 Storage","name":"煤 Storage","duration":0,"inputs":[{
+"name":"煤","quantity":3000
+}
+],"outputs":[{
+"name":"煤","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"矿渣 Storage","name":"矿渣 Storage","duration":0,"inputs":[{
+"name":"矿渣","quantity":3000
+}
+],"outputs":[{
+"name":"矿渣","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"碎矿渣 Storage","name":"碎矿渣 Storage","duration":0,"inputs":[{
+"name":"碎矿渣","quantity":3000
+}
+],"outputs":[{
+"name":"碎矿渣","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"铁矿石 Storage","name":"铁矿石 Storage","duration":0,"inputs":[{
+"name":"铁矿石","quantity":3000
+}
+],"outputs":[{
+"name":"铁矿石","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"碎铁矿石 Storage","name":"碎铁矿石 Storage","duration":0,"inputs":[{
+"name":"碎铁矿石","quantity":3000
+}
+],"outputs":[{
+"name":"碎铁矿石","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"铁废料 Storage","name":"铁废料 Storage","duration":0,"inputs":[{
+"name":"铁废料","quantity":3000
+}
+],"outputs":[{
+"name":"铁废料","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"铜矿石 Storage","name":"铜矿石 Storage","duration":0,"inputs":[{
+"name":"铜矿石","quantity":3000
+}
+],"outputs":[{
+"name":"铜矿石","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"碎铜矿石 Storage","name":"碎铜矿石 Storage","duration":0,"inputs":[{
+"name":"碎铜矿石","quantity":3000
+}
+],"outputs":[{
+"name":"碎铜矿石","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"铜废料 Storage","name":"铜废料 Storage","duration":0,"inputs":[{
+"name":"铜废料","quantity":3000
+}
+],"outputs":[{
+"name":"铜废料","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"铝土矿 Storage","name":"铝土矿 Storage","duration":0,"inputs":[{
+"name":"铝土矿","quantity":3000
+}
+],"outputs":[{
+"name":"铝土矿","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"铝土矿粉末 Storage","name":"铝土矿粉末 Storage","duration":0,"inputs":[{
+"name":"铝土矿粉末","quantity":3000
+}
+],"outputs":[{
+"name":"铝土矿粉末","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"水合氧化铝 Storage","name":"水合氧化铝 Storage","duration":0,"inputs":[{
+"name":"水合氧化铝","quantity":3000
+}
+],"outputs":[{
+"name":"水合氧化铝","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"氧化铝 Storage","name":"氧化铝 Storage","duration":0,"inputs":[{
+"name":"氧化铝","quantity":3000
+}
+],"outputs":[{
+"name":"氧化铝","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"铝废料 Storage","name":"铝废料 Storage","duration":0,"inputs":[{
+"name":"铝废料","quantity":3000
+}
+],"outputs":[{
+"name":"铝废料","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"钛矿石 Storage","name":"钛矿石 Storage","duration":0,"inputs":[{
+"name":"钛矿石","quantity":3000
+}
+],"outputs":[{
+"name":"钛矿石","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"碎钛矿石 Storage","name":"碎钛矿石 Storage","duration":0,"inputs":[{
+"name":"碎钛矿石","quantity":3000
+}
+],"outputs":[{
+"name":"碎钛矿石","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"钛渣 Storage","name":"钛渣 Storage","duration":0,"inputs":[{
+"name":"钛渣","quantity":3000
+}
+],"outputs":[{
+"name":"钛渣","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"海绵钛 Storage","name":"海绵钛 Storage","duration":0,"inputs":[{
+"name":"海绵钛","quantity":3000
+}
+],"outputs":[{
+"name":"海绵钛","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"金矿石 Storage","name":"金矿石 Storage","duration":0,"inputs":[{
+"name":"金矿石","quantity":3000
+}
+],"outputs":[{
+"name":"金矿石","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"碎金矿石 Storage","name":"碎金矿石 Storage","duration":0,"inputs":[{
+"name":"碎金矿石","quantity":3000
+}
+],"outputs":[{
+"name":"碎金矿石","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"金矿粉 Storage","name":"金矿粉 Storage","duration":0,"inputs":[{
+"name":"金矿粉","quantity":3000
+}
+],"outputs":[{
+"name":"金矿粉","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"金精矿 Storage","name":"金精矿 Storage","duration":0,"inputs":[{
+"name":"金精矿","quantity":3000
+}
+],"outputs":[{
+"name":"金精矿","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"金废料 Storage","name":"金废料 Storage","duration":0,"inputs":[{
+"name":"金废料","quantity":3000
+}
+],"outputs":[{
+"name":"金废料","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"沙 Storage","name":"沙 Storage","duration":0,"inputs":[{
+"name":"沙","quantity":3000
+}
+],"outputs":[{
+"name":"沙","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"碎玻璃 Storage","name":"碎玻璃 Storage","duration":0,"inputs":[{
+"name":"碎玻璃","quantity":3000
+}
+],"outputs":[{
+"name":"碎玻璃","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"玻璃混合物 Storage","name":"玻璃混合物 Storage","duration":0,"inputs":[{
+"name":"玻璃混合物","quantity":3000
+}
+],"outputs":[{
+"name":"玻璃混合物","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"铀矿石 Storage","name":"铀矿石 Storage","duration":0,"inputs":[{
+"name":"铀矿石","quantity":3000
+}
+],"outputs":[{
+"name":"铀矿石","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"铀矿粉 Storage","name":"铀矿粉 Storage","duration":0,"inputs":[{
+"name":"铀矿粉","quantity":3000
+}
+],"outputs":[{
+"name":"铀矿粉","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"黄饼 Storage","name":"黄饼 Storage","duration":0,"inputs":[{
+"name":"黄饼","quantity":3000
+}
+],"outputs":[{
+"name":"黄饼","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"贫铀 Storage","name":"贫铀 Storage","duration":0,"inputs":[{
+"name":"贫铀","quantity":3000
+}
+],"outputs":[{
+"name":"贫铀","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"石英 Storage","name":"石英 Storage","duration":0,"inputs":[{
+"name":"石英","quantity":3000
+}
+],"outputs":[{
+"name":"石英","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"碎石英 Storage","name":"碎石英 Storage","duration":0,"inputs":[{
+"name":"碎石英","quantity":3000
+}
+],"outputs":[{
+"name":"碎石英","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"盐 Storage","name":"盐 Storage","duration":0,"inputs":[{
+"name":"盐","quantity":3000
+}
+],"outputs":[{
+"name":"盐","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"可回收物 Storage","name":"可回收物 Storage","duration":0,"inputs":[{
+"name":"可回收物","quantity":3000
+}
+],"outputs":[{
+"name":"可回收物","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"硫 Storage","name":"硫 Storage","duration":0,"inputs":[{
+"name":"硫","quantity":3000
+}
+],"outputs":[{
+"name":"硫","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"土豆 Storage","name":"土豆 Storage","duration":0,"inputs":[{
+"name":"土豆","quantity":3000
+}
+],"outputs":[{
+"name":"土豆","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"玉米 Storage","name":"玉米 Storage","duration":0,"inputs":[{
+"name":"玉米","quantity":3000
+}
+],"outputs":[{
+"name":"玉米","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"小麦 Storage","name":"小麦 Storage","duration":0,"inputs":[{
+"name":"小麦","quantity":3000
+}
+],"outputs":[{
+"name":"小麦","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"大豆 Storage","name":"大豆 Storage","duration":0,"inputs":[{
+"name":"大豆","quantity":3000
+}
+],"outputs":[{
+"name":"大豆","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"甘蔗 Storage","name":"甘蔗 Storage","duration":0,"inputs":[{
+"name":"甘蔗","quantity":3000
+}
+],"outputs":[{
+"name":"甘蔗","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"油菜 Storage","name":"油菜 Storage","duration":0,"inputs":[{
+"name":"油菜","quantity":3000
+}
+],"outputs":[{
+"name":"油菜","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"罂粟 Storage","name":"罂粟 Storage","duration":0,"inputs":[{
+"name":"罂粟","quantity":3000
+}
+],"outputs":[{
+"name":"罂粟","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"动物饲料 Storage","name":"动物饲料 Storage","duration":0,"inputs":[{
+"name":"动物饲料","quantity":3000
+}
+],"outputs":[{
+"name":"动物饲料","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"生物质 Storage","name":"生物质 Storage","duration":0,"inputs":[{
+"name":"生物质","quantity":3000
+}
+],"outputs":[{
+"name":"生物质","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"碎肉 Storage","name":"碎肉 Storage","duration":0,"inputs":[{
+"name":"碎肉","quantity":3000
+}
+],"outputs":[{
+"name":"碎肉","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"糖 Storage","name":"糖 Storage","duration":0,"inputs":[{
+"name":"糖","quantity":3000
+}
+],"outputs":[{
+"name":"糖","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"垃圾 Storage","name":"垃圾 Storage","duration":0,"inputs":[{
+"name":"垃圾","quantity":3000
+}
+],"outputs":[{
+"name":"垃圾","quantity":3000
+}
+],"power_multiplier":1
+}
+]
+}
+,{
+"id":"StorageLooseT2","name":"散装物存储 II","category":"存储设施","subcategory":"","next_tier":"","workers":0,"maintenance_cost_units":"","maintenance_cost_quantity":0,"electricity_consumed":0,"electricity_generated":0,"computing_consumed":0,"computing_generated":0,"product_type":"LooseProductProto","storage_capacity":500,"unity_cost":0,"research_speed":0,"icon_path":"Assets/Unity/Generated/Icons/LayoutEntity/StorageLooseT2.png","build_costs":[{
+"product":"建筑零件II","quantity":30
+}
+],"recipes":[{
+"id":"木屑 Storage","name":"木屑 Storage","duration":0,"inputs":[{
+"name":"木屑","quantity":500
+}
+],"outputs":[{
+"name":"木屑","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"土 Storage","name":"土 Storage","duration":0,"inputs":[{
+"name":"土","quantity":500
+}
+],"outputs":[{
+"name":"土","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"堆肥 Storage","name":"堆肥 Storage","duration":0,"inputs":[{
+"name":"堆肥","quantity":500
+}
+],"outputs":[{
+"name":"堆肥","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"污泥 Storage","name":"污泥 Storage","duration":0,"inputs":[{
+"name":"污泥","quantity":500
+}
+],"outputs":[{
+"name":"污泥","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"石灰石 Storage","name":"石灰石 Storage","duration":0,"inputs":[{
+"name":"石灰石","quantity":500
+}
+],"outputs":[{
+"name":"石灰石","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"岩石 Storage","name":"岩石 Storage","duration":0,"inputs":[{
+"name":"岩石","quantity":500
+}
+],"outputs":[{
+"name":"岩石","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"碎石 Storage","name":"碎石 Storage","duration":0,"inputs":[{
+"name":"碎石","quantity":500
+}
+],"outputs":[{
+"name":"碎石","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"机制砂 Storage","name":"机制砂 Storage","duration":0,"inputs":[{
+"name":"机制砂","quantity":500
+}
+],"outputs":[{
+"name":"机制砂","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"过滤介质 Storage","name":"过滤介质 Storage","duration":0,"inputs":[{
+"name":"过滤介质","quantity":500
+}
+],"outputs":[{
+"name":"过滤介质","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"煤 Storage","name":"煤 Storage","duration":0,"inputs":[{
+"name":"煤","quantity":500
+}
+],"outputs":[{
+"name":"煤","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"矿渣 Storage","name":"矿渣 Storage","duration":0,"inputs":[{
+"name":"矿渣","quantity":500
+}
+],"outputs":[{
+"name":"矿渣","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"碎矿渣 Storage","name":"碎矿渣 Storage","duration":0,"inputs":[{
+"name":"碎矿渣","quantity":500
+}
+],"outputs":[{
+"name":"碎矿渣","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"铁矿石 Storage","name":"铁矿石 Storage","duration":0,"inputs":[{
+"name":"铁矿石","quantity":500
+}
+],"outputs":[{
+"name":"铁矿石","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"碎铁矿石 Storage","name":"碎铁矿石 Storage","duration":0,"inputs":[{
+"name":"碎铁矿石","quantity":500
+}
+],"outputs":[{
+"name":"碎铁矿石","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"铁废料 Storage","name":"铁废料 Storage","duration":0,"inputs":[{
+"name":"铁废料","quantity":500
+}
+],"outputs":[{
+"name":"铁废料","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"铜矿石 Storage","name":"铜矿石 Storage","duration":0,"inputs":[{
+"name":"铜矿石","quantity":500
+}
+],"outputs":[{
+"name":"铜矿石","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"碎铜矿石 Storage","name":"碎铜矿石 Storage","duration":0,"inputs":[{
+"name":"碎铜矿石","quantity":500
+}
+],"outputs":[{
+"name":"碎铜矿石","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"铜废料 Storage","name":"铜废料 Storage","duration":0,"inputs":[{
+"name":"铜废料","quantity":500
+}
+],"outputs":[{
+"name":"铜废料","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"铝土矿 Storage","name":"铝土矿 Storage","duration":0,"inputs":[{
+"name":"铝土矿","quantity":500
+}
+],"outputs":[{
+"name":"铝土矿","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"铝土矿粉末 Storage","name":"铝土矿粉末 Storage","duration":0,"inputs":[{
+"name":"铝土矿粉末","quantity":500
+}
+],"outputs":[{
+"name":"铝土矿粉末","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"水合氧化铝 Storage","name":"水合氧化铝 Storage","duration":0,"inputs":[{
+"name":"水合氧化铝","quantity":500
+}
+],"outputs":[{
+"name":"水合氧化铝","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"氧化铝 Storage","name":"氧化铝 Storage","duration":0,"inputs":[{
+"name":"氧化铝","quantity":500
+}
+],"outputs":[{
+"name":"氧化铝","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"铝废料 Storage","name":"铝废料 Storage","duration":0,"inputs":[{
+"name":"铝废料","quantity":500
+}
+],"outputs":[{
+"name":"铝废料","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"钛矿石 Storage","name":"钛矿石 Storage","duration":0,"inputs":[{
+"name":"钛矿石","quantity":500
+}
+],"outputs":[{
+"name":"钛矿石","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"碎钛矿石 Storage","name":"碎钛矿石 Storage","duration":0,"inputs":[{
+"name":"碎钛矿石","quantity":500
+}
+],"outputs":[{
+"name":"碎钛矿石","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"钛渣 Storage","name":"钛渣 Storage","duration":0,"inputs":[{
+"name":"钛渣","quantity":500
+}
+],"outputs":[{
+"name":"钛渣","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"海绵钛 Storage","name":"海绵钛 Storage","duration":0,"inputs":[{
+"name":"海绵钛","quantity":500
+}
+],"outputs":[{
+"name":"海绵钛","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"金矿石 Storage","name":"金矿石 Storage","duration":0,"inputs":[{
+"name":"金矿石","quantity":500
+}
+],"outputs":[{
+"name":"金矿石","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"碎金矿石 Storage","name":"碎金矿石 Storage","duration":0,"inputs":[{
+"name":"碎金矿石","quantity":500
+}
+],"outputs":[{
+"name":"碎金矿石","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"金矿粉 Storage","name":"金矿粉 Storage","duration":0,"inputs":[{
+"name":"金矿粉","quantity":500
+}
+],"outputs":[{
+"name":"金矿粉","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"金精矿 Storage","name":"金精矿 Storage","duration":0,"inputs":[{
+"name":"金精矿","quantity":500
+}
+],"outputs":[{
+"name":"金精矿","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"金废料 Storage","name":"金废料 Storage","duration":0,"inputs":[{
+"name":"金废料","quantity":500
+}
+],"outputs":[{
+"name":"金废料","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"沙 Storage","name":"沙 Storage","duration":0,"inputs":[{
+"name":"沙","quantity":500
+}
+],"outputs":[{
+"name":"沙","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"碎玻璃 Storage","name":"碎玻璃 Storage","duration":0,"inputs":[{
+"name":"碎玻璃","quantity":500
+}
+],"outputs":[{
+"name":"碎玻璃","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"玻璃混合物 Storage","name":"玻璃混合物 Storage","duration":0,"inputs":[{
+"name":"玻璃混合物","quantity":500
+}
+],"outputs":[{
+"name":"玻璃混合物","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"铀矿石 Storage","name":"铀矿石 Storage","duration":0,"inputs":[{
+"name":"铀矿石","quantity":500
+}
+],"outputs":[{
+"name":"铀矿石","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"铀矿粉 Storage","name":"铀矿粉 Storage","duration":0,"inputs":[{
+"name":"铀矿粉","quantity":500
+}
+],"outputs":[{
+"name":"铀矿粉","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"黄饼 Storage","name":"黄饼 Storage","duration":0,"inputs":[{
+"name":"黄饼","quantity":500
+}
+],"outputs":[{
+"name":"黄饼","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"贫铀 Storage","name":"贫铀 Storage","duration":0,"inputs":[{
+"name":"贫铀","quantity":500
+}
+],"outputs":[{
+"name":"贫铀","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"石英 Storage","name":"石英 Storage","duration":0,"inputs":[{
+"name":"石英","quantity":500
+}
+],"outputs":[{
+"name":"石英","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"碎石英 Storage","name":"碎石英 Storage","duration":0,"inputs":[{
+"name":"碎石英","quantity":500
+}
+],"outputs":[{
+"name":"碎石英","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"盐 Storage","name":"盐 Storage","duration":0,"inputs":[{
+"name":"盐","quantity":500
+}
+],"outputs":[{
+"name":"盐","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"可回收物 Storage","name":"可回收物 Storage","duration":0,"inputs":[{
+"name":"可回收物","quantity":500
+}
+],"outputs":[{
+"name":"可回收物","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"硫 Storage","name":"硫 Storage","duration":0,"inputs":[{
+"name":"硫","quantity":500
+}
+],"outputs":[{
+"name":"硫","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"土豆 Storage","name":"土豆 Storage","duration":0,"inputs":[{
+"name":"土豆","quantity":500
+}
+],"outputs":[{
+"name":"土豆","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"玉米 Storage","name":"玉米 Storage","duration":0,"inputs":[{
+"name":"玉米","quantity":500
+}
+],"outputs":[{
+"name":"玉米","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"小麦 Storage","name":"小麦 Storage","duration":0,"inputs":[{
+"name":"小麦","quantity":500
+}
+],"outputs":[{
+"name":"小麦","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"大豆 Storage","name":"大豆 Storage","duration":0,"inputs":[{
+"name":"大豆","quantity":500
+}
+],"outputs":[{
+"name":"大豆","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"甘蔗 Storage","name":"甘蔗 Storage","duration":0,"inputs":[{
+"name":"甘蔗","quantity":500
+}
+],"outputs":[{
+"name":"甘蔗","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"油菜 Storage","name":"油菜 Storage","duration":0,"inputs":[{
+"name":"油菜","quantity":500
+}
+],"outputs":[{
+"name":"油菜","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"罂粟 Storage","name":"罂粟 Storage","duration":0,"inputs":[{
+"name":"罂粟","quantity":500
+}
+],"outputs":[{
+"name":"罂粟","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"动物饲料 Storage","name":"动物饲料 Storage","duration":0,"inputs":[{
+"name":"动物饲料","quantity":500
+}
+],"outputs":[{
+"name":"动物饲料","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"生物质 Storage","name":"生物质 Storage","duration":0,"inputs":[{
+"name":"生物质","quantity":500
+}
+],"outputs":[{
+"name":"生物质","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"碎肉 Storage","name":"碎肉 Storage","duration":0,"inputs":[{
+"name":"碎肉","quantity":500
+}
+],"outputs":[{
+"name":"碎肉","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"糖 Storage","name":"糖 Storage","duration":0,"inputs":[{
+"name":"糖","quantity":500
+}
+],"outputs":[{
+"name":"糖","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"垃圾 Storage","name":"垃圾 Storage","duration":0,"inputs":[{
+"name":"垃圾","quantity":500
+}
+],"outputs":[{
+"name":"垃圾","quantity":500
+}
+],"power_multiplier":1
+}
+]
+}
+,{
+"id":"StorageLoose","name":"散装物存储","category":"存储设施","subcategory":"","next_tier":"StorageLooseT2","workers":0,"maintenance_cost_units":"","maintenance_cost_quantity":0,"electricity_consumed":0,"electricity_generated":0,"computing_consumed":0,"computing_generated":0,"product_type":"LooseProductProto","storage_capacity":200,"unity_cost":0,"research_speed":0,"icon_path":"Assets/Unity/Generated/Icons/LayoutEntity/StorageLoose.png","build_costs":[{
+"product":"建筑零件","quantity":30
+}
+],"recipes":[{
+"id":"木屑 Storage","name":"木屑 Storage","duration":0,"inputs":[{
+"name":"木屑","quantity":200
+}
+],"outputs":[{
+"name":"木屑","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"土 Storage","name":"土 Storage","duration":0,"inputs":[{
+"name":"土","quantity":200
+}
+],"outputs":[{
+"name":"土","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"堆肥 Storage","name":"堆肥 Storage","duration":0,"inputs":[{
+"name":"堆肥","quantity":200
+}
+],"outputs":[{
+"name":"堆肥","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"污泥 Storage","name":"污泥 Storage","duration":0,"inputs":[{
+"name":"污泥","quantity":200
+}
+],"outputs":[{
+"name":"污泥","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"石灰石 Storage","name":"石灰石 Storage","duration":0,"inputs":[{
+"name":"石灰石","quantity":200
+}
+],"outputs":[{
+"name":"石灰石","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"岩石 Storage","name":"岩石 Storage","duration":0,"inputs":[{
+"name":"岩石","quantity":200
+}
+],"outputs":[{
+"name":"岩石","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"碎石 Storage","name":"碎石 Storage","duration":0,"inputs":[{
+"name":"碎石","quantity":200
+}
+],"outputs":[{
+"name":"碎石","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"机制砂 Storage","name":"机制砂 Storage","duration":0,"inputs":[{
+"name":"机制砂","quantity":200
+}
+],"outputs":[{
+"name":"机制砂","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"过滤介质 Storage","name":"过滤介质 Storage","duration":0,"inputs":[{
+"name":"过滤介质","quantity":200
+}
+],"outputs":[{
+"name":"过滤介质","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"煤 Storage","name":"煤 Storage","duration":0,"inputs":[{
+"name":"煤","quantity":200
+}
+],"outputs":[{
+"name":"煤","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"矿渣 Storage","name":"矿渣 Storage","duration":0,"inputs":[{
+"name":"矿渣","quantity":200
+}
+],"outputs":[{
+"name":"矿渣","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"碎矿渣 Storage","name":"碎矿渣 Storage","duration":0,"inputs":[{
+"name":"碎矿渣","quantity":200
+}
+],"outputs":[{
+"name":"碎矿渣","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"铁矿石 Storage","name":"铁矿石 Storage","duration":0,"inputs":[{
+"name":"铁矿石","quantity":200
+}
+],"outputs":[{
+"name":"铁矿石","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"碎铁矿石 Storage","name":"碎铁矿石 Storage","duration":0,"inputs":[{
+"name":"碎铁矿石","quantity":200
+}
+],"outputs":[{
+"name":"碎铁矿石","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"铁废料 Storage","name":"铁废料 Storage","duration":0,"inputs":[{
+"name":"铁废料","quantity":200
+}
+],"outputs":[{
+"name":"铁废料","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"铜矿石 Storage","name":"铜矿石 Storage","duration":0,"inputs":[{
+"name":"铜矿石","quantity":200
+}
+],"outputs":[{
+"name":"铜矿石","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"碎铜矿石 Storage","name":"碎铜矿石 Storage","duration":0,"inputs":[{
+"name":"碎铜矿石","quantity":200
+}
+],"outputs":[{
+"name":"碎铜矿石","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"铜废料 Storage","name":"铜废料 Storage","duration":0,"inputs":[{
+"name":"铜废料","quantity":200
+}
+],"outputs":[{
+"name":"铜废料","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"铝土矿 Storage","name":"铝土矿 Storage","duration":0,"inputs":[{
+"name":"铝土矿","quantity":200
+}
+],"outputs":[{
+"name":"铝土矿","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"铝土矿粉末 Storage","name":"铝土矿粉末 Storage","duration":0,"inputs":[{
+"name":"铝土矿粉末","quantity":200
+}
+],"outputs":[{
+"name":"铝土矿粉末","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"水合氧化铝 Storage","name":"水合氧化铝 Storage","duration":0,"inputs":[{
+"name":"水合氧化铝","quantity":200
+}
+],"outputs":[{
+"name":"水合氧化铝","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"氧化铝 Storage","name":"氧化铝 Storage","duration":0,"inputs":[{
+"name":"氧化铝","quantity":200
+}
+],"outputs":[{
+"name":"氧化铝","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"铝废料 Storage","name":"铝废料 Storage","duration":0,"inputs":[{
+"name":"铝废料","quantity":200
+}
+],"outputs":[{
+"name":"铝废料","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"钛矿石 Storage","name":"钛矿石 Storage","duration":0,"inputs":[{
+"name":"钛矿石","quantity":200
+}
+],"outputs":[{
+"name":"钛矿石","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"碎钛矿石 Storage","name":"碎钛矿石 Storage","duration":0,"inputs":[{
+"name":"碎钛矿石","quantity":200
+}
+],"outputs":[{
+"name":"碎钛矿石","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"钛渣 Storage","name":"钛渣 Storage","duration":0,"inputs":[{
+"name":"钛渣","quantity":200
+}
+],"outputs":[{
+"name":"钛渣","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"海绵钛 Storage","name":"海绵钛 Storage","duration":0,"inputs":[{
+"name":"海绵钛","quantity":200
+}
+],"outputs":[{
+"name":"海绵钛","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"金矿石 Storage","name":"金矿石 Storage","duration":0,"inputs":[{
+"name":"金矿石","quantity":200
+}
+],"outputs":[{
+"name":"金矿石","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"碎金矿石 Storage","name":"碎金矿石 Storage","duration":0,"inputs":[{
+"name":"碎金矿石","quantity":200
+}
+],"outputs":[{
+"name":"碎金矿石","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"金矿粉 Storage","name":"金矿粉 Storage","duration":0,"inputs":[{
+"name":"金矿粉","quantity":200
+}
+],"outputs":[{
+"name":"金矿粉","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"金精矿 Storage","name":"金精矿 Storage","duration":0,"inputs":[{
+"name":"金精矿","quantity":200
+}
+],"outputs":[{
+"name":"金精矿","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"金废料 Storage","name":"金废料 Storage","duration":0,"inputs":[{
+"name":"金废料","quantity":200
+}
+],"outputs":[{
+"name":"金废料","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"沙 Storage","name":"沙 Storage","duration":0,"inputs":[{
+"name":"沙","quantity":200
+}
+],"outputs":[{
+"name":"沙","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"碎玻璃 Storage","name":"碎玻璃 Storage","duration":0,"inputs":[{
+"name":"碎玻璃","quantity":200
+}
+],"outputs":[{
+"name":"碎玻璃","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"玻璃混合物 Storage","name":"玻璃混合物 Storage","duration":0,"inputs":[{
+"name":"玻璃混合物","quantity":200
+}
+],"outputs":[{
+"name":"玻璃混合物","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"铀矿石 Storage","name":"铀矿石 Storage","duration":0,"inputs":[{
+"name":"铀矿石","quantity":200
+}
+],"outputs":[{
+"name":"铀矿石","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"铀矿粉 Storage","name":"铀矿粉 Storage","duration":0,"inputs":[{
+"name":"铀矿粉","quantity":200
+}
+],"outputs":[{
+"name":"铀矿粉","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"黄饼 Storage","name":"黄饼 Storage","duration":0,"inputs":[{
+"name":"黄饼","quantity":200
+}
+],"outputs":[{
+"name":"黄饼","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"贫铀 Storage","name":"贫铀 Storage","duration":0,"inputs":[{
+"name":"贫铀","quantity":200
+}
+],"outputs":[{
+"name":"贫铀","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"石英 Storage","name":"石英 Storage","duration":0,"inputs":[{
+"name":"石英","quantity":200
+}
+],"outputs":[{
+"name":"石英","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"碎石英 Storage","name":"碎石英 Storage","duration":0,"inputs":[{
+"name":"碎石英","quantity":200
+}
+],"outputs":[{
+"name":"碎石英","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"盐 Storage","name":"盐 Storage","duration":0,"inputs":[{
+"name":"盐","quantity":200
+}
+],"outputs":[{
+"name":"盐","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"可回收物 Storage","name":"可回收物 Storage","duration":0,"inputs":[{
+"name":"可回收物","quantity":200
+}
+],"outputs":[{
+"name":"可回收物","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"硫 Storage","name":"硫 Storage","duration":0,"inputs":[{
+"name":"硫","quantity":200
+}
+],"outputs":[{
+"name":"硫","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"土豆 Storage","name":"土豆 Storage","duration":0,"inputs":[{
+"name":"土豆","quantity":200
+}
+],"outputs":[{
+"name":"土豆","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"玉米 Storage","name":"玉米 Storage","duration":0,"inputs":[{
+"name":"玉米","quantity":200
+}
+],"outputs":[{
+"name":"玉米","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"小麦 Storage","name":"小麦 Storage","duration":0,"inputs":[{
+"name":"小麦","quantity":200
+}
+],"outputs":[{
+"name":"小麦","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"大豆 Storage","name":"大豆 Storage","duration":0,"inputs":[{
+"name":"大豆","quantity":200
+}
+],"outputs":[{
+"name":"大豆","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"甘蔗 Storage","name":"甘蔗 Storage","duration":0,"inputs":[{
+"name":"甘蔗","quantity":200
+}
+],"outputs":[{
+"name":"甘蔗","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"油菜 Storage","name":"油菜 Storage","duration":0,"inputs":[{
+"name":"油菜","quantity":200
+}
+],"outputs":[{
+"name":"油菜","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"罂粟 Storage","name":"罂粟 Storage","duration":0,"inputs":[{
+"name":"罂粟","quantity":200
+}
+],"outputs":[{
+"name":"罂粟","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"动物饲料 Storage","name":"动物饲料 Storage","duration":0,"inputs":[{
+"name":"动物饲料","quantity":200
+}
+],"outputs":[{
+"name":"动物饲料","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"生物质 Storage","name":"生物质 Storage","duration":0,"inputs":[{
+"name":"生物质","quantity":200
+}
+],"outputs":[{
+"name":"生物质","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"碎肉 Storage","name":"碎肉 Storage","duration":0,"inputs":[{
+"name":"碎肉","quantity":200
+}
+],"outputs":[{
+"name":"碎肉","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"糖 Storage","name":"糖 Storage","duration":0,"inputs":[{
+"name":"糖","quantity":200
+}
+],"outputs":[{
+"name":"糖","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"垃圾 Storage","name":"垃圾 Storage","duration":0,"inputs":[{
+"name":"垃圾","quantity":200
+}
+],"outputs":[{
+"name":"垃圾","quantity":200
+}
+],"power_multiplier":1
+}
+]
+}
+,{
+"id":"StorageFluidT4","name":"流体存储罐 IV","category":"存储设施","subcategory":"","next_tier":"","workers":0,"maintenance_cost_units":"","maintenance_cost_quantity":0,"electricity_consumed":0,"electricity_generated":0,"computing_consumed":0,"computing_generated":0,"product_type":"FluidProductProto","storage_capacity":6000,"unity_cost":0,"research_speed":0,"icon_path":"Assets/Unity/Generated/Icons/LayoutEntity/StorageFluidT4.png","build_costs":[{
+"product":"建筑零件III","quantity":120
+}
+],"recipes":[{
+"id":"肥料 I Storage","name":"肥料 I Storage","duration":0,"inputs":[{
+"name":"肥料 I","quantity":6000
+}
+],"outputs":[{
+"name":"肥料 I","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"肥料 II Storage","name":"肥料 II Storage","duration":0,"inputs":[{
+"name":"肥料 II","quantity":6000
+}
+],"outputs":[{
+"name":"肥料 II","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"肥料（有机） Storage","name":"肥料（有机） Storage","duration":0,"inputs":[{
+"name":"肥料（有机）","quantity":6000
+}
+],"outputs":[{
+"name":"肥料（有机）","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"赤泥 Storage","name":"赤泥 Storage","duration":0,"inputs":[{
+"name":"赤泥","quantity":6000
+}
+],"outputs":[{
+"name":"赤泥","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"氯化钛 Storage","name":"氯化钛 Storage","duration":0,"inputs":[{
+"name":"氯化钛","quantity":6000
+}
+],"outputs":[{
+"name":"氯化钛","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"氯化钛（纯） Storage","name":"氯化钛（纯） Storage","duration":0,"inputs":[{
+"name":"氯化钛（纯）","quantity":6000
+}
+],"outputs":[{
+"name":"氯化钛（纯）","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"核心燃料 Storage","name":"核心燃料 Storage","duration":0,"inputs":[{
+"name":"核心燃料","quantity":6000
+}
+],"outputs":[{
+"name":"核心燃料","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"核心燃料（用过） Storage","name":"核心燃料（用过） Storage","duration":0,"inputs":[{
+"name":"核心燃料（用过）","quantity":6000
+}
+],"outputs":[{
+"name":"核心燃料（用过）","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"毯式燃料 Storage","name":"毯式燃料 Storage","duration":0,"inputs":[{
+"name":"毯式燃料","quantity":6000
+}
+],"outputs":[{
+"name":"毯式燃料","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"毯式燃料（浓缩） Storage","name":"毯式燃料（浓缩） Storage","duration":0,"inputs":[{
+"name":"毯式燃料（浓缩）","quantity":6000
+}
+],"outputs":[{
+"name":"毯式燃料（浓缩）","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"水 Storage","name":"水 Storage","duration":0,"inputs":[{
+"name":"水","quantity":6000
+}
+],"outputs":[{
+"name":"水","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"冷冻水 Storage","name":"冷冻水 Storage","duration":0,"inputs":[{
+"name":"冷冻水","quantity":6000
+}
+],"outputs":[{
+"name":"冷冻水","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"海水 Storage","name":"海水 Storage","duration":0,"inputs":[{
+"name":"海水","quantity":6000
+}
+],"outputs":[{
+"name":"海水","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"盐水 Storage","name":"盐水 Storage","duration":0,"inputs":[{
+"name":"盐水","quantity":6000
+}
+],"outputs":[{
+"name":"盐水","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"废水 Storage","name":"废水 Storage","duration":0,"inputs":[{
+"name":"废水","quantity":6000
+}
+],"outputs":[{
+"name":"废水","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"有毒浆液 Storage","name":"有毒浆液 Storage","duration":0,"inputs":[{
+"name":"有毒浆液","quantity":6000
+}
+],"outputs":[{
+"name":"有毒浆液","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"氯 Storage","name":"氯 Storage","duration":0,"inputs":[{
+"name":"氯","quantity":6000
+}
+],"outputs":[{
+"name":"氯","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"蒸汽（超高压） Storage","name":"蒸汽（超高压） Storage","duration":0,"inputs":[{
+"name":"蒸汽（超高压）","quantity":6000
+}
+],"outputs":[{
+"name":"蒸汽（超高压）","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"蒸汽（高压） Storage","name":"蒸汽（高压） Storage","duration":0,"inputs":[{
+"name":"蒸汽（高压）","quantity":6000
+}
+],"outputs":[{
+"name":"蒸汽（高压）","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"蒸汽（低压） Storage","name":"蒸汽（低压） Storage","duration":0,"inputs":[{
+"name":"蒸汽（低压）","quantity":6000
+}
+],"outputs":[{
+"name":"蒸汽（低压）","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"乏汽 Storage","name":"乏汽 Storage","duration":0,"inputs":[{
+"name":"乏汽","quantity":6000
+}
+],"outputs":[{
+"name":"乏汽","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"废气 Storage","name":"废气 Storage","duration":0,"inputs":[{
+"name":"废气","quantity":6000
+}
+],"outputs":[{
+"name":"废气","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"原油 Storage","name":"原油 Storage","duration":0,"inputs":[{
+"name":"原油","quantity":6000
+}
+],"outputs":[{
+"name":"原油","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"柴油 Storage","name":"柴油 Storage","duration":0,"inputs":[{
+"name":"柴油","quantity":6000
+}
+],"outputs":[{
+"name":"柴油","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"石脑油 Storage","name":"石脑油 Storage","duration":0,"inputs":[{
+"name":"石脑油","quantity":6000
+}
+],"outputs":[{
+"name":"石脑油","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"燃气 Storage","name":"燃气 Storage","duration":0,"inputs":[{
+"name":"燃气","quantity":6000
+}
+],"outputs":[{
+"name":"燃气","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"酸水 Storage","name":"酸水 Storage","duration":0,"inputs":[{
+"name":"酸水","quantity":6000
+}
+],"outputs":[{
+"name":"酸水","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"氨 Storage","name":"氨 Storage","duration":0,"inputs":[{
+"name":"氨","quantity":6000
+}
+],"outputs":[{
+"name":"氨","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"酸 Storage","name":"酸 Storage","duration":0,"inputs":[{
+"name":"酸","quantity":6000
+}
+],"outputs":[{
+"name":"酸","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"重油 Storage","name":"重油 Storage","duration":0,"inputs":[{
+"name":"重油","quantity":6000
+}
+],"outputs":[{
+"name":"重油","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"中油 Storage","name":"中油 Storage","duration":0,"inputs":[{
+"name":"中油","quantity":6000
+}
+],"outputs":[{
+"name":"中油","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"轻油 Storage","name":"轻油 Storage","duration":0,"inputs":[{
+"name":"轻油","quantity":6000
+}
+],"outputs":[{
+"name":"轻油","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"氢 Storage","name":"氢 Storage","duration":0,"inputs":[{
+"name":"氢","quantity":6000
+}
+],"outputs":[{
+"name":"氢","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"氮 Storage","name":"氮 Storage","duration":0,"inputs":[{
+"name":"氮","quantity":6000
+}
+],"outputs":[{
+"name":"氮","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"二氧化碳 Storage","name":"二氧化碳 Storage","duration":0,"inputs":[{
+"name":"二氧化碳","quantity":6000
+}
+],"outputs":[{
+"name":"二氧化碳","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"乙醇 Storage","name":"乙醇 Storage","duration":0,"inputs":[{
+"name":"乙醇","quantity":6000
+}
+],"outputs":[{
+"name":"乙醇","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"食用油 Storage","name":"食用油 Storage","duration":0,"inputs":[{
+"name":"食用油","quantity":6000
+}
+],"outputs":[{
+"name":"食用油","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"玉米泥 Storage","name":"玉米泥 Storage","duration":0,"inputs":[{
+"name":"玉米泥","quantity":6000
+}
+],"outputs":[{
+"name":"玉米泥","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"氧 Storage","name":"氧 Storage","duration":0,"inputs":[{
+"name":"氧","quantity":6000
+}
+],"outputs":[{
+"name":"氧","quantity":6000
+}
+],"power_multiplier":1
+}
+,{
+"id":"氟化氢 Storage","name":"氟化氢 Storage","duration":0,"inputs":[{
+"name":"氟化氢","quantity":6000
+}
+],"outputs":[{
+"name":"氟化氢","quantity":6000
+}
+],"power_multiplier":1
+}
+]
+}
+,{
+"id":"StorageFluidT3","name":"流体存储罐 III","category":"存储设施","subcategory":"","next_tier":"StorageFluidT4","workers":0,"maintenance_cost_units":"","maintenance_cost_quantity":0,"electricity_consumed":0,"electricity_generated":0,"computing_consumed":0,"computing_generated":0,"product_type":"FluidProductProto","storage_capacity":3000,"unity_cost":0,"research_speed":0,"icon_path":"Assets/Unity/Generated/Icons/LayoutEntity/StorageFluidT3.png","build_costs":[{
+"product":"建筑零件III","quantity":60
+}
+],"recipes":[{
+"id":"肥料 I Storage","name":"肥料 I Storage","duration":0,"inputs":[{
+"name":"肥料 I","quantity":3000
+}
+],"outputs":[{
+"name":"肥料 I","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"肥料 II Storage","name":"肥料 II Storage","duration":0,"inputs":[{
+"name":"肥料 II","quantity":3000
+}
+],"outputs":[{
+"name":"肥料 II","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"肥料（有机） Storage","name":"肥料（有机） Storage","duration":0,"inputs":[{
+"name":"肥料（有机）","quantity":3000
+}
+],"outputs":[{
+"name":"肥料（有机）","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"赤泥 Storage","name":"赤泥 Storage","duration":0,"inputs":[{
+"name":"赤泥","quantity":3000
+}
+],"outputs":[{
+"name":"赤泥","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"氯化钛 Storage","name":"氯化钛 Storage","duration":0,"inputs":[{
+"name":"氯化钛","quantity":3000
+}
+],"outputs":[{
+"name":"氯化钛","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"氯化钛（纯） Storage","name":"氯化钛（纯） Storage","duration":0,"inputs":[{
+"name":"氯化钛（纯）","quantity":3000
+}
+],"outputs":[{
+"name":"氯化钛（纯）","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"核心燃料 Storage","name":"核心燃料 Storage","duration":0,"inputs":[{
+"name":"核心燃料","quantity":3000
+}
+],"outputs":[{
+"name":"核心燃料","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"核心燃料（用过） Storage","name":"核心燃料（用过） Storage","duration":0,"inputs":[{
+"name":"核心燃料（用过）","quantity":3000
+}
+],"outputs":[{
+"name":"核心燃料（用过）","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"毯式燃料 Storage","name":"毯式燃料 Storage","duration":0,"inputs":[{
+"name":"毯式燃料","quantity":3000
+}
+],"outputs":[{
+"name":"毯式燃料","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"毯式燃料（浓缩） Storage","name":"毯式燃料（浓缩） Storage","duration":0,"inputs":[{
+"name":"毯式燃料（浓缩）","quantity":3000
+}
+],"outputs":[{
+"name":"毯式燃料（浓缩）","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"水 Storage","name":"水 Storage","duration":0,"inputs":[{
+"name":"水","quantity":3000
+}
+],"outputs":[{
+"name":"水","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"冷冻水 Storage","name":"冷冻水 Storage","duration":0,"inputs":[{
+"name":"冷冻水","quantity":3000
+}
+],"outputs":[{
+"name":"冷冻水","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"海水 Storage","name":"海水 Storage","duration":0,"inputs":[{
+"name":"海水","quantity":3000
+}
+],"outputs":[{
+"name":"海水","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"盐水 Storage","name":"盐水 Storage","duration":0,"inputs":[{
+"name":"盐水","quantity":3000
+}
+],"outputs":[{
+"name":"盐水","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"废水 Storage","name":"废水 Storage","duration":0,"inputs":[{
+"name":"废水","quantity":3000
+}
+],"outputs":[{
+"name":"废水","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"有毒浆液 Storage","name":"有毒浆液 Storage","duration":0,"inputs":[{
+"name":"有毒浆液","quantity":3000
+}
+],"outputs":[{
+"name":"有毒浆液","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"氯 Storage","name":"氯 Storage","duration":0,"inputs":[{
+"name":"氯","quantity":3000
+}
+],"outputs":[{
+"name":"氯","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"蒸汽（超高压） Storage","name":"蒸汽（超高压） Storage","duration":0,"inputs":[{
+"name":"蒸汽（超高压）","quantity":3000
+}
+],"outputs":[{
+"name":"蒸汽（超高压）","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"蒸汽（高压） Storage","name":"蒸汽（高压） Storage","duration":0,"inputs":[{
+"name":"蒸汽（高压）","quantity":3000
+}
+],"outputs":[{
+"name":"蒸汽（高压）","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"蒸汽（低压） Storage","name":"蒸汽（低压） Storage","duration":0,"inputs":[{
+"name":"蒸汽（低压）","quantity":3000
+}
+],"outputs":[{
+"name":"蒸汽（低压）","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"乏汽 Storage","name":"乏汽 Storage","duration":0,"inputs":[{
+"name":"乏汽","quantity":3000
+}
+],"outputs":[{
+"name":"乏汽","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"废气 Storage","name":"废气 Storage","duration":0,"inputs":[{
+"name":"废气","quantity":3000
+}
+],"outputs":[{
+"name":"废气","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"原油 Storage","name":"原油 Storage","duration":0,"inputs":[{
+"name":"原油","quantity":3000
+}
+],"outputs":[{
+"name":"原油","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"柴油 Storage","name":"柴油 Storage","duration":0,"inputs":[{
+"name":"柴油","quantity":3000
+}
+],"outputs":[{
+"name":"柴油","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"石脑油 Storage","name":"石脑油 Storage","duration":0,"inputs":[{
+"name":"石脑油","quantity":3000
+}
+],"outputs":[{
+"name":"石脑油","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"燃气 Storage","name":"燃气 Storage","duration":0,"inputs":[{
+"name":"燃气","quantity":3000
+}
+],"outputs":[{
+"name":"燃气","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"酸水 Storage","name":"酸水 Storage","duration":0,"inputs":[{
+"name":"酸水","quantity":3000
+}
+],"outputs":[{
+"name":"酸水","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"氨 Storage","name":"氨 Storage","duration":0,"inputs":[{
+"name":"氨","quantity":3000
+}
+],"outputs":[{
+"name":"氨","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"酸 Storage","name":"酸 Storage","duration":0,"inputs":[{
+"name":"酸","quantity":3000
+}
+],"outputs":[{
+"name":"酸","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"重油 Storage","name":"重油 Storage","duration":0,"inputs":[{
+"name":"重油","quantity":3000
+}
+],"outputs":[{
+"name":"重油","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"中油 Storage","name":"中油 Storage","duration":0,"inputs":[{
+"name":"中油","quantity":3000
+}
+],"outputs":[{
+"name":"中油","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"轻油 Storage","name":"轻油 Storage","duration":0,"inputs":[{
+"name":"轻油","quantity":3000
+}
+],"outputs":[{
+"name":"轻油","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"氢 Storage","name":"氢 Storage","duration":0,"inputs":[{
+"name":"氢","quantity":3000
+}
+],"outputs":[{
+"name":"氢","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"氮 Storage","name":"氮 Storage","duration":0,"inputs":[{
+"name":"氮","quantity":3000
+}
+],"outputs":[{
+"name":"氮","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"二氧化碳 Storage","name":"二氧化碳 Storage","duration":0,"inputs":[{
+"name":"二氧化碳","quantity":3000
+}
+],"outputs":[{
+"name":"二氧化碳","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"乙醇 Storage","name":"乙醇 Storage","duration":0,"inputs":[{
+"name":"乙醇","quantity":3000
+}
+],"outputs":[{
+"name":"乙醇","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"食用油 Storage","name":"食用油 Storage","duration":0,"inputs":[{
+"name":"食用油","quantity":3000
+}
+],"outputs":[{
+"name":"食用油","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"玉米泥 Storage","name":"玉米泥 Storage","duration":0,"inputs":[{
+"name":"玉米泥","quantity":3000
+}
+],"outputs":[{
+"name":"玉米泥","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"氧 Storage","name":"氧 Storage","duration":0,"inputs":[{
+"name":"氧","quantity":3000
+}
+],"outputs":[{
+"name":"氧","quantity":3000
+}
+],"power_multiplier":1
+}
+,{
+"id":"氟化氢 Storage","name":"氟化氢 Storage","duration":0,"inputs":[{
+"name":"氟化氢","quantity":3000
+}
+],"outputs":[{
+"name":"氟化氢","quantity":3000
+}
+],"power_multiplier":1
+}
+]
+}
+,{
+"id":"StorageFluidT2","name":"流体存储罐 II","category":"存储设施","subcategory":"","next_tier":"","workers":0,"maintenance_cost_units":"","maintenance_cost_quantity":0,"electricity_consumed":0,"electricity_generated":0,"computing_consumed":0,"computing_generated":0,"product_type":"FluidProductProto","storage_capacity":500,"unity_cost":0,"research_speed":0,"icon_path":"Assets/Unity/Generated/Icons/LayoutEntity/StorageFluidT2.png","build_costs":[{
+"product":"建筑零件II","quantity":30
+}
+],"recipes":[{
+"id":"肥料 I Storage","name":"肥料 I Storage","duration":0,"inputs":[{
+"name":"肥料 I","quantity":500
+}
+],"outputs":[{
+"name":"肥料 I","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"肥料 II Storage","name":"肥料 II Storage","duration":0,"inputs":[{
+"name":"肥料 II","quantity":500
+}
+],"outputs":[{
+"name":"肥料 II","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"肥料（有机） Storage","name":"肥料（有机） Storage","duration":0,"inputs":[{
+"name":"肥料（有机）","quantity":500
+}
+],"outputs":[{
+"name":"肥料（有机）","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"赤泥 Storage","name":"赤泥 Storage","duration":0,"inputs":[{
+"name":"赤泥","quantity":500
+}
+],"outputs":[{
+"name":"赤泥","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"氯化钛 Storage","name":"氯化钛 Storage","duration":0,"inputs":[{
+"name":"氯化钛","quantity":500
+}
+],"outputs":[{
+"name":"氯化钛","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"氯化钛（纯） Storage","name":"氯化钛（纯） Storage","duration":0,"inputs":[{
+"name":"氯化钛（纯）","quantity":500
+}
+],"outputs":[{
+"name":"氯化钛（纯）","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"核心燃料 Storage","name":"核心燃料 Storage","duration":0,"inputs":[{
+"name":"核心燃料","quantity":500
+}
+],"outputs":[{
+"name":"核心燃料","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"核心燃料（用过） Storage","name":"核心燃料（用过） Storage","duration":0,"inputs":[{
+"name":"核心燃料（用过）","quantity":500
+}
+],"outputs":[{
+"name":"核心燃料（用过）","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"毯式燃料 Storage","name":"毯式燃料 Storage","duration":0,"inputs":[{
+"name":"毯式燃料","quantity":500
+}
+],"outputs":[{
+"name":"毯式燃料","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"毯式燃料（浓缩） Storage","name":"毯式燃料（浓缩） Storage","duration":0,"inputs":[{
+"name":"毯式燃料（浓缩）","quantity":500
+}
+],"outputs":[{
+"name":"毯式燃料（浓缩）","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"水 Storage","name":"水 Storage","duration":0,"inputs":[{
+"name":"水","quantity":500
+}
+],"outputs":[{
+"name":"水","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"冷冻水 Storage","name":"冷冻水 Storage","duration":0,"inputs":[{
+"name":"冷冻水","quantity":500
+}
+],"outputs":[{
+"name":"冷冻水","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"海水 Storage","name":"海水 Storage","duration":0,"inputs":[{
+"name":"海水","quantity":500
+}
+],"outputs":[{
+"name":"海水","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"盐水 Storage","name":"盐水 Storage","duration":0,"inputs":[{
+"name":"盐水","quantity":500
+}
+],"outputs":[{
+"name":"盐水","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"废水 Storage","name":"废水 Storage","duration":0,"inputs":[{
+"name":"废水","quantity":500
+}
+],"outputs":[{
+"name":"废水","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"有毒浆液 Storage","name":"有毒浆液 Storage","duration":0,"inputs":[{
+"name":"有毒浆液","quantity":500
+}
+],"outputs":[{
+"name":"有毒浆液","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"氯 Storage","name":"氯 Storage","duration":0,"inputs":[{
+"name":"氯","quantity":500
+}
+],"outputs":[{
+"name":"氯","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"蒸汽（超高压） Storage","name":"蒸汽（超高压） Storage","duration":0,"inputs":[{
+"name":"蒸汽（超高压）","quantity":500
+}
+],"outputs":[{
+"name":"蒸汽（超高压）","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"蒸汽（高压） Storage","name":"蒸汽（高压） Storage","duration":0,"inputs":[{
+"name":"蒸汽（高压）","quantity":500
+}
+],"outputs":[{
+"name":"蒸汽（高压）","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"蒸汽（低压） Storage","name":"蒸汽（低压） Storage","duration":0,"inputs":[{
+"name":"蒸汽（低压）","quantity":500
+}
+],"outputs":[{
+"name":"蒸汽（低压）","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"乏汽 Storage","name":"乏汽 Storage","duration":0,"inputs":[{
+"name":"乏汽","quantity":500
+}
+],"outputs":[{
+"name":"乏汽","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"废气 Storage","name":"废气 Storage","duration":0,"inputs":[{
+"name":"废气","quantity":500
+}
+],"outputs":[{
+"name":"废气","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"原油 Storage","name":"原油 Storage","duration":0,"inputs":[{
+"name":"原油","quantity":500
+}
+],"outputs":[{
+"name":"原油","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"柴油 Storage","name":"柴油 Storage","duration":0,"inputs":[{
+"name":"柴油","quantity":500
+}
+],"outputs":[{
+"name":"柴油","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"石脑油 Storage","name":"石脑油 Storage","duration":0,"inputs":[{
+"name":"石脑油","quantity":500
+}
+],"outputs":[{
+"name":"石脑油","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"燃气 Storage","name":"燃气 Storage","duration":0,"inputs":[{
+"name":"燃气","quantity":500
+}
+],"outputs":[{
+"name":"燃气","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"酸水 Storage","name":"酸水 Storage","duration":0,"inputs":[{
+"name":"酸水","quantity":500
+}
+],"outputs":[{
+"name":"酸水","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"氨 Storage","name":"氨 Storage","duration":0,"inputs":[{
+"name":"氨","quantity":500
+}
+],"outputs":[{
+"name":"氨","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"酸 Storage","name":"酸 Storage","duration":0,"inputs":[{
+"name":"酸","quantity":500
+}
+],"outputs":[{
+"name":"酸","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"重油 Storage","name":"重油 Storage","duration":0,"inputs":[{
+"name":"重油","quantity":500
+}
+],"outputs":[{
+"name":"重油","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"中油 Storage","name":"中油 Storage","duration":0,"inputs":[{
+"name":"中油","quantity":500
+}
+],"outputs":[{
+"name":"中油","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"轻油 Storage","name":"轻油 Storage","duration":0,"inputs":[{
+"name":"轻油","quantity":500
+}
+],"outputs":[{
+"name":"轻油","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"氢 Storage","name":"氢 Storage","duration":0,"inputs":[{
+"name":"氢","quantity":500
+}
+],"outputs":[{
+"name":"氢","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"氮 Storage","name":"氮 Storage","duration":0,"inputs":[{
+"name":"氮","quantity":500
+}
+],"outputs":[{
+"name":"氮","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"二氧化碳 Storage","name":"二氧化碳 Storage","duration":0,"inputs":[{
+"name":"二氧化碳","quantity":500
+}
+],"outputs":[{
+"name":"二氧化碳","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"乙醇 Storage","name":"乙醇 Storage","duration":0,"inputs":[{
+"name":"乙醇","quantity":500
+}
+],"outputs":[{
+"name":"乙醇","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"食用油 Storage","name":"食用油 Storage","duration":0,"inputs":[{
+"name":"食用油","quantity":500
+}
+],"outputs":[{
+"name":"食用油","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"玉米泥 Storage","name":"玉米泥 Storage","duration":0,"inputs":[{
+"name":"玉米泥","quantity":500
+}
+],"outputs":[{
+"name":"玉米泥","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"氧 Storage","name":"氧 Storage","duration":0,"inputs":[{
+"name":"氧","quantity":500
+}
+],"outputs":[{
+"name":"氧","quantity":500
+}
+],"power_multiplier":1
+}
+,{
+"id":"氟化氢 Storage","name":"氟化氢 Storage","duration":0,"inputs":[{
+"name":"氟化氢","quantity":500
+}
+],"outputs":[{
+"name":"氟化氢","quantity":500
+}
+],"power_multiplier":1
+}
+]
+}
+,{
+"id":"StorageFluid","name":"流体存储罐","category":"存储设施","subcategory":"","next_tier":"StorageFluidT2","workers":0,"maintenance_cost_units":"","maintenance_cost_quantity":0,"electricity_consumed":0,"electricity_generated":0,"computing_consumed":0,"computing_generated":0,"product_type":"FluidProductProto","storage_capacity":200,"unity_cost":0,"research_speed":0,"icon_path":"Assets/Unity/Generated/Icons/LayoutEntity/StorageFluid.png","build_costs":[{
+"product":"建筑零件","quantity":30
+}
+],"recipes":[{
+"id":"肥料 I Storage","name":"肥料 I Storage","duration":0,"inputs":[{
+"name":"肥料 I","quantity":200
+}
+],"outputs":[{
+"name":"肥料 I","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"肥料 II Storage","name":"肥料 II Storage","duration":0,"inputs":[{
+"name":"肥料 II","quantity":200
+}
+],"outputs":[{
+"name":"肥料 II","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"肥料（有机） Storage","name":"肥料（有机） Storage","duration":0,"inputs":[{
+"name":"肥料（有机）","quantity":200
+}
+],"outputs":[{
+"name":"肥料（有机）","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"赤泥 Storage","name":"赤泥 Storage","duration":0,"inputs":[{
+"name":"赤泥","quantity":200
+}
+],"outputs":[{
+"name":"赤泥","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"氯化钛 Storage","name":"氯化钛 Storage","duration":0,"inputs":[{
+"name":"氯化钛","quantity":200
+}
+],"outputs":[{
+"name":"氯化钛","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"氯化钛（纯） Storage","name":"氯化钛（纯） Storage","duration":0,"inputs":[{
+"name":"氯化钛（纯）","quantity":200
+}
+],"outputs":[{
+"name":"氯化钛（纯）","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"核心燃料 Storage","name":"核心燃料 Storage","duration":0,"inputs":[{
+"name":"核心燃料","quantity":200
+}
+],"outputs":[{
+"name":"核心燃料","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"核心燃料（用过） Storage","name":"核心燃料（用过） Storage","duration":0,"inputs":[{
+"name":"核心燃料（用过）","quantity":200
+}
+],"outputs":[{
+"name":"核心燃料（用过）","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"毯式燃料 Storage","name":"毯式燃料 Storage","duration":0,"inputs":[{
+"name":"毯式燃料","quantity":200
+}
+],"outputs":[{
+"name":"毯式燃料","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"毯式燃料（浓缩） Storage","name":"毯式燃料（浓缩） Storage","duration":0,"inputs":[{
+"name":"毯式燃料（浓缩）","quantity":200
+}
+],"outputs":[{
+"name":"毯式燃料（浓缩）","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"水 Storage","name":"水 Storage","duration":0,"inputs":[{
+"name":"水","quantity":200
+}
+],"outputs":[{
+"name":"水","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"冷冻水 Storage","name":"冷冻水 Storage","duration":0,"inputs":[{
+"name":"冷冻水","quantity":200
+}
+],"outputs":[{
+"name":"冷冻水","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"海水 Storage","name":"海水 Storage","duration":0,"inputs":[{
+"name":"海水","quantity":200
+}
+],"outputs":[{
+"name":"海水","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"盐水 Storage","name":"盐水 Storage","duration":0,"inputs":[{
+"name":"盐水","quantity":200
+}
+],"outputs":[{
+"name":"盐水","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"废水 Storage","name":"废水 Storage","duration":0,"inputs":[{
+"name":"废水","quantity":200
+}
+],"outputs":[{
+"name":"废水","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"有毒浆液 Storage","name":"有毒浆液 Storage","duration":0,"inputs":[{
+"name":"有毒浆液","quantity":200
+}
+],"outputs":[{
+"name":"有毒浆液","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"氯 Storage","name":"氯 Storage","duration":0,"inputs":[{
+"name":"氯","quantity":200
+}
+],"outputs":[{
+"name":"氯","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"蒸汽（超高压） Storage","name":"蒸汽（超高压） Storage","duration":0,"inputs":[{
+"name":"蒸汽（超高压）","quantity":200
+}
+],"outputs":[{
+"name":"蒸汽（超高压）","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"蒸汽（高压） Storage","name":"蒸汽（高压） Storage","duration":0,"inputs":[{
+"name":"蒸汽（高压）","quantity":200
+}
+],"outputs":[{
+"name":"蒸汽（高压）","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"蒸汽（低压） Storage","name":"蒸汽（低压） Storage","duration":0,"inputs":[{
+"name":"蒸汽（低压）","quantity":200
+}
+],"outputs":[{
+"name":"蒸汽（低压）","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"乏汽 Storage","name":"乏汽 Storage","duration":0,"inputs":[{
+"name":"乏汽","quantity":200
+}
+],"outputs":[{
+"name":"乏汽","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"废气 Storage","name":"废气 Storage","duration":0,"inputs":[{
+"name":"废气","quantity":200
+}
+],"outputs":[{
+"name":"废气","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"原油 Storage","name":"原油 Storage","duration":0,"inputs":[{
+"name":"原油","quantity":200
+}
+],"outputs":[{
+"name":"原油","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"柴油 Storage","name":"柴油 Storage","duration":0,"inputs":[{
+"name":"柴油","quantity":200
+}
+],"outputs":[{
+"name":"柴油","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"石脑油 Storage","name":"石脑油 Storage","duration":0,"inputs":[{
+"name":"石脑油","quantity":200
+}
+],"outputs":[{
+"name":"石脑油","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"燃气 Storage","name":"燃气 Storage","duration":0,"inputs":[{
+"name":"燃气","quantity":200
+}
+],"outputs":[{
+"name":"燃气","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"酸水 Storage","name":"酸水 Storage","duration":0,"inputs":[{
+"name":"酸水","quantity":200
+}
+],"outputs":[{
+"name":"酸水","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"氨 Storage","name":"氨 Storage","duration":0,"inputs":[{
+"name":"氨","quantity":200
+}
+],"outputs":[{
+"name":"氨","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"酸 Storage","name":"酸 Storage","duration":0,"inputs":[{
+"name":"酸","quantity":200
+}
+],"outputs":[{
+"name":"酸","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"重油 Storage","name":"重油 Storage","duration":0,"inputs":[{
+"name":"重油","quantity":200
+}
+],"outputs":[{
+"name":"重油","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"中油 Storage","name":"中油 Storage","duration":0,"inputs":[{
+"name":"中油","quantity":200
+}
+],"outputs":[{
+"name":"中油","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"轻油 Storage","name":"轻油 Storage","duration":0,"inputs":[{
+"name":"轻油","quantity":200
+}
+],"outputs":[{
+"name":"轻油","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"氢 Storage","name":"氢 Storage","duration":0,"inputs":[{
+"name":"氢","quantity":200
+}
+],"outputs":[{
+"name":"氢","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"氮 Storage","name":"氮 Storage","duration":0,"inputs":[{
+"name":"氮","quantity":200
+}
+],"outputs":[{
+"name":"氮","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"二氧化碳 Storage","name":"二氧化碳 Storage","duration":0,"inputs":[{
+"name":"二氧化碳","quantity":200
+}
+],"outputs":[{
+"name":"二氧化碳","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"乙醇 Storage","name":"乙醇 Storage","duration":0,"inputs":[{
+"name":"乙醇","quantity":200
+}
+],"outputs":[{
+"name":"乙醇","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"食用油 Storage","name":"食用油 Storage","duration":0,"inputs":[{
+"name":"食用油","quantity":200
+}
+],"outputs":[{
+"name":"食用油","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"玉米泥 Storage","name":"玉米泥 Storage","duration":0,"inputs":[{
+"name":"玉米泥","quantity":200
+}
+],"outputs":[{
+"name":"玉米泥","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"氧 Storage","name":"氧 Storage","duration":0,"inputs":[{
+"name":"氧","quantity":200
+}
+],"outputs":[{
+"name":"氧","quantity":200
+}
+],"power_multiplier":1
+}
+,{
+"id":"氟化氢 Storage","name":"氟化氢 Storage","duration":0,"inputs":[{
+"name":"氟化氢","quantity":200
+}
+],"outputs":[{
+"name":"氟化氢","quantity":200
+}
+],"power_multiplier":1
+}
+]
+}
+,{
+"id":"NuclearWasteStorage","name":"放射性废料存储设施","category":"电力生产","subcategory":"核能","next_tier":"","workers":10,"maintenance_cost_units":"","maintenance_cost_quantity":0,"electricity_consumed":0,"electricity_generated":0,"computing_consumed":0,"computing_generated":0,"product_type":"CountableProductProto","storage_capacity":2400,"unity_cost":0,"research_speed":0,"icon_path":"Assets/Unity/Generated/Icons/LayoutEntity/NuclearWasteStorage.png","build_costs":[{
+"product":"建筑零件III","quantity":150
+}
+,{
+"product":"混凝土板","quantity":500
+}
+],"recipes":[{
+"id":"木材 Storage","name":"木材 Storage","duration":0,"inputs":[{
+"name":"木材","quantity":2400
+}
+],"outputs":[{
+"name":"木材","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"树苗 Storage","name":"树苗 Storage","duration":0,"inputs":[{
+"name":"树苗","quantity":2400
+}
+],"outputs":[{
+"name":"树苗","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"纸 Storage","name":"纸 Storage","duration":0,"inputs":[{
+"name":"纸","quantity":2400
+}
+],"outputs":[{
+"name":"纸","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"石墨 Storage","name":"石墨 Storage","duration":0,"inputs":[{
+"name":"石墨","quantity":2400
+}
+],"outputs":[{
+"name":"石墨","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"压缩铁废料 Storage","name":"压缩铁废料 Storage","duration":0,"inputs":[{
+"name":"压缩铁废料","quantity":2400
+}
+],"outputs":[{
+"name":"压缩铁废料","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"铁 Storage","name":"铁 Storage","duration":0,"inputs":[{
+"name":"铁","quantity":2400
+}
+],"outputs":[{
+"name":"铁","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"钢 Storage","name":"钢 Storage","duration":0,"inputs":[{
+"name":"钢","quantity":2400
+}
+],"outputs":[{
+"name":"钢","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"压缩铜废料 Storage","name":"压缩铜废料 Storage","duration":0,"inputs":[{
+"name":"压缩铜废料","quantity":2400
+}
+],"outputs":[{
+"name":"压缩铜废料","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"不纯铜 Storage","name":"不纯铜 Storage","duration":0,"inputs":[{
+"name":"不纯铜","quantity":2400
+}
+],"outputs":[{
+"name":"不纯铜","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"铜 Storage","name":"铜 Storage","duration":0,"inputs":[{
+"name":"铜","quantity":2400
+}
+],"outputs":[{
+"name":"铜","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"压缩铝废料 Storage","name":"压缩铝废料 Storage","duration":0,"inputs":[{
+"name":"压缩铝废料","quantity":2400
+}
+],"outputs":[{
+"name":"压缩铝废料","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"铝 Storage","name":"铝 Storage","duration":0,"inputs":[{
+"name":"铝","quantity":2400
+}
+],"outputs":[{
+"name":"铝","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"钛合金 Storage","name":"钛合金 Storage","duration":0,"inputs":[{
+"name":"钛合金","quantity":2400
+}
+],"outputs":[{
+"name":"钛合金","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"金 Storage","name":"金 Storage","duration":0,"inputs":[{
+"name":"金","quantity":2400
+}
+],"outputs":[{
+"name":"金","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"压缩金废料 Storage","name":"压缩金废料 Storage","duration":0,"inputs":[{
+"name":"压缩金废料","quantity":2400
+}
+],"outputs":[{
+"name":"压缩金废料","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"玻璃 Storage","name":"玻璃 Storage","duration":0,"inputs":[{
+"name":"玻璃","quantity":2400
+}
+],"outputs":[{
+"name":"玻璃","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"浓缩铀 (4%) Storage","name":"浓缩铀 (4%) Storage","duration":0,"inputs":[{
+"name":"浓缩铀 (4%)","quantity":2400
+}
+],"outputs":[{
+"name":"浓缩铀 (4%)","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"浓缩铀 (20%) Storage","name":"浓缩铀 (20%) Storage","duration":0,"inputs":[{
+"name":"浓缩铀 (20%)","quantity":2400
+}
+],"outputs":[{
+"name":"浓缩铀 (20%)","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"再加工铀 (1%) Storage","name":"再加工铀 (1%) Storage","duration":0,"inputs":[{
+"name":"再加工铀 (1%)","quantity":2400
+}
+],"outputs":[{
+"name":"再加工铀 (1%)","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"钚 Storage","name":"钚 Storage","duration":0,"inputs":[{
+"name":"钚","quantity":2400
+}
+],"outputs":[{
+"name":"钚","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"铀棒 Storage","name":"铀棒 Storage","duration":0,"inputs":[{
+"name":"铀棒","quantity":2400
+}
+],"outputs":[{
+"name":"铀棒","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"MOX棒 Storage","name":"MOX棒 Storage","duration":0,"inputs":[{
+"name":"MOX棒","quantity":2400
+}
+],"outputs":[{
+"name":"MOX棒","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"乏燃料 Storage","name":"乏燃料 Storage","duration":0,"inputs":[{
+"name":"乏燃料","quantity":2400
+}
+],"outputs":[{
+"name":"乏燃料","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"用过的MOX Storage","name":"用过的MOX Storage","duration":0,"inputs":[{
+"name":"用过的MOX","quantity":2400
+}
+],"outputs":[{
+"name":"用过的MOX","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"裂变产物 Storage","name":"裂变产物 Storage","duration":0,"inputs":[{
+"name":"裂变产物","quantity":2400
+}
+],"outputs":[{
+"name":"裂变产物","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"可回收的核废料 Storage","name":"可回收的核废料 Storage","duration":0,"inputs":[{
+"name":"可回收的核废料","quantity":2400
+}
+],"outputs":[{
+"name":"可回收的核废料","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"硅 (多晶) Storage","name":"硅 (多晶) Storage","duration":0,"inputs":[{
+"name":"硅 (多晶)","quantity":2400
+}
+],"outputs":[{
+"name":"硅 (多晶)","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"硅晶圆 Storage","name":"硅晶圆 Storage","duration":0,"inputs":[{
+"name":"硅晶圆","quantity":2400
+}
+],"outputs":[{
+"name":"硅晶圆","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"压缩可回收物 Storage","name":"压缩可回收物 Storage","duration":0,"inputs":[{
+"name":"压缩可回收物","quantity":2400
+}
+],"outputs":[{
+"name":"压缩可回收物","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"塑料 Storage","name":"塑料 Storage","duration":0,"inputs":[{
+"name":"塑料","quantity":2400
+}
+],"outputs":[{
+"name":"塑料","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"橡胶 Storage","name":"橡胶 Storage","duration":0,"inputs":[{
+"name":"橡胶","quantity":2400
+}
+],"outputs":[{
+"name":"橡胶","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"蔬菜 Storage","name":"蔬菜 Storage","duration":0,"inputs":[{
+"name":"蔬菜","quantity":2400
+}
+],"outputs":[{
+"name":"蔬菜","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"水果 Storage","name":"水果 Storage","duration":0,"inputs":[{
+"name":"水果","quantity":2400
+}
+],"outputs":[{
+"name":"水果","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"面包 Storage","name":"面包 Storage","duration":0,"inputs":[{
+"name":"面包","quantity":2400
+}
+],"outputs":[{
+"name":"面包","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"面粉 Storage","name":"面粉 Storage","duration":0,"inputs":[{
+"name":"面粉","quantity":2400
+}
+],"outputs":[{
+"name":"面粉","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"鸡蛋 Storage","name":"鸡蛋 Storage","duration":0,"inputs":[{
+"name":"鸡蛋","quantity":2400
+}
+],"outputs":[{
+"name":"鸡蛋","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"豆腐 Storage","name":"豆腐 Storage","duration":0,"inputs":[{
+"name":"豆腐","quantity":2400
+}
+],"outputs":[{
+"name":"豆腐","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"肉 Storage","name":"肉 Storage","duration":0,"inputs":[{
+"name":"肉","quantity":2400
+}
+],"outputs":[{
+"name":"肉","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"香肠 Storage","name":"香肠 Storage","duration":0,"inputs":[{
+"name":"香肠","quantity":2400
+}
+],"outputs":[{
+"name":"香肠","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"零食 Storage","name":"零食 Storage","duration":0,"inputs":[{
+"name":"零食","quantity":2400
+}
+],"outputs":[{
+"name":"零食","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"蛋糕 Storage","name":"蛋糕 Storage","duration":0,"inputs":[{
+"name":"蛋糕","quantity":2400
+}
+],"outputs":[{
+"name":"蛋糕","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"包装食品 Storage","name":"包装食品 Storage","duration":0,"inputs":[{
+"name":"包装食品","quantity":2400
+}
+],"outputs":[{
+"name":"包装食品","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"整鸡 Storage","name":"整鸡 Storage","duration":0,"inputs":[{
+"name":"整鸡","quantity":2400
+}
+],"outputs":[{
+"name":"整鸡","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"家庭用品 Storage","name":"家庭用品 Storage","duration":0,"inputs":[{
+"name":"家庭用品","quantity":2400
+}
+],"outputs":[{
+"name":"家庭用品","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"家用设备 Storage","name":"家用设备 Storage","duration":0,"inputs":[{
+"name":"家用设备","quantity":2400
+}
+],"outputs":[{
+"name":"家用设备","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"消费类电子产品 Storage","name":"消费类电子产品 Storage","duration":0,"inputs":[{
+"name":"消费类电子产品","quantity":2400
+}
+],"outputs":[{
+"name":"消费类电子产品","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"奢侈品 Storage","name":"奢侈品 Storage","duration":0,"inputs":[{
+"name":"奢侈品","quantity":2400
+}
+],"outputs":[{
+"name":"奢侈品","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"进口商品 Storage","name":"进口商品 Storage","duration":0,"inputs":[{
+"name":"进口商品","quantity":2400
+}
+],"outputs":[{
+"name":"进口商品","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"抗生素 Storage","name":"抗生素 Storage","duration":0,"inputs":[{
+"name":"抗生素","quantity":2400
+}
+],"outputs":[{
+"name":"抗生素","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"消毒剂 Storage","name":"消毒剂 Storage","duration":0,"inputs":[{
+"name":"消毒剂","quantity":2400
+}
+],"outputs":[{
+"name":"消毒剂","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"麻醉剂 Storage","name":"麻醉剂 Storage","duration":0,"inputs":[{
+"name":"麻醉剂","quantity":2400
+}
+],"outputs":[{
+"name":"麻醉剂","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"吗啡 Storage","name":"吗啡 Storage","duration":0,"inputs":[{
+"name":"吗啡","quantity":2400
+}
+],"outputs":[{
+"name":"吗啡","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"医用器材 Storage","name":"医用器材 Storage","duration":0,"inputs":[{
+"name":"医用器材","quantity":2400
+}
+],"outputs":[{
+"name":"医用器材","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"医疗用品 Storage","name":"医疗用品 Storage","duration":0,"inputs":[{
+"name":"医疗用品","quantity":2400
+}
+],"outputs":[{
+"name":"医疗用品","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"医疗用品 II Storage","name":"医疗用品 II Storage","duration":0,"inputs":[{
+"name":"医疗用品 II","quantity":2400
+}
+],"outputs":[{
+"name":"医疗用品 II","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"医疗用品 III Storage","name":"医疗用品 III Storage","duration":0,"inputs":[{
+"name":"医疗用品 III","quantity":2400
+}
+],"outputs":[{
+"name":"医疗用品 III","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"水泥 Storage","name":"水泥 Storage","duration":0,"inputs":[{
+"name":"水泥","quantity":2400
+}
+],"outputs":[{
+"name":"水泥","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"混凝土板 Storage","name":"混凝土板 Storage","duration":0,"inputs":[{
+"name":"混凝土板","quantity":2400
+}
+],"outputs":[{
+"name":"混凝土板","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"砖块 Storage","name":"砖块 Storage","duration":0,"inputs":[{
+"name":"砖块","quantity":2400
+}
+],"outputs":[{
+"name":"砖块","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"建筑零件 Storage","name":"建筑零件 Storage","duration":0,"inputs":[{
+"name":"建筑零件","quantity":2400
+}
+],"outputs":[{
+"name":"建筑零件","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"建筑零件II Storage","name":"建筑零件II Storage","duration":0,"inputs":[{
+"name":"建筑零件II","quantity":2400
+}
+],"outputs":[{
+"name":"建筑零件II","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"建筑零件III Storage","name":"建筑零件III Storage","duration":0,"inputs":[{
+"name":"建筑零件III","quantity":2400
+}
+],"outputs":[{
+"name":"建筑零件III","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"建筑零件IV Storage","name":"建筑零件IV Storage","duration":0,"inputs":[{
+"name":"建筑零件IV","quantity":2400
+}
+],"outputs":[{
+"name":"建筑零件IV","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"机械零件 Storage","name":"机械零件 Storage","duration":0,"inputs":[{
+"name":"机械零件","quantity":2400
+}
+],"outputs":[{
+"name":"机械零件","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"车辆零件 Storage","name":"车辆零件 Storage","duration":0,"inputs":[{
+"name":"车辆零件","quantity":2400
+}
+],"outputs":[{
+"name":"车辆零件","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"车辆零件 II Storage","name":"车辆零件 II Storage","duration":0,"inputs":[{
+"name":"车辆零件 II","quantity":2400
+}
+],"outputs":[{
+"name":"车辆零件 II","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"车辆零件 III Storage","name":"车辆零件 III Storage","duration":0,"inputs":[{
+"name":"车辆零件 III","quantity":2400
+}
+],"outputs":[{
+"name":"车辆零件 III","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"实验室设备 Storage","name":"实验室设备 Storage","duration":0,"inputs":[{
+"name":"实验室设备","quantity":2400
+}
+],"outputs":[{
+"name":"实验室设备","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"实验室设备 II Storage","name":"实验室设备 II Storage","duration":0,"inputs":[{
+"name":"实验室设备 II","quantity":2400
+}
+],"outputs":[{
+"name":"实验室设备 II","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"实验室设备 III Storage","name":"实验室设备 III Storage","duration":0,"inputs":[{
+"name":"实验室设备 III","quantity":2400
+}
+],"outputs":[{
+"name":"实验室设备 III","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"实验室设备 IV Storage","name":"实验室设备 IV Storage","duration":0,"inputs":[{
+"name":"实验室设备 IV","quantity":2400
+}
+],"outputs":[{
+"name":"实验室设备 IV","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"铁轨零件 Storage","name":"铁轨零件 Storage","duration":0,"inputs":[{
+"name":"铁轨零件","quantity":2400
+}
+],"outputs":[{
+"name":"铁轨零件","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"办公用品 Storage","name":"办公用品 Storage","duration":0,"inputs":[{
+"name":"办公用品","quantity":2400
+}
+],"outputs":[{
+"name":"办公用品","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"电子产品 Storage","name":"电子产品 Storage","duration":0,"inputs":[{
+"name":"电子产品","quantity":2400
+}
+],"outputs":[{
+"name":"电子产品","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"印刷电路板 Storage","name":"印刷电路板 Storage","duration":0,"inputs":[{
+"name":"印刷电路板","quantity":2400
+}
+],"outputs":[{
+"name":"印刷电路板","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"电子产品 II Storage","name":"电子产品 II Storage","duration":0,"inputs":[{
+"name":"电子产品 II","quantity":2400
+}
+],"outputs":[{
+"name":"电子产品 II","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"电子产品 III Storage","name":"电子产品 III Storage","duration":0,"inputs":[{
+"name":"电子产品 III","quantity":2400
+}
+],"outputs":[{
+"name":"电子产品 III","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"电子产品 IV Storage","name":"电子产品 IV Storage","duration":0,"inputs":[{
+"name":"电子产品 IV","quantity":2400
+}
+],"outputs":[{
+"name":"电子产品 IV","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"服务器 Storage","name":"服务器 Storage","duration":0,"inputs":[{
+"name":"服务器","quantity":2400
+}
+],"outputs":[{
+"name":"服务器","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"金刚石 Storage","name":"金刚石 Storage","duration":0,"inputs":[{
+"name":"金刚石","quantity":2400
+}
+],"outputs":[{
+"name":"金刚石","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"金刚石研磨膏 Storage","name":"金刚石研磨膏 Storage","duration":0,"inputs":[{
+"name":"金刚石研磨膏","quantity":2400
+}
+],"outputs":[{
+"name":"金刚石研磨膏","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"蓝宝石晶片 Storage","name":"蓝宝石晶片 Storage","duration":0,"inputs":[{
+"name":"蓝宝石晶片","quantity":2400
+}
+],"outputs":[{
+"name":"蓝宝石晶片","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"透镜 Storage","name":"透镜 Storage","duration":0,"inputs":[{
+"name":"透镜","quantity":2400
+}
+],"outputs":[{
+"name":"透镜","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"微芯片 Storage","name":"微芯片 Storage","duration":0,"inputs":[{
+"name":"微芯片","quantity":2400
+}
+],"outputs":[{
+"name":"微芯片","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"微芯片 阶段 1 a Storage","name":"微芯片 阶段 1 a Storage","duration":0,"inputs":[{
+"name":"微芯片 阶段 1 a","quantity":2400
+}
+],"outputs":[{
+"name":"微芯片 阶段 1 a","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"微芯片 阶段 1 b Storage","name":"微芯片 阶段 1 b Storage","duration":0,"inputs":[{
+"name":"微芯片 阶段 1 b","quantity":2400
+}
+],"outputs":[{
+"name":"微芯片 阶段 1 b","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"微芯片 阶段 1 c Storage","name":"微芯片 阶段 1 c Storage","duration":0,"inputs":[{
+"name":"微芯片 阶段 1 c","quantity":2400
+}
+],"outputs":[{
+"name":"微芯片 阶段 1 c","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"微芯片 阶段 2 a Storage","name":"微芯片 阶段 2 a Storage","duration":0,"inputs":[{
+"name":"微芯片 阶段 2 a","quantity":2400
+}
+],"outputs":[{
+"name":"微芯片 阶段 2 a","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"微芯片 阶段 2 b Storage","name":"微芯片 阶段 2 b Storage","duration":0,"inputs":[{
+"name":"微芯片 阶段 2 b","quantity":2400
+}
+],"outputs":[{
+"name":"微芯片 阶段 2 b","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"微芯片 阶段 2 c Storage","name":"微芯片 阶段 2 c Storage","duration":0,"inputs":[{
+"name":"微芯片 阶段 2 c","quantity":2400
+}
+],"outputs":[{
+"name":"微芯片 阶段 2 c","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"微芯片 阶段 3 a Storage","name":"微芯片 阶段 3 a Storage","duration":0,"inputs":[{
+"name":"微芯片 阶段 3 a","quantity":2400
+}
+],"outputs":[{
+"name":"微芯片 阶段 3 a","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"微芯片 阶段 3 b Storage","name":"微芯片 阶段 3 b Storage","duration":0,"inputs":[{
+"name":"微芯片 阶段 3 b","quantity":2400
+}
+],"outputs":[{
+"name":"微芯片 阶段 3 b","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"微芯片 阶段 3 c Storage","name":"微芯片 阶段 3 c Storage","duration":0,"inputs":[{
+"name":"微芯片 阶段 3 c","quantity":2400
+}
+],"outputs":[{
+"name":"微芯片 阶段 3 c","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"微芯片 阶段 4 a Storage","name":"微芯片 阶段 4 a Storage","duration":0,"inputs":[{
+"name":"微芯片 阶段 4 a","quantity":2400
+}
+],"outputs":[{
+"name":"微芯片 阶段 4 a","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"微芯片 阶段 4 b Storage","name":"微芯片 阶段 4 b Storage","duration":0,"inputs":[{
+"name":"微芯片 阶段 4 b","quantity":2400
+}
+],"outputs":[{
+"name":"微芯片 阶段 4 b","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"太阳能电池 Storage","name":"太阳能电池 Storage","duration":0,"inputs":[{
+"name":"太阳能电池","quantity":2400
+}
+],"outputs":[{
+"name":"太阳能电池","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"单晶硅太阳能电池 Storage","name":"单晶硅太阳能电池 Storage","duration":0,"inputs":[{
+"name":"单晶硅太阳能电池","quantity":2400
+}
+],"outputs":[{
+"name":"单晶硅太阳能电池","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"复合面板 Storage","name":"复合面板 Storage","duration":0,"inputs":[{
+"name":"复合面板","quantity":2400
+}
+],"outputs":[{
+"name":"复合面板","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"复合芯材 Storage","name":"复合芯材 Storage","duration":0,"inputs":[{
+"name":"复合芯材","quantity":2400
+}
+],"outputs":[{
+"name":"复合芯材","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"基础复合芯材 Storage","name":"基础复合芯材 Storage","duration":0,"inputs":[{
+"name":"基础复合芯材","quantity":2400
+}
+],"outputs":[{
+"name":"基础复合芯材","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"化学燃料 Storage","name":"化学燃料 Storage","duration":0,"inputs":[{
+"name":"化学燃料","quantity":2400
+}
+],"outputs":[{
+"name":"化学燃料","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"空间站部件（基础） Storage","name":"空间站部件（基础） Storage","duration":0,"inputs":[{
+"name":"空间站部件（基础）","quantity":2400
+}
+],"outputs":[{
+"name":"空间站部件（基础）","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"空间站部件 Storage","name":"空间站部件 Storage","duration":0,"inputs":[{
+"name":"空间站部件","quantity":2400
+}
+],"outputs":[{
+"name":"空间站部件","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"船员补给品 Storage","name":"船员补给品 Storage","duration":0,"inputs":[{
+"name":"船员补给品","quantity":2400
+}
+],"outputs":[{
+"name":"船员补给品","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"太空探测器零件 Storage","name":"太空探测器零件 Storage","duration":0,"inputs":[{
+"name":"太空探测器零件","quantity":2400
+}
+],"outputs":[{
+"name":"太空探测器零件","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"小行星助推器零件 Storage","name":"小行星助推器零件 Storage","duration":0,"inputs":[{
+"name":"小行星助推器零件","quantity":2400
+}
+],"outputs":[{
+"name":"小行星助推器零件","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"紧凑型反应堆 Storage","name":"紧凑型反应堆 Storage","duration":0,"inputs":[{
+"name":"紧凑型反应堆","quantity":2400
+}
+],"outputs":[{
+"name":"紧凑型反应堆","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"压缩垃圾 Storage","name":"压缩垃圾 Storage","duration":0,"inputs":[{
+"name":"压缩垃圾","quantity":2400
+}
+],"outputs":[{
+"name":"压缩垃圾","quantity":2400
+}
+],"power_multiplier":1
+}
+,{
+"id":"花 Storage","name":"花 Storage","duration":0,"inputs":[{
+"name":"花","quantity":2400
+}
+],"outputs":[{
+"name":"花","quantity":2400
+}
+],"power_multiplier":1
+}
+]
+}
+]}
