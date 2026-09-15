@@ -1,211 +1,275 @@
-# daxfb-calculator
-Calculator/Factory Planner for factory management games.
+# Captain of Industry 工厂计算器使用说明
 
-[Link to this page](https://doubleaxe.github.io/daxfb-calculator/docs/).
+这是 [htpgc/captain-of-industry-calculator-zh-cn](https://github.com/htpgc/captain-of-industry-calculator-zh-cn) 的简体中文帮助文档。
 
-[Edit this page](https://github.com/doubleaxe/daxfb-calculator/edit/main/docs/README.md).
+本项目基于 [doubleaxe/daxfb-calculator](https://github.com/doubleaxe/daxfb-calculator) 二次开发，当前仅维护 Captain of Industry。
 
-# General usage
+# 基本使用方式
 
-Calculator can work in two modes: `Drag and Drop mode` and `Point and Click mode`.
-First is optimized for PC usage and is turned on by default on PC.
-Second is optimized (and default) for mobile devices, but also may be used on PC.
-Modes are switched on and off using `Options` dialog.
+计算器支持两种主要交互模式：`拖放模式` 与 `点击模式`。
 
-## Drag and Drop mode
+- 拖放模式更适合 PC，默认在桌面设备上使用。
+- 点击模式更适合移动设备，也可以在 PC 上使用。
+- 可在“选项 / 设置”中切换相关交互方式。
 
-In this mode everything is dragged by primary mouse button.
-Note: if both `Drag and Drop` and `Point and Click` modes are enabled,
-there will be delay (300 ms) between mouse button is pressed on item and dragging actually starts.
-This is done to differentiate `Click` and `Drag` events.
+如果两种模式同时启用，按住项目到真正开始拖动之间会有约 300 ms 延迟，用于区分单击与拖动操作。
 
-<details><summary>Drag factory and drop on blueprint</summary>
+## 拖放模式
 
-![drag-n-drop-1](./assets/drag-n-drop-1.gif)
+在该模式下，主要操作都通过鼠标主键拖动完成。
+
+<details><summary>拖动工厂并放到蓝图中</summary>
+
+![拖动工厂](./assets/drag-n-drop-1.gif)
 </details>
 
-<details><summary>Drag links between factories</summary>
+<details><summary>在工厂之间拖动建立连接</summary>
 
-![drag-n-drop-2](./assets/drag-n-drop-2.gif)
+![建立连接](./assets/drag-n-drop-2.gif)
 </details>
 
-<details><summary>Drag link to change ports ordering</summary>
+<details><summary>拖动连接调整端口顺序</summary>
 
-![drag-n-drop-6](./assets/drag-n-drop-6.gif)
+![调整端口顺序](./assets/drag-n-drop-6.gif)
 </details>
 
-<details><summary>Drag to move factory</summary>
+<details><summary>拖动工厂改变位置</summary>
 
-![drag-n-drop-3](./assets/drag-n-drop-3.gif)
+![移动工厂](./assets/drag-n-drop-3.gif)
 </details>
 
-<details><summary>Drag on free space to scroll window</summary>
+<details><summary>拖动空白区域平移画布</summary>
 
-![drag-n-drop-4](./assets/drag-n-drop-4.gif)
+![平移画布](./assets/drag-n-drop-4.gif)
 </details>
 
-<details><summary>Drag something out of window to automatically scroll</summary>
+<details><summary>拖到窗口边缘时自动滚动画布</summary>
 
-![drag-n-drop-5](./assets/drag-n-drop-5.gif)
+![自动滚动](./assets/drag-n-drop-5.gif)
 </details>
 
-## Point and Click mode
+## 点击模式
 
-In this mode items can be selected with click, and then pasted/moved with another click on target element.
+在点击模式中，可先单击选中项目，再单击目标位置完成放置、连接或移动。
 
-<details><summary>Paste factory on blueprint</summary>
+<details><summary>点击放置工厂</summary>
 
-![point-n-click1](./assets/point-n-click1.gif)
+![点击放置工厂](./assets/point-n-click1.gif)
 </details>
 
-<details><summary>Paste links between factories</summary>
+<details><summary>点击建立工厂连接</summary>
 
-![point-n-click2](./assets/point-n-click2.gif)
+![点击建立连接](./assets/point-n-click2.gif)
 </details>
 
-<details><summary>Change port ordering (should click carefully on free space between ports)</summary>
+<details><summary>点击调整端口顺序</summary>
 
-![point-n-click4](./assets/point-n-click4.gif)
+需要准确点击端口之间的空白区域。
+
+![点击调整端口](./assets/point-n-click4.gif)
 </details>
 
-<details><summary>Move factory</summary>
+<details><summary>点击移动工厂</summary>
 
-![point-n-click3](./assets/point-n-click3.gif)
+![点击移动工厂](./assets/point-n-click3.gif)
 </details>
 
-# Selecting  recipe
+# 选择配方
 
-Just click on center factory icon to select recipe. Filters also work here.
-If factory has only one recipe - recipes menu won't be shown.
+单击工厂卡片中央的工厂图标即可选择配方，筛选功能同样适用于配方列表。
 
-<details><summary>Details</summary>
+如果某个工厂只有一种配方，则不会弹出配方选择菜单。
 
-![recipe-selection](./assets/recipe-selection.png)
+<details><summary>示例</summary>
+
+![选择配方](./assets/recipe-selection.png)
 </details>
 
-# Factory rotation
+# 工厂旋转
 
-Factory may be rotated to create more pretty looking links.
+工厂可以旋转，以便让连接线布局更整齐。
 
-<details><summary>See in action</summary>
+<details><summary>示例</summary>
 
-![rotation](./assets/rotation.gif)
+![工厂旋转](./assets/rotation.gif)
 </details>
 
-# Factory count adjustment
+# 调整工厂数量
 
-Factory count can be set using `hamburger` factory menu. Optionally `Plus` and `Minus` button on factory card face can be turned on in settings. `Plus` and `Minus` adjust count by one, while textbox on menu can be used to set fractional counts. There is also `Mass Update Count` toolbar button, which could be used to apply automatically calculated counts.
+可通过工厂卡片上的菜单调整工厂数量。
 
-<details><summary>See in action</summary>
+设置中还可以启用工厂卡片正面的“+ / -”按钮：
 
-![count-adjustment](./assets/count-adjustment.gif)
+- `+` 与 `-` 每次按 1 调整数值。
+- 菜单中的输入框可填写小数数量。
+- 工具栏中的“批量更新数量”可将自动计算得到的数量应用到蓝图中。
+
+<details><summary>示例</summary>
+
+![调整工厂数量](./assets/count-adjustment.gif)
 </details>
 
-# Factory upgrade / downgrade
+# 工厂升级 / 降级
 
-If factory has next or previous tier version, upgrade option becomes available inside `hamburger` factory menu. Turning upgrade mode affects all factories.
+如果某个工厂存在更高或更低等级版本，工厂菜单中会出现升级或降级选项。
 
-<details><summary>See in action</summary>
+开启升级模式后，会对蓝图中的相关工厂统一生效。
 
-![upgrade-mode](./assets/upgrade-mode.gif)
+<details><summary>示例</summary>
+
+![升级模式](./assets/upgrade-mode.gif)
 </details>
 
-# Inspection of logistic transport
+# 物流运输检查
 
-Logistic transport can be inspected for links, which connects items with known transport (conveyors, pipes, manipulators, robotic arms). When clicking on link menu, logistic info will be shown automatically. Specific transport may be locked, in this case locked transport will be preferred for entire blueprint.
+对于已知运输方式的连接，例如传送带、管道等，可以查看物流运输信息。
 
-<details><summary>See in action</summary>
+单击连接菜单后会自动显示对应物流信息。某种运输方式也可以被锁定，锁定后整个蓝图会优先使用该运输方式。
 
-![logistic](./assets/logistic.gif)
+<details><summary>示例</summary>
+
+![物流检查](./assets/logistic.gif)
 </details>
 
-# Summary window
+# 汇总窗口
 
-Summary window will show overall consumption / production / building costs of blueprint. Because it is calculated while blueprint is updated - it is recommended to turn it off for very large blueprints. Summary window can work in two modes - simple and expanded. Modes are switched sequentially by corresponding button. Summary window will be empty if blueprint is empty or not calculated. Summary window shows production / consumption only for open ends (not connected to anything).
+汇总窗口用于显示整个蓝图的：
 
+- 总消耗
+- 总产出
+- 建筑成本
 
-<details><summary>See in action</summary>
+汇总数据会随蓝图变化实时更新，因此对于非常大的蓝图，关闭汇总窗口可以减少计算开销。
 
-![summary](./assets/summary.gif)
+汇总窗口支持简洁与展开两种显示方式，可通过对应按钮循环切换。
+
+当蓝图为空或尚未完成计算时，汇总窗口不会显示有效数据。
+
+生产 / 消耗统计主要显示蓝图中未与其他节点连接的开放端口。
+
+<details><summary>示例</summary>
+
+![汇总窗口](./assets/summary.gif)
 </details>
 
-# Filtering
+# 筛选
 
-Text filter accepts multiple words, these words are split by space and then applied to filter together.
-For example search text `it a` may be used to search for `Item A`, or `co fu` may be used to search for `Copper Blast Furnace`.
+文本筛选支持输入多个关键词，关键词之间以空格分隔，并会同时参与匹配。
 
-## Filtering on left panel
+例如可以输入多个名称片段来快速定位目标工厂、物品或配方。
 
-Left panel factories may be filtered by input/output item.
-If filter is applied - after adding new factory from left panel to blueprint corresponding recipe will be selected automatically.
+## 左侧面板筛选
 
-## Filtering by input/output for factory on blueprint
+左侧工厂列表可以按输入物品或输出物品筛选。
 
-Input/output adjacent square, which display throughput, may be clicked to quick filter left panel by matching item.
-Because filtered recipe is selected automatically, this way long production lines may be built easier and quicker.
+如果当前存在筛选条件，从左侧面板添加工厂到蓝图后，会自动优先选择匹配的配方。
 
-<details><summary>See in action</summary>
+## 按蓝图工厂的输入 / 输出筛选
 
-![factory-filtering](./assets/factory-filtering.gif)
+工厂输入 / 输出附近显示吞吐量的方块可以点击，用于快速按照对应物品筛选左侧面板。
+
+由于筛选后会自动选择匹配配方，因此这种操作适合快速搭建较长的生产链。
+
+<details><summary>示例</summary>
+
+![工厂筛选](./assets/factory-filtering.gif)
 </details>
 
-## Filtering on summary window
+## 汇总窗口筛选
 
-Filter can also be applied by clicking icon on summary window.
+也可以单击汇总窗口中的物品图标应用筛选。
 
-# Solving graph
+# 求解生产图
 
-Graph is solved by clicking on ![solve](./assets/solve.png) toolbar button.
-In automatic mode graph is solved automatically on every change.
-Because solving is slower for larger factory count - manual mode is preferred for very large blueprints.
+单击工具栏中的求解按钮即可计算生产图：
 
-Solving is done with fixed precision, which can be changed in `Settings`.
-The lower number means higher precision and better accuracy.
-Because of this, there will be computation errors if connected factories throughput greatly differs or precision is too low.
+![求解](./assets/solve.png)
 
-## Automatic graph error detection
+开启自动模式后，每次修改蓝图都会自动重新计算。
 
-Factory chains may be unbalanced when factory outputs two item types, and these items directly or through production chain will be both feed to another factory at different rate. Production cycles may also be unbalanced. In this case graph solver cannot solve factory io, so entire flow rate will be 0. This is expected, because real production chain of this type will also produce at zero rate after some time, because one output will be clogged or input will be starved.
+对于工厂数量很多的大型蓝图，建议使用手动模式，以减少频繁求解造成的性能开销。
 
-Graph solver has automatic error detection and will try to find port which causes error. This is implemented by adding virtual sink with lowest priority to each factory output. If this virtual sink flow is non-zero this means connected factory output is unbalanced, and such output will be highlighted in red color. To resolve this error, some building should be added instead of this virtual sink, which will consume overflown items.
+求解使用固定精度，可在设置中修改。数值越小表示求解精度越高。
 
-Only unbalanced outputs are detected automatically, because it is most common case.
+如果相连工厂之间的吞吐量差异非常大，或设置精度不足，可能产生数值误差。
 
-<details><summary>Example</summary>
+## 自动检测生产图错误
 
-![unbalanced-graph](./assets/unbalanced-graph.gif)
+当某个工厂同时输出多种产品，而这些产品直接或经生产链后又以不同速率进入同一后续工厂时，生产链可能出现不平衡。
+
+生产循环也可能出现类似问题。此时求解器可能无法得到稳定流量，整个相关生产流量可能变为 0。
+
+这与实际生产链中的堵塞或缺料情况类似。
+
+求解器会尝试自动找出导致不平衡的输出端口。实现方式是在每个工厂输出端加入最低优先级的虚拟出口；如果该虚拟出口产生非零流量，则说明该输出存在未被消耗的溢出量，对应端口会以红色提示。
+
+要解决该问题，需要增加实际建筑或消耗端来处理多余产物。
+
+当前主要自动检测的是输出不平衡，因为这是最常见的情况。
+
+<details><summary>示例</summary>
+
+![不平衡生产图](./assets/unbalanced-graph.gif)
 </details>
 
-## Special buildings
+## 特殊建筑
 
-Almost every game implementation has set of special buildings. These buildings are usually represented as containers (maybe inexistent in real game) which accept all items of some kind (fluid, solid, etc). These buildings have 3 recipes, input, output and input+output. They could be used as utility buildings to tune production flows or for nicer graph layouts.
+游戏数据中可能包含一些用于辅助求解的特殊建筑。这类建筑通常表现为容器或虚拟节点，可接受某类物品，例如流体或固体。
 
-# Fine-tuning graph solve process
+它们通常提供输入、输出以及输入+输出等配方，可用于：
 
-## Locking factories
+- 调整生产流量
+- 处理开放端口
+- 优化蓝图布局
 
-Initially, if no factories in given line are locked, no input/output can go beyond maximum.
-In this mode calculator will answer the question: where is bottleneck and how many items this line will produce.
+# 微调求解过程
 
-When one or more factories are locked, other factories in the same line can go beyond their maximum count.
-In this mode calculator will answer the question: how many factories will be needed to produce items at this rate.
+## 锁定工厂
 
-<details><summary>See in action</summary>
+默认情况下，如果一条生产线中没有锁定任何工厂，则工厂输入 / 输出不会超过其最大能力。
 
-![locking](./assets/locking.gif)
+这种模式适合回答：
+
+> 当前生产线的瓶颈在哪里，以及最终能够生产多少物品？
+
+当锁定一个或多个工厂后，同一生产线中的其他工厂数量可以自动超过初始数量，以满足目标流量。
+
+这种模式适合回答：
+
+> 为达到指定产量，需要多少座工厂？
+
+<details><summary>示例</summary>
+
+![锁定工厂](./assets/locking.gif)
 </details>
 
-## Setting objective
+## 设置优化目标
 
-Initially graph is calculated using simple mode. In this mode graph solver tries to maximize overall io flow. This is acceptable for simple production chains, but may be adjusted for complex chains with multiple dependent output where maximizing one output will minimize other. It is recommended to set only one final product as main objective. Graph solver will first maximize main objective, and then will try to maximize secondary objective without hurting main objective. If any factory is set as objective - all other factories are excluded from maximization process.
+默认情况下，求解器使用简单模式，尝试最大化整体输入 / 输出流量。
 
-<details><summary>See in action</summary>
+对于简单生产链通常足够，但在存在多个互相依赖的输出时，最大化某一种产物可能会压低另一种产物。
 
-![locking](./assets/objective.gif)
+对于复杂生产链，建议只将一个最终产品设为主要目标。
+
+求解器会先最大化主要目标，再在不影响主要目标的前提下优化次要目标。
+
+如果某个工厂被设置为目标，其他未设置目标的工厂不会参与主要最大化过程。
+
+<details><summary>示例</summary>
+
+![优化目标](./assets/objective.gif)
 </details>
 
-# Known problems and limitations
+# 已知问题与限制
 
-## Too much flow difference between connected factories
+## 相连工厂之间的流量差异过大
 
-When one factory produces/consumes at much higher ratio, than other connected factory (1000x or more), and their numbers are not integers, calculator fails to determine correct count due to insufficient precision. To fix this issue, precision should be set to other (lower) value, although it may not be enough for some cases.
+当两个相连工厂的生产 / 消耗速率相差非常大，例如达到 1000 倍以上，同时工厂数量又不是整数时，可能由于数值精度不足而无法得到正确数量。
+
+可以尝试在设置中使用更小的精度参数来提高计算精度，但在极端情况下仍可能无法完全消除误差。
+
+# 项目链接
+
+- 中文维护版：<https://github.com/htpgc/captain-of-industry-calculator-zh-cn>
+- 上游项目：<https://github.com/doubleaxe/daxfb-calculator>
+- Captain of Industry 数据导出工具：<https://github.com/doubleaxe/captain-of-data>
