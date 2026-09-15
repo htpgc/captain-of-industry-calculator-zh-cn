@@ -1,3 +1,14 @@
+---
+AIGC:
+    Label: "1"
+    ContentProducer: 001191440300708461136T1XGW3
+    ProduceID: f66daa9899653c70ab3428a56f59b1cb_d4d1439fb0cd11f18039525400461939
+    ReservedCode1: wGxywQ0oak54LPoU8iIScUqUmkVinOcoPkvKODyXR3+rev0BrZC8E+7H2t7R8KQnqp0Az4/wExyoOHoUAUvTQBsQfR8AEmI/wbaWKurt8YBs13pk5OjWbie+d1eavpJf2NjjEtve3LN3VPCcX7HU/AV06hz2QJBVuNxXnZGpPkg5TtSy3aYTBKj4VII=
+    ContentPropagator: 001191440300708461136T1XGW3
+    PropagateID: f66daa9899653c70ab3428a56f59b1cb_d4d1439fb0cd11f18039525400461939
+    ReservedCode2: wGxywQ0oak54LPoU8iIScUqUmkVinOcoPkvKODyXR3+rev0BrZC8E+7H2t7R8KQnqp0Az4/wExyoOHoUAUvTQBsQfR8AEmI/wbaWKurt8YBs13pk5OjWbie+d1eavpJf2NjjEtve3LN3VPCcX7HU/AV06hz2QJBVuNxXnZGpPkg5TtSy3aYTBKj4VII=
+---
+
 # Captain of Industry 计算器 / 工厂规划器（简体中文版）
 
 本仓库是 [doubleaxe/daxfb-calculator](https://github.com/doubleaxe/daxfb-calculator)（MIT，作者 Alexey Usov）的**简体中文本地化二改版**，面向工厂管理类游戏的生产链计算与工厂规划。
@@ -13,7 +24,6 @@
 |---|---|
 | 界面语言 | 固定为简体中文，不再提供语言切换 |
 | 游戏数据 | 重新导出并导入 Captain of Industry 0.8.7b 数据，补齐缺失图标 |
-| 署名 | 「关于」对话框新增一行：翻译 / 二次开发 htpgc |
 | 其他 | 计算逻辑、交互方式、数据格式与上游保持一致 |
 
 ## 引用的库与数据来源
@@ -149,10 +159,6 @@ npm run build-data
 http://localhost:8080/docs/
 ```
 
-## 发布流程（维护者）
-
-仓库保留了上游的 GitHub Actions 工作流 `.github/workflows/deploy-release.yml`：推送 `v1.*` 形式的标签（例如 `v1.0.28-zh`）时，会自动构建、生成 `daxfb-calculator-<标签>.zip` 并创建草稿 Release；如仓库已启用 GitHub Pages，同时会部署到 Pages。
-
 ## 许可与致谢
 
 - 本项目基于 [doubleaxe/daxfb-calculator](https://github.com/doubleaxe/daxfb-calculator) 二次开发，遵循 [MIT License](LICENSE)，原始版权归 Alexey Usov (dax@xdax.ru, <https://github.com/doubleaxe>) 所有。
@@ -182,7 +188,6 @@ a calculator / factory planner for factory management games.
 |---|---|
 | UI language | Fixed to Simplified Chinese, no language switcher |
 | Game data | Re-exported and re-imported Captain of Industry 0.8.7b data, with icons completed |
-| Credits | The About dialog has an extra line: translated / reworked by htpgc |
 | Others | Calculation logic, interaction and data format stay the same as upstream |
 
 ## Libraries and data sources
@@ -323,13 +328,6 @@ The user guide lives in the `docs` folder and is shipped with the site:
 http://localhost:8080/docs/
 ```
 
-## Release process (maintainers)
-
-The repository keeps the upstream GitHub Actions workflow `.github/workflows/deploy-release.yml`:
-pushing a tag matching `v1.*` (for example `v1.0.28-zh`) builds the project, produces
-`daxfb-calculator-<tag>.zip` and creates a draft release; if GitHub Pages is enabled for the
-repository, the site is deployed there as well.
-
 ## License and credits
 
 - Based on [doubleaxe/daxfb-calculator](https://github.com/doubleaxe/daxfb-calculator), licensed under the
@@ -340,3 +338,4 @@ repository, the site is deployed there as well.
 ---
 
 **Simplified Chinese localization; Captain of Industry 0.8.7b data re-imported with icons completed.**
+*（内容由AI生成，仅供参考）*
