@@ -4,9 +4,9 @@
 
 本仓库是 [doubleaxe/daxfb-calculator](https://github.com/doubleaxe/daxfb-calculator) 的 **Captain of Industry 简体中文社区维护版**，基于 MIT License 二次开发。
 
-当前版本专注于 Captain of Industry，提供简体中文界面、更新后的游戏数据以及可直接本地运行的独立发布包。
+当前版本专注于 Captain of Industry，提供简体中文界面、更新后的游戏数据、改进的生产链交互以及可直接本地运行的独立发布包。
 
-- 当前版本：**v1.0.0**
+- 当前版本：**v1.1.0**
 - 游戏数据版本：Captain of Industry **0.8.7b**
 - 界面语言：**简体中文**
 - 在线版本：<https://htpgc.github.io/captain-of-industry-calculator-zh-cn/>
@@ -20,11 +20,29 @@
 | 项目定位 | 专注 Captain of Industry 的简体中文社区维护版 |
 | 默认游戏 | 打开页面后直接加载 Captain of Industry，无需游戏选择页 |
 | 游戏数据 | 更新至 Captain of Industry 0.8.7b，并补齐部分缺失图标 |
+| 物料来源/去向 | 单击物料图标即可查看可生产或可消耗该物料的建筑 |
+| 快速连线 | 从物料端口拖到空白区域，可直接选择来源或去向建筑并自动连线 |
+| 储存匹配 | 根据物料类型自动提供散装物存储、流体存储罐或单位存储 |
+| 储存双向连接 | 新建储存默认使用 InOut 配方，同时保留输入与输出端，可继续串联生产链 |
 | 发布内容 | 正式发布包仅包含 Captain of Industry，不再包含 Evospace 与 Sample Game |
 | 本地运行 | Release 解压后可直接双击 `index.html` 使用，无需启动本地服务器 |
 | 离线使用 | 运行所需脚本、样式、数据和图标均包含在发布包内，可在无网络环境下使用 |
 | 文档 | 提供简体中文帮助文档，并将中英文 README 分离维护 |
-| 核心逻辑 | 核心计算逻辑及主要交互机制沿用上游项目 |
+| 核心逻辑 | 核心计算逻辑及主要交互机制沿用上游项目，并在此基础上增加本地化交互改进 |
+
+## v1.1.0 主要更新
+
+- 新增物料端口的快速来源/去向菜单：
+  - 单击输入物料图标，直接打开 `Add producing factory` 来源菜单；
+  - 单击输出物料图标，直接打开 `Add consuming factory` 去向菜单。
+- 保留并增强“拖动物料端口到空白区域”添加来源/去向建筑的操作。
+- 来源与去向菜单现在会根据当前物料类型自动加入对应储存设施：
+  - 散装物（Loose）→ **散装物存储**；
+  - 流体（Fluid）→ **流体存储罐**；
+  - 单位物品（Countable）→ **单位存储**。
+- 增加对 `AnyLooseProduct`、`AnyFluidProduct`、`AnyCountableProduct` 等抽象物料的类型匹配。
+- 选择储存设施后自动创建并连接，抽象物料会自动实例化为当前实际物料，例如煤、矿渣、柴油等。
+- 储存节点使用 `InOut` 配方，因此输入、输出两端都可继续连接后续生产链。
 
 ## 下载与使用
 
@@ -33,7 +51,7 @@
 推荐下载文件：
 
 ```text
-captain-of-industry-calculator-zh-cn-v1.0.0.zip
+captain-of-industry-calculator-zh-cn-v1.1.0.zip
 ```
 
 解压后，直接双击：
@@ -93,11 +111,20 @@ pnpm install
 pnpm run build
 ```
 
+Windows PowerShell 若因执行策略无法直接运行 `pnpm`，可使用：
+
+```powershell
+pnpm.cmd install
+pnpm.cmd build
+```
+
 构建完成后，输出目录为：
 
 ```text
 dist/
 ```
+
+`dist` 中的内容即为可直接打包发布的最终版本；双击 `dist/index.html` 即可本地使用。
 
 开发模式：
 
@@ -164,7 +191,7 @@ docs/
 
 原始项目版权归 Alexey Usov（doubleaxe）所有。核心计算逻辑与主要交互机制来自上游项目。
 
-Captain of Industry 游戏数据通过 [doubleaxe/captain-of-data](https://github.com/doubleaxe/captain-of-data) 导出。本仓库的简体中文本地化、0.8.7b 数据整理、图标补齐及发布维护由 [htpgc](https://github.com/htpgc) 完成。
+Captain of Industry 游戏数据通过 [doubleaxe/captain-of-data](https://github.com/doubleaxe/captain-of-data) 导出。本仓库的简体中文本地化、0.8.7b 数据整理、图标补齐、交互功能改进及发布维护由 [htpgc](https://github.com/htpgc) 完成。
 
 ## 更新记录
 
