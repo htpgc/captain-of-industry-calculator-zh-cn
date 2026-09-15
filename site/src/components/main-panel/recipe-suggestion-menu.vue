@@ -60,29 +60,38 @@ const storageByItemType: Partial<Record<GameItemType, {factoryName: string; reci
 
 function findStorageRecipe(itemName: string): RecipeWithFactory | undefined {
     const product = gameData.getGameItem(itemName);
-    if(!product?.type)
+    if(!product || product.type === undefined)
         return undefined;
 
     const storage = storageByItemType[product.type];
     if(!storage)
         return undefined;
 
-    const factory = gameData.getGameItem(storage.factoryName);
-    const recipe = factory?.recipeDictionary?.recipesMap.get(storage.recipeName);
-    if(!factory || !recipe)
+    // Use gameFactoriesArray as the primary lookup. This is the same parsed list
+    // used by the normal recipe suggestion search and avoids depending on the
+    // recipeDictionary link being available directly from getGameItem().
+    const factory = gameData.gameFactoriesArray.find(
+        (item) => item.name === storage.factoryName,
+    ) || gameData.getGameItem(storage.factoryName);
+    if(!factory)
+        return undefined;
+
+    const dictionary = factory.recipeDictionary
+        || gameData.getItemRecipeDictionary(factory);
+    const recipe = dictionary.recipesMap.get(storage.recipeName)
+        || dictionary.recipes.find((item) => item.name === storage.recipeName);
+    if(!recipe)
         return undefined;
 
     return {factory, recipe};
 }
 
-// Compute menu title based on mode
 const menuTitle = computed(() => {
     return unref(menuMode) === 'consuming'
         ? 'Add consuming factory'
         : 'Add producing factory';
 });
 
-// Compute menu style based on position
 const menuStyle = computed(() => {
     const pos = unref(menuPosition);
     return {
@@ -146,9 +155,9 @@ function activate(
     mode: 'consuming' | 'producing' = 'consuming',
 ) {
     const foundRecipes =
-    mode === 'consuming'
-        ? findRecipesUsingInput(productName)
-        : findRecipesProducingOutput(productName);
+        mode === 'consuming'
+            ? findRecipesUsingInput(productName)
+            : findRecipesProducingOutput(productName);
 
     const storageRecipe = findStorageRecipe(productName);
     if(storageRecipe && !foundRecipes.some((item) =>
@@ -159,7 +168,7 @@ function activate(
     }
 
     if(foundRecipes.length === 0) {
-        return; // No recipes found, don't show menu
+        return;
     }
 
     menuMode.value = mode;
@@ -171,7 +180,6 @@ function activate(
     page.value = 1;
     search.value = '';
 
-    // Position menu at drop location
     menuPosition.value = {
         x: screenPosition.x,
         y: screenPosition.y,
@@ -209,20 +217,20 @@ const applyFilter = useDebounceFn(
             return;
         }
         const searchText = val
-      .toLowerCase()
-      .split(/\s+/)
-      .map((s) => s.trim());
+            .toLowerCase()
+            .split(/\s+/)
+            .map((s) => s.trim());
         recipes.value = unref(allRecipes).filter((item) =>
             searchText.every(
                 (l) =>
                     !l ||
-          item.recipe.input.some(
-              (io) => io.product.lowerLabel.indexOf(l) > -1,
-          ) ||
-          item.recipe.output.some(
-              (io) => io.product.lowerLabel.indexOf(l) > -1,
-          ) ||
-          item.factory.lowerLabel.indexOf(l) > -1,
+                    item.recipe.input.some(
+                        (io) => io.product.lowerLabel.indexOf(l) > -1,
+                    ) ||
+                    item.recipe.output.some(
+                        (io) => io.product.lowerLabel.indexOf(l) > -1,
+                    ) ||
+                    item.factory.lowerLabel.indexOf(l) > -1,
             ),
         );
         if(unref(page) > unref(pages)) {
@@ -250,9 +258,7 @@ defineExpose({
 
 <template>
     <Teleport to="body">
-        <!-- Backdrop for click outside -->
         <div v-if="active" class="recipe-suggestion-backdrop" @click="closeMenu" />
-        <!-- Menu positioned at drop location -->
         <div v-if="active" class="recipe-suggestion-menu" :style="menuStyle">
             <v-card elevation="8" class="menu-card">
                 <v-card-title class="menu-header">
