@@ -1,0 +1,16 @@
+{
+  "extends": "./tsconfig.common.json",
+  "include": ["./*.ts", "./data/**/*.ts"],
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "commonjs",
+    "types": ["node"],
+    "lib": ["ES2022", "DOM"],
+    "esModuleInterop": true,
+    "noEmit": true
+  },
+  "ts-node": {
+    "transpileOnly": true,
+    "esm": false
+  }
+}

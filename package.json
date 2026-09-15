@@ -1,0 +1,98 @@
+{
+  "name": "daxfb-calculator",
+  "version": "1.0.28",
+  "description": "Calculator/Factory Planner for factory management games",
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "dev": "run-s build-data-debug build-docs site",
+    "build": "run-s type-check build-data build-docs build-only",
+    "site": "vite site",
+    "preview": "vite preview site",
+    "build-only": "vite build site",
+    "lint": "run-p eslint stylelint type-check",
+    "eslint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix",
+    "stylelint": "stylelint \"site/**/*.vue\" --fix",
+    "type-check": "tsc --noEmit && vue-tsc --noEmit -p site",
+    "build-docs": "ts-node render-docs.ts",
+    "build-data": "ts-node build-data.ts",
+    "build-data-debug": "ts-node build-data.ts debug"
+  },
+  "packageManager": "pnpm@8.3.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/doubleaxe/daxfb-calculator"
+  },
+  "keywords": [
+    "game",
+    "calculator",
+    "factory planner"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "type": "commonjs",
+  "author": "Alexey Usov (dax@xdax.ru, https://github.com/doubleaxe)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/doubleaxe/daxfb-calculator/issues"
+  },
+  "homepage": "https://doubleaxe.github.io/daxfb-calculator/",
+  "dependencies": {
+    "@ellbur/javascript-lp-solver": "^0.4.26",
+    "@mdi/js": "^7.1.96",
+    "@vueuse/components": "^9.11.1",
+    "@vueuse/core": "^9.11.1",
+    "d3-shape": "^3.2.0",
+    "dagre": "^0.8.5",
+    "elkjs": "^0.8.2",
+    "js-base64": "^3.7.4",
+    "pako": "^2.1.0",
+    "systemjs": "^6.14.1",
+    "vue": "^3.2.41",
+    "vuetify": "^3.1.7"
+  },
+  "devDependencies": {
+    "@jimp/plugin-color": "^0.22.7",
+    "@jimp/plugin-print": "^0.22.7",
+    "@rollup/plugin-typescript": "^11.0.0",
+    "@rollup/plugin-virtual": "^3.0.1",
+    "@types/d3-shape": "^3.1.1",
+    "@types/dagre": "^0.7.48",
+    "@types/diff": "^5.0.2",
+    "@types/marked": "^4.0.8",
+    "@types/node": "^18.11.18",
+    "@types/pako": "^2.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.48.2",
+    "@typescript-eslint/parser": "^5.48.2",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "@vue/eslint-config-typescript": "^11.0.2",
+    "@vue/tsconfig": "^0.1.3",
+    "ajv": "^8.12.0",
+    "diff": "^5.1.0",
+    "esbuild": "^0.17.8",
+    "eslint": "^8.32.0",
+    "eslint-plugin-vue": "^9.9.0",
+    "github-markdown-css": "^5.2.0",
+    "jimp": "^0.22.7",
+    "marked": "^4.2.12",
+    "npm-run-all": "^4.1.5",
+    "postcss-html": "^1.5.0",
+    "rollup": "^3.17.1",
+    "rollup-plugin-esbuild": "^5.0.0",
+    "rollup-plugin-systemjs-loader": "^1.0.1",
+    "rollup-plugin-visualizer": "^5.9.0",
+    "sass": "^1.57.1",
+    "stylelint": "^15.1.0",
+    "stylelint-config-recommended-vue": "^1.4.0",
+    "stylelint-config-standard": "^30.0.1",
+    "ts-node": "^10.9.1",
+    "tslib": "^2.5.0",
+    "typescript": "^4.9.4",
+    "unplugin-vue-components": "^0.22.12",
+    "vite": "^4.1.2",
+    "vue-tsc": "^1.0.24"
+  },
+  "imports": {
+    "#types/*": "./site/data/types/*"
+  }
+}

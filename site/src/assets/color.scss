@@ -1,0 +1,168 @@
+@use 'vuetify/styles/settings/colors';
+@use 'vuetify/styles/tools/elevation';
+
+.anchor-plain {
+    color: inherit;
+    text-decoration: none;
+}
+
+@function get-color($main, $variant) {
+    @return map-get(colors.$colors, $main, $variant);
+}
+
+@function get-text-on-color($main, $variant) {
+    @return map-get(colors.$text-on-colors, $main, $variant);
+}
+
+$hover-elevation: 5;
+$dragging-elevation: 10;
+
+.v-theme--light .hover-background,
+.v-theme--light.hover-background {
+    background-color: get-color('grey', 'lighten-2');
+}
+.v-theme--dark .hover-background,
+.v-theme--dark.hover-background {
+    background-color: get-color('grey', 'base');
+}
+
+.hover-border {
+    padding: 1px;
+    border: 2px solid transparent;
+}
+
+.v-theme--light .hover-border:hover {
+    border: 2px solid get-color('grey', 'darken-2');
+}
+.v-theme--dark .hover-border:hover {
+    border: 2px solid get-color('grey', 'lighten-2');
+}
+
+.v-theme--light .highlight-border {
+    border: 2px solid get-color('purple', 'darken-2');
+}
+.v-theme--dark .highlight-border {
+    border: 2px solid get-color('purple', 'lighten-2');
+}
+
+.v-theme--light .highlight-upper-border {
+    border-top: 8px solid get-color('deep-orange', 'darken-2');
+}
+.v-theme--dark .highlight-upper-border {
+    border-top: 8px solid get-color('deep-orange', 'lighten-2');
+}
+.v-theme--light .highlight-lower-border {
+    border-bottom: 8px solid get-color('deep-orange', 'darken-2');
+}
+.v-theme--dark .highlight-lower-border {
+    border-bottom: 8px solid get-color('deep-orange', 'lighten-2');
+}
+
+.hover-elevation {
+    padding: 1px;
+    border: 2px solid transparent;
+}
+
+.hover-elevation:hover {
+    @include elevation.elevation($hover-elevation, false);
+}
+
+.unselected-border {
+    border: 2px solid transparent;
+}
+
+.v-theme--light .selected-border {
+    border: 2px solid get-color('green', 'darken-2');
+}
+.v-theme--dark .selected-border {
+    border: 2px solid get-color('green', 'lighten-2');
+}
+
+.hover-elevation-static {
+    @include elevation.elevation($hover-elevation, false);
+}
+
+.dragging-elevation {
+    padding: 3px;
+    @include elevation.elevation($dragging-elevation, false);
+}
+
+.dragging-elevation-static {
+    @include elevation.elevation($dragging-elevation, false);
+}
+
+.v-theme--light .bg-window-idle {
+    background-color: get-color('grey', 'lighten-4');
+}
+.v-theme--dark .bg-window-idle {
+    background-color: get-color('grey', 'darken-2');
+}
+
+.v-theme--light .bg-window-statusbar {
+    background-color: get-color('grey', 'lighten-2');
+}
+.v-theme--dark .bg-window-statusbar {
+    background-color: get-color('grey', 'darken-3');
+}
+
+.v-theme--light .bg-has-probability {
+    background-color: get-color('cyan', 'lighten-4');
+}
+.v-theme--dark .bg-has-probability {
+    background-color: get-color('cyan', 'darken-4');
+}
+
+.v-theme--light .link-stroke-black {
+    stroke: black;
+}
+.v-theme--dark .link-stroke-black {
+    stroke: get-color('grey', 'lighten-1');
+}
+.link-stroke-red {
+    stroke: get-color('red', 'base');
+}
+.link-stroke-pink {
+    stroke: get-color('pink', 'base');
+}
+.link-stroke-purple {
+    stroke: get-color('purple', 'base');
+}
+.link-stroke-indigo {
+    stroke: get-color('indigo', 'base');
+}
+.link-stroke-blue {
+    stroke: get-color('blue', 'base');
+}
+.link-stroke-light-blue {
+    stroke: get-color('light-blue', 'base');
+}
+.link-stroke-cyan {
+    stroke: get-color('cyan', 'base');
+}
+.link-stroke-teal {
+    stroke: get-color('teal', 'base');
+}
+.link-stroke-green {
+    stroke: get-color('green', 'base');
+}
+.link-stroke-light-green {
+    stroke: get-color('light-green', 'base');
+}
+.link-stroke-lime {
+    stroke: get-color('lime', 'base');
+}
+.link-stroke-yellow {
+    stroke: get-color('yellow', 'base');
+}
+.link-stroke-amber {
+    stroke: get-color('amber', 'base');
+}
+.link-stroke-orange {
+    stroke: get-color('orange', 'base');
+}
+.link-stroke-deep-orange {
+    stroke: get-color('deep-orange', 'base');
+}
+.link-stroke-brown {
+    stroke: get-color('brown', 'base');
+}

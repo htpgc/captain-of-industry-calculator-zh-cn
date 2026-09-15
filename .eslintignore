@@ -1,0 +1,8 @@
+node_modules
+dist
+*.min.js
+site/components.d.ts
+site/public/**
+site/docs/**
+tmp
+captain-of-data
