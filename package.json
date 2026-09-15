@@ -1,6 +1,6 @@
 {
   "name": "captain-of-industry-calculator-zh-cn",
-  "version": "1.0.28",
+  "version": "1.1.0",
   "description": "Captain of Industry Calculator / Factory Planner - Simplified Chinese community-maintained edition",
   "scripts": {
     "preinstall": "npx only-allow pnpm",
